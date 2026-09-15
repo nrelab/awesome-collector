@@ -1,0 +1,91 @@
+name: Manual Collection
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "Category to collect"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - ai
+          - security
+          - rust
+          - devops
+      mode:
+        description: "Collection mode"
+        required: false
+        default: "discovery"
+        type: choice
+        options:
+          - discovery
+          - metadata
+          - full
+          - rebuild
+      github_token:
+        description: "GitHub Token (if needed)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -e .
+
+      - name: Run collection
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CATEGORY="${{ github.event.inputs.category }}"
+          MODE="${{ github.event.inputs.mode }}"
+
+          case "$MODE" in
+            discovery)
+              python -m src.main discover
+              ;;
+            metadata)
+              python -m src.main update
+              ;;
+            full)
+              python -m src.main sync
+              python -m src.main score
+              ;;
+            rebuild)
+              rm -rf data/database/awesome.sqlite data/repositories
+              python -m src.main sync
+              python -m src.main score
+              ;;
+          esac
+
+      - name: Validate
+        run: |
+          python -m src.main validate
+
+      - name: Commit changes
+        if: github.event.inputs.mode != 'discovery'
+        run: |
+          git config user.name "awesome-collector[bot]"
+          git config user.email "awesome-collector[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore(data: manual ${MODE} collection${{ env.CATEGORY != 'all' && format(' ({0})', env.CATEGORY) || '' }})"
+            git push
+          fi

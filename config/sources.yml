@@ -1,0 +1,40 @@
+discovery:
+  awesome_patterns:
+    - "awesome"
+    - "awesome-list"
+    - "awesome-*"
+    - "awesome list"
+  search_queries:
+    - "awesome in:name"
+    - "awesome in:description"
+    - "awesome-list in:name"
+    - '"awesome list" in:readme'
+    - "curated resources in:description"
+  topics:
+    - "awesome"
+    - "awesome-list"
+    - "awesome-lists"
+    - "curated-list"
+    - "resources"
+    - "developer-resources"
+  github_search_language:
+    - "Markdown"
+  max_results_per_query: 100
+  min_stars: 10
+  exclude_archived: false
+  exclude_fork: false
+
+incremental:
+  refresh_policy:
+    ACTIVE: 1
+    MAINTAINED: 3
+    SLOW: 7
+    STALE: 30
+    ARCHIVED: 90
+    UNKNOWN: 14
+
+rate_limit:
+  requests_per_hour: 5000
+  burst_size: 30
+  backoff_multiplier: 2
+  max_backoff_seconds: 300

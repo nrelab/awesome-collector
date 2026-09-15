@@ -1,0 +1,64 @@
+name: Weekly Maintenance
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -e .
+
+      - name: Full source rescan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m src.main discover
+
+      - name: Recalculate categories
+        run: |
+          python -m src.main score
+
+      - name: Health checks
+        run: |
+          python -m src.main report
+
+      - name: Database vacuum
+        run: |
+          python -c "
+          from src.storage.sqlite import SqliteStore
+          store = SqliteStore('data/database/awesome.sqlite')
+          store.vacuum()
+          print('Database vacuumed')
+          "
+
+      - name: Generate weekly report
+        run: |
+          python -m src.main report
+
+      - name: Commit changes
+        run: |
+          git config user.name "awesome-collector[bot]"
+          git config user.email "awesome-collector[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore(data): weekly maintenance"
+            git push
+          fi

@@ -1,0 +1,64 @@
+filters:
+  exclude:
+    archived: false
+    fork: false
+    min_stars: 10
+    min_forks: 0
+    languages:
+      - ""
+    license:
+      - "GPL-2.0-only"
+      - "GPL-3.0-only"
+      - "AGPL-3.0-only"
+    keywords:
+      - "click here"
+      - "buy now"
+      - "spam"
+      - "phishing"
+      - "crypto airdrop"
+      - "free ethereum"
+  include_only:
+    languages: []
+    licenses: []
+    min_score: 0
+  deduplication:
+    match_fields:
+      - owner
+      - name
+      - url
+    canonical_url_formats:
+      - "https://github.com/{owner}/{name}"
+      - "https://github.com/{owner}/{name}/"
+      - "https://github.com/{owner}/{name}.git"
+      - "git@github.com:{owner}/{name}.git"
+      - "git://github.com/{owner}/{name}.git"
+      - "git@ssh.github.com:/{owner}/{name}"
+      - "github:{owner}/{name}"
+    normalization_rules:
+      lowercase_owner: true
+      lowercase_name: true
+      strip_dot_git: true
+      strip_trailing_slash: true
+      enforce_https: true
+
+validation:
+  required_fields:
+    - id
+    - owner
+    - name
+    - url
+    - collected_at
+  optional_fields:
+    - description
+    - stars
+    - forks
+    - issues
+    - language
+    - topics
+    - license
+    - archived
+    - awesome
+    - sources
+    - activity
+    - score
+    - health

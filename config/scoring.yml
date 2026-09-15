@@ -1,0 +1,97 @@
+scoring:
+  weights:
+    popularity: 0.20
+    activity: 0.20
+    maintenance: 0.20
+    community: 0.15
+    documentation: 0.10
+    license: 0.05
+    security: 0.05
+    awesome_quality: 0.05
+  popularity:
+    stars_weight: 0.4
+    forks_weight: 0.3
+    contributors_weight: 0.3
+    stars_thresholds:
+      min: 0
+      max: 100000
+  activity:
+    last_push_days_weight: 0.4
+    commits_30d_weight: 0.3
+    releases_90d_weight: 0.3
+    thresholds:
+      last_push_excellent: 7
+      last_push_good: 30
+      last_push_fair: 90
+      commits_excellent: 10
+      commits_good: 3
+      commits_fair: 1
+  maintenance:
+    has_readme_weight: 0.25
+    has_license_weight: 0.25
+    issue_response_days_weight: 0.25
+    last_commit_days_weight: 0.25
+    readme_min_words: 50
+  community:
+    contributors_weight: 0.4
+    forks_weight: 0.3
+    open_issues_weight: 0.3
+    excellent_contributors: 20
+    good_contributors: 5
+  documentation:
+    readme_quality_weight: 0.5
+    has_docs_weight: 0.3
+    has_changelog_weight: 0.2
+    readme_min_words: 100
+  license:
+    permissive_score: 100
+    copyleft_score: 50
+    unlicensed_score: 0
+    permissive_licenses:
+      - MIT
+      - Apache-2.0
+      - BSD
+      - BSD-2-Clause
+      - BSD-3-Clause
+      - ISC
+      - Unlicense
+      - "0BSD"
+      - PSF-2.0
+    copyleft_licenses:
+      - GPL-2.0
+      - GPL-3.0
+      - AGPL-3.0
+      - LGPL-2.1
+      - LGPL-3.0
+  security:
+    has_security_policy_weight: 0.3
+    has_vulnerability_tool_weight: 0.3
+    has_copilot_weight: 0.2
+    has_dependabot_weight: 0.2
+  awesome_quality:
+    is_curated_weight: 0.4
+    category_depth_weight: 0.3
+    link_quality_weight: 0.3
+    min_categories: 3
+
+health:
+  classifications:
+    ACTIVE:
+      max_commit_days: 7
+      max_release_days: 14
+      min_contributors_90d: 3
+    MAINTAINED:
+      max_commit_days: 30
+      max_release_days: 60
+      min_contributors_90d: 1
+    SLOW:
+      max_commit_days: 90
+      max_release_days: 180
+      min_contributors_90d: 0
+    STALE:
+      max_commit_days: 180
+      max_release_days: 365
+      min_contributors_90d: 0
+    ARCHIVED:
+      archived: true
+    UNKNOWN: {}

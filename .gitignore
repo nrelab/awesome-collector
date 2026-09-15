@@ -1,0 +1,31 @@
+# Runtime data
+data/database/
+data/repositories/
+data/daily/
+data/awesome-lists/
+data/index.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env

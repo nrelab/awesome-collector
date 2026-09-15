@@ -1,0 +1,137 @@
+taxonomy:
+  AI:
+    - LLM
+    - Agents
+    - RAG
+    - ML
+    - "Computer Vision"
+    - NLP
+    - Audio
+    - Robotics
+  Security:
+    - AppSec
+    - "Cloud Security"
+    - Pentesting
+    - Malware
+    - "Threat Intelligence"
+    - DFIR
+    - "Detection Engineering"
+    - "Supply Chain"
+  Development:
+    - Rust
+    - TypeScript
+    - Python
+    - Go
+    - CLI
+    - "Web Development"
+    - "Mobile Development"
+    - "Game Development"
+  Infrastructure:
+    - Kubernetes
+    - Docker
+    - Linux
+    - Cloud
+    - DevOps
+    - Terraform
+    - "CI/CD"
+    - Observability
+  Data:
+    - Databases
+    - Search
+    - "Data Engineering"
+    - Observability
+    - "Machine Learning"
+    - Analytics
+  Web3:
+    - Blockchain
+    - DeFi
+    - NFT
+    - "Smart Contracts"
+  Mobile:
+    - iOS
+    - Android
+    - Cross-Platform
+  DevOps:
+    - "CI/CD"
+    - Kubernetes
+    - Docker
+    - Terraform
+    - Monitoring
+    - Logging
+  Programming:
+    - Python
+    - Rust
+    - Go
+    - TypeScript
+    - JavaScript
+    - Java
+    - C
+    - C++
+    - Swift
+    - Kotlin
+
+keywords:
+  AI/ML:
+    - artificial intelligence
+    - machine learning
+    - deep learning
+    - llm
+    - "large language model"
+    - gpt
+    - transformer
+    - neural
+    - rag
+    - agent
+    - embedding
+  Security:
+    - security
+    - vulnerability
+    - pentest
+    - exploit
+    - cve
+    - "threat intelligence"
+    - malware
+    - cryptography
+    - "app sec"
+    - owasp
+  DevOps:
+    - docker
+    - kubernetes
+    - k8s
+    - terraform
+    - helm
+    - ci/cd
+    - "continuous integration"
+    - "continuous deployment"
+    -运维
+    - "cloud native"
+  Data:
+    - database
+    - sql
+    - nosql
+    - elasticsearch
+    - kafka
+    - "data engineering"
+    - analytics
+    - "data science"
+    - "big data"
+  Development:
+    - "web development"
+    - "frontend"
+    - "backend"
+    - api
+    - framework
+    - "cli tool"
+    - "command line"
+    - sdk
+  Programming Languages:
+    - python
+    - rust
+    - go
+    - javascript
+    - typescript
+    - java
+    - "c++"
+    - ruby
+    - swift
+    - kotlin
