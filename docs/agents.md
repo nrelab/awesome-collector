@@ -6,7 +6,7 @@ Machine-readable entry points for automated consumers of this dataset.
 
 - Total repositories: 562
 - Categories: 1
-- Total stars: 8,531,451
+- Total stars: 8,531,542
 - Health UNKNOWN: 562
 
 ## Categories
@@ -17,53 +17,53 @@ Machine-readable entry points for automated consumers of this dataset.
 
 | Repository | Score | Stars | Category |
 |---|---:|---:|---|
-| [worldcoin/awesome-zkml](github:worldcoin/awesome-zkml) | 0 | 1,050 | Uncategorized |
-| [academic/awesome-datascience](github:academic/awesome-datascience) | 0 | 30,125 | Uncategorized |
-| [vishal-raj-1/awesome-javascript-projects](github:vishal-raj-1/awesome-javascript-projects) | 0 | 1,850 | Uncategorized |
-| [becauseofai/awesome-face](github:becauseofai/awesome-face) | 0 | 1,293 | Uncategorized |
-| [janhq/awesome-local-ai](github:janhq/awesome-local-ai) | 0 | 2,038 | Uncategorized |
-| [ezshine/awesomelive2d](github:ezshine/awesomelive2d) | 0 | 411 | Uncategorized |
-| [ayushparikh-code/web-dev-mini-projects](github:ayushparikh-code/web-dev-mini-projects) | 0 | 4,518 | Uncategorized |
-| [otacilion/awesome-hacktoberfest](github:otacilion/awesome-hacktoberfest) | 0 | 862 | Uncategorized |
-| [flyhigher139/awesome-github-repo](github:flyhigher139/awesome-github-repo) | 0 | 645 | Uncategorized |
-| [avinash201199/awesome-github-repositories](github:avinash201199/awesome-github-repositories) | 0 | 586 | Uncategorized |
-| [ridsuteri/awesome-chrome-extensions](github:ridsuteri/awesome-chrome-extensions) | 0 | 221 | Uncategorized |
-| [terremoth/awesome-hilarious-repos](github:terremoth/awesome-hilarious-repos) | 0 | 535 | Uncategorized |
-| [components/font-awesome](github:components/font-awesome) | 0 | 196 | Uncategorized |
-| [threekiii/vulnerability-wiki](github:threekiii/vulnerability-wiki) | 0 | 2,195 | Uncategorized |
-| [dd5ht/awesome-hamradio](github:dd5ht/awesome-hamradio) | 0 | 191 | Uncategorized |
-| [gitindonesia/awesome-indonesia-repo](github:gitindonesia/awesome-indonesia-repo) | 0 | 764 | Uncategorized |
-| [stockpilelabs/awesome-solana-oss](github:stockpilelabs/awesome-solana-oss) | 0 | 416 | Uncategorized |
-| [rjcarneiro/windows-terminals](github:rjcarneiro/windows-terminals) | 0 | 478 | Uncategorized |
-| [hiddify/awesome-freedom](github:hiddify/awesome-freedom) | 0 | 1,210 | Uncategorized |
-| [softwareunderground/awesome-open-geoscience](github:softwareunderground/awesome-open-geoscience) | 0 | 1,850 | Uncategorized |
-| [transformeroptimus/awesome-superagi](github:transformeroptimus/awesome-superagi) | 0 | 179 | Uncategorized |
-| [edt-community/awesome-digital-twins](github:edt-community/awesome-digital-twins) | 0 | 190 | Uncategorized |
-| [robodonut/awesome-spatial](github:robodonut/awesome-spatial) | 0 | 223 | Uncategorized |
-| [realmtai/awesome-awesome-awesome](github:realmtai/awesome-awesome-awesome) | 0 | 5 | Uncategorized |
-| [janikvonrotz/awesome-powershell](github:janikvonrotz/awesome-powershell) | 0 | 5,406 | Uncategorized |
-| [khushi-purwar/webdev-projectkart](github:khushi-purwar/webdev-projectkart) | 0 | 152 | Uncategorized |
-| [jihoo-kim/awesome-recsys](github:jihoo-kim/awesome-recsys) | 0 | 1,476 | Uncategorized |
-| [freecodecamp/awesome-quincy-larson-emails](github:freecodecamp/awesome-quincy-larson-emails) | 0 | 1,183 | Uncategorized |
-| [gauravssnl/awesome-python-modules](github:gauravssnl/awesome-python-modules) | 0 | 99 | Uncategorized |
-| [reziamini/awesome-github](github:reziamini/awesome-github) | 0 | 166 | Uncategorized |
-| [gschool/fullstack-resources](github:gschool/fullstack-resources) | 0 | 29 | Uncategorized |
-| [cosimameyer/awesome-pyladies-creations](github:cosimameyer/awesome-pyladies-creations) | 0 | 59 | Uncategorized |
-| [ruijun/awesome-gank.io](github:ruijun/awesome-gank.io) | 0 | 313 | Uncategorized |
-| [ghosttroops/scan4all](github:ghosttroops/scan4all) | 0 | 6,172 | Uncategorized |
-| [mani1soni/python-scripts](github:mani1soni/python-scripts) | 0 | 18 | Uncategorized |
-| [jeekzhang/awesome-fudan](github:jeekzhang/awesome-fudan) | 0 | 379 | Uncategorized |
-| [zhgqcn/awesome-nilm-with-code](github:zhgqcn/awesome-nilm-with-code) | 0 | 147 | Uncategorized |
-| [terryds/awesome-strudel](github:terryds/awesome-strudel) | 0 | 1,209 | Uncategorized |
-| [valeman/awesome_catboost](github:valeman/awesome_catboost) | 0 | 288 | Uncategorized |
-| [zycv/awesome-keyword-spotting](github:zycv/awesome-keyword-spotting) | 0 | 294 | Uncategorized |
-| [blues1998/streamlit-hello-app](github:blues1998/streamlit-hello-app) | 0 | 10 | Uncategorized |
-| [secnotes/awesome-cybersecurity](github:secnotes/awesome-cybersecurity) | 0 | 84 | Uncategorized |
-| [solaris33/awesome-machine-learning-papers](github:solaris33/awesome-machine-learning-papers) | 0 | 79 | Uncategorized |
-| [henry40408/awesome-stars](github:henry40408/awesome-stars) | 0 | 78 | Uncategorized |
-| [zhilizju/awesome-instruction-tuning](github:zhilizju/awesome-instruction-tuning) | 0 | 345 | Uncategorized |
-| [martinmiles/awesome-sitecore](github:martinmiles/awesome-sitecore) | 0 | 84 | Uncategorized |
-| [qianlima-lab/awesome-lifelong-llm-agent](github:qianlima-lab/awesome-lifelong-llm-agent) | 0 | 335 | Uncategorized |
-| [jiganesh/loads-of-logic](github:jiganesh/loads-of-logic) | 0 | 255 | Uncategorized |
-| [iaar-shanghai/awesome-attention-heads](github:iaar-shanghai/awesome-attention-heads) | 0 | 415 | Uncategorized |
-| [csbl-br/awesome-compbio-chatgpt](github:csbl-br/awesome-compbio-chatgpt) | 0 | 275 | Uncategorized |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 0 | 552,050 | Uncategorized |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 0 | 516,423 | Uncategorized |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 0 | 486,821 | Uncategorized |
+| [vinta/awesome-python](https://github.com/vinta/awesome-python) | 0 | 325,953 | Uncategorized |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 0 | 324,748 | Uncategorized |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 0 | 248,619 | Uncategorized |
+| [ossu/computer-science](https://github.com/ossu/computer-science) | 0 | 209,809 | Uncategorized |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 0 | 187,430 | Uncategorized |
+| [521xueweihan/hellogithub](https://github.com/521xueweihan/hellogithub) | 0 | 180,705 | Uncategorized |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 0 | 172,199 | Uncategorized |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 0 | 139,227 | Uncategorized |
+| [chalarangelo/30-seconds-of-code](https://github.com/chalarangelo/30-seconds-of-code) | 0 | 129,144 | Uncategorized |
+| [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) | 0 | 121,965 | Uncategorized |
+| [voltagent/awesome-design-md](https://github.com/voltagent/awesome-design-md) | 0 | 119,941 | Uncategorized |
+| [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 0 | 115,649 | Uncategorized |
+| [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) | 0 | 110,364 | Uncategorized |
+| [ruvnet/ruview](https://github.com/ruvnet/ruview) | 0 | 96,967 | Uncategorized |
+| [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) | 0 | 94,768 | Uncategorized |
+| [mungell/awesome-for-beginners](https://github.com/mungell/awesome-for-beginners) | 0 | 90,017 | Uncategorized |
+| [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) | 0 | 84,860 | Uncategorized |
+| [enaqx/awesome-react](https://github.com/enaqx/awesome-react) | 0 | 74,828 | Uncategorized |
+| [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | 0 | 74,591 | Uncategorized |
+| [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) | 0 | 74,411 | Uncategorized |
+| [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) | 0 | 73,701 | Uncategorized |
+| [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | 0 | 71,711 | Uncategorized |
+| [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) | 0 | 67,033 | Uncategorized |
+| [solido/awesome-flutter](https://github.com/solido/awesome-flutter) | 0 | 61,440 | Uncategorized |
+| [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | 0 | 59,727 | Uncategorized |
+| [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | 0 | 59,528 | Uncategorized |
+| [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) | 0 | 57,874 | Uncategorized |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 0 | 55,283 | Uncategorized |
+| [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) | 0 | 53,558 | Uncategorized |
+| [voltagent/awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills) | 0 | 53,007 | Uncategorized |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | 0 | 52,464 | Uncategorized |
+| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 0 | 50,698 | Uncategorized |
+| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 0 | 49,313 | Uncategorized |
+| [dovamir/awesome-design-patterns](https://github.com/dovamir/awesome-design-patterns) | 0 | 49,259 | Uncategorized |
+| [akullpp/awesome-java](https://github.com/akullpp/awesome-java) | 0 | 49,198 | Uncategorized |
+| [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | 0 | 48,563 | Uncategorized |
+| [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | 0 | 47,595 | Uncategorized |
+| [docker/awesome-compose](https://github.com/docker/awesome-compose) | 0 | 46,488 | Uncategorized |
+| [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook) | 0 | 44,398 | Uncategorized |
+| [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | 0 | 42,110 | Uncategorized |
+| [goabstract/awesome-design-tools](https://github.com/goabstract/awesome-design-tools) | 0 | 41,436 | Uncategorized |
+| [patrickjs/awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules) | 0 | 40,897 | Uncategorized |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 0 | 39,826 | Uncategorized |
+| [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) | 0 | 39,336 | Uncategorized |
+| [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | 0 | 37,746 | Uncategorized |
+| [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) | 0 | 37,162 | Uncategorized |
+| [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | 0 | 36,993 | Uncategorized |
