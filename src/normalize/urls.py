@@ -33,9 +33,13 @@ def normalize_url(url: str) -> str:
     return url.rstrip("/")
 
 
+def _strip_git_suffix(path: str) -> str:
+    return path.removesuffix(".git")
+
+
 def normalize_github_url(url: str) -> str:
     parsed = urlparse(url)
-    path = parsed.path.strip("/").rstrip(".git")
+    path = _strip_git_suffix(parsed.path.strip("/"))
     if parsed.netloc in ("github.com", "www.github.com"):
         return f"https://github.com/{path}"
     return url
@@ -45,7 +49,7 @@ def repository_id_from_url(url: str) -> Optional[str]:
     if not url:
         return None
     parsed = urlparse(url)
-    path = parsed.path.strip("/").rstrip(".git")
+    path = _strip_git_suffix(parsed.path.strip("/"))
     if parsed.netloc in ("github.com", "www.github.com", "github.com"):
         parts = path.split("/")
         if len(parts) >= 2:
@@ -60,6 +64,16 @@ def repository_id_from_url(url: str) -> Optional[str]:
 
 def repository_id(owner: str, name: str) -> str:
     return f"github:{owner.strip().lower()}/{name.strip().lower()}"
+
+
+def repository_from_row(row: dict) -> Repository:
+    fields = {k: v for k, v in row.items() if k in Repository.__dataclass_fields__}
+    repo = Repository(**fields)
+    if "score_overall" in row and repo.score is None:
+        repo.score = {"overall": row["score_overall"] or 0.0}
+    if "health_status" in row and repo.health is None:
+        repo.health = {"status": row["health_status"] or "UNKNOWN"}
+    return repo
 
 
 def is_github_url(url: str) -> bool:

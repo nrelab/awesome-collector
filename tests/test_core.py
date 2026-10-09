@@ -1,33 +1,67 @@
 import pytest
+
 from src.models import Repository
+from src.normalize.dedupe import dedupe_repositories
 from src.normalize.urls import (
+    extract_owner_name_from_id,
+    is_github_url,
+    normalize_github_url,
     normalize_url,
     repository_id,
     repository_id_from_url,
-    is_github_url,
-    extract_owner_name_from_id,
+    repository_from_row,
 )
-from src.normalize.dedupe import dedupe_repositories
+from src.parser.categories import categorize_by_keywords, categorize_by_language
+from src.parser.links import is_awesome_list_repo, is_awesome_list_url
 from src.parser.markdown import (
-    extract_links,
     extract_github_urls,
+    extract_links,
+    extract_readme_quality,
     extract_section_headings,
     find_repository_references,
-    extract_readme_quality,
+    parse_awesome_list,
 )
-from src.parser.links import is_awesome_list_url, is_awesome_list_repo
-from src.parser.categories import categorize_by_keywords, categorize_by_language
 from src.scoring.quality import (
-    calculate_popularity_score,
     calculate_activity_score,
-    calculate_maintenance_score,
     calculate_community_score,
+    calculate_maintenance_score,
+    calculate_popularity_score,
 )
 from src.scoring.security import (
-    calculate_security_score,
     calculate_license_score,
+    calculate_security_score,
     health_status,
 )
+
+
+class TestRepositoryFromRow:
+    def test_maps_score_and_health_columns(self):
+        repo = repository_from_row({
+            "id": "github:foo/bar", "owner": "foo", "name": "bar",
+            "url": "https://github.com/foo/bar", "stars": 10,
+            "score_overall": 88.5, "health_status": "ACTIVE",
+        })
+        assert repo.score == {"overall": 88.5}
+        assert repo.health == {"status": "ACTIVE"}
+
+    def test_handles_null_score_and_health(self):
+        repo = repository_from_row({
+            "id": "github:foo/bar", "owner": "foo", "name": "bar",
+            "url": "https://github.com/foo/bar",
+            "score_overall": None, "health_status": None,
+        })
+        assert repo.score == {"overall": 0.0}
+        assert repo.health == {"status": "UNKNOWN"}
+
+    def test_preserves_existing_score_dict(self):
+        repo = repository_from_row({
+            "id": "github:foo/bar", "owner": "foo", "name": "bar",
+            "url": "https://github.com/foo/bar",
+            "score_overall": 10.0, "health_status": "STALE",
+            "score": {"overall": 99.0}, "health": {"status": "ACTIVE"},
+        })
+        assert repo.score == {"overall": 99.0}
+        assert repo.health == {"status": "ACTIVE"}
 
 
 class TestNormalizeURLs:
@@ -70,6 +104,17 @@ class TestNormalizeURLs:
     def test_extract_owner_name_invalid(self):
         with pytest.raises(ValueError):
             extract_owner_name_from_id("invalid")
+
+    def test_normalize_github_url_strips_only_git_suffix(self):
+        assert normalize_github_url("https://github.com/rust-lang/rust.git") == \
+            "https://github.com/rust-lang/rust"
+
+    def test_normalize_github_url_keeps_repo_name(self):
+        assert normalize_github_url("https://github.com/abc/defigit") == \
+            "https://github.com/abc/defigit"
+
+    def test_repository_id_from_url_keeps_repo_name(self):
+        assert repository_id_from_url("https://github.com/abc/defigit") == "github:abc/defigit"
 
 
 class TestDedup:
@@ -125,6 +170,34 @@ class TestMarkdownParser:
         assert "quality_score" in quality
         assert 0 <= quality["quality_score"] <= 100
 
+    def test_parse_awesome_list_extracts_repositories(self):
+        md = (
+            "- [Rust](https://github.com/rust-lang/rust)\n"
+            "- https://github.com/tokio-rs/tokio\n"
+        )
+        parsed = parse_awesome_list(md, source_repo="me/list")
+        ids = sorted(r["repo_id"] for r in parsed["repositories"])
+        assert ids == ["github:rust-lang/rust", "github:tokio-rs/tokio"]
+        assert parsed["total_repositories"] == 2
+
+    def test_parse_awesome_list_dedupes(self):
+        md = (
+            "- [Rust](https://github.com/rust-lang/rust)\n"
+            "- [Rust again](https://github.com/rust-lang/rust)\n"
+        )
+        parsed = parse_awesome_list(md)
+        assert parsed["total_repositories"] == 1
+
+    def test_parse_awesome_list_preserves_repo_name_suffix(self):
+        md = "- [Digit](https://github.com/abc/defigit)\n"
+        parsed = parse_awesome_list(md)
+        assert parsed["repositories"][0]["repo_id"] == "github:abc/defigit"
+
+    def test_parse_awesome_list_handles_git_suffix(self):
+        md = "- [Tokio](https://github.com/tokio-rs/tokio.git)\n"
+        parsed = parse_awesome_list(md)
+        assert parsed["repositories"][0]["repo_id"] == "github:tokio-rs/tokio"
+
 
 class TestAwesomeListDetection:
     def test_awesome_list_url(self):
@@ -139,6 +212,15 @@ class TestAwesomeListDetection:
     def test_is_not_awesome_list_repo(self):
         repo = Repository(id="github:psf/requests", owner="psf", name="requests", url="https://github.com/psf/requests", language="Python")
         assert not is_awesome_list_repo(repo)
+
+    def test_awesome_list_url_strips_git_suffix(self):
+        assert is_awesome_list_url("https://github.com/sindresorhus/awesome.git")
+
+    def test_awesome_list_url_name_ending_in_git_chars(self):
+        assert is_awesome_list_url("https://github.com/user/awesome-defigit")
+
+    def test_awesome_list_url_rejects_non_github(self):
+        assert not is_awesome_list_url("https://gitlab.com/user/awesome")
 
 
 class TestCategorization:

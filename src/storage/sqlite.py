@@ -101,14 +101,16 @@ class SqliteStore:
     def save_categories(self, repo_id: str, categories: list[str]) -> None:
         with self._lock, self._get_connection() as conn:
             for cat_name in categories:
-                cat_id = conn.execute(
+                conn.execute(
                     "INSERT OR IGNORE INTO categories (name) VALUES (?)", (cat_name,)
-                ).lastrowid
-                if cat_id:
-                    conn.execute(
-                        "INSERT OR IGNORE INTO repository_categories (repository_id, category_id) VALUES (?, ?)",
-                        (repo_id, cat_id),
-                    )
+                )
+                cat_id = conn.execute(
+                    "SELECT id FROM categories WHERE name = ?", (cat_name,)
+                ).fetchone()[0]
+                conn.execute(
+                    "INSERT OR IGNORE INTO repository_categories (repository_id, category_id) VALUES (?, ?)",
+                    (repo_id, cat_id),
+                )
             conn.commit()
 
     def save_sources(self, repo_id: str, sources: list[dict]) -> None:
@@ -156,6 +158,32 @@ class SqliteStore:
                 JOIN categories c ON rc.category_id = c.id
                 WHERE c.name = ?
             """, (category_name,)).fetchall()]
+
+    def get_all_categories(self) -> dict[str, list[str]]:
+        with self._get_connection() as conn:
+            rows = conn.execute("""
+                SELECT rc.repository_id, c.name FROM repository_categories rc
+                JOIN categories c ON rc.category_id = c.id
+            """).fetchall()
+        categories: dict[str, list[str]] = {}
+        for repo_id, name in rows:
+            categories.setdefault(repo_id, []).append(name)
+        for names in categories.values():
+            names.sort()
+        return categories
+
+    def get_all_sources(self) -> dict[str, list[dict]]:
+        with self._get_connection() as conn:
+            rows = conn.execute("""
+                SELECT repository_id, source_repository, source_section FROM sources
+            """).fetchall()
+        sources: dict[str, list[dict]] = {}
+        for repo_id, source_repo, section in rows:
+            sources.setdefault(repo_id, []).append({
+                "repository": source_repo,
+                "section": section,
+            })
+        return sources
 
     def get_stale_repos(self, max_days: int = 180) -> list[dict]:
         with self._get_connection() as conn:

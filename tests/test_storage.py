@@ -1,14 +1,12 @@
 import json
 import os
-import sqlite3
 import tempfile
-import pytest
-from pathlib import Path
 
+from src.main import CLICommands
 from src.models import Repository
 from src.storage.json_store import JsonStore
-from src.storage.sqlite import SqliteStore
 from src.storage.markdown import MarkdownRenderer
+from src.storage.sqlite import SqliteStore
 
 
 class TestJsonStore:
@@ -84,12 +82,29 @@ class TestSqliteStore:
         assert self.store.get_total_count() == 5
 
     def test_save_categories(self):
+        self.store.save_repository(
+            Repository(id="github:test/repo", owner="test", name="repo",
+                       url="https://github.com/test/repo")
+        )
         self.store.save_categories("github:test/repo", ["AI", "Security"])
         result = self.store.get_by_category("AI")
         assert len(result) == 1
         assert result[0]["id"] == "github:test/repo"
 
+    def test_save_categories_idempotent(self):
+        self.store.save_repository(
+            Repository(id="github:test/repo", owner="test", name="repo",
+                       url="https://github.com/test/repo")
+        )
+        self.store.save_categories("github:test/repo", ["AI"])
+        self.store.save_categories("github:test/repo", ["AI"])
+        assert len(self.store.get_by_category("AI")) == 1
+
     def test_save_sources(self):
+        self.store.save_repository(
+            Repository(id="github:test/repo", owner="test", name="repo",
+                       url="https://github.com/test/repo")
+        )
         sources = [{"repository": "github:other/list", "section": "Tools"}]
         self.store.save_sources("github:test/repo", sources)
         repo = self.store.get_repository("github:test/repo")
@@ -182,3 +197,200 @@ class TestStorageIntegration:
         assert result["stars"] == 42
         assert result["language"] == "Python"
         assert result["owner"] == "rt"
+
+
+class TestSqliteStoreLookups:
+    def setup_method(self):
+        self.tmp = tempfile.mkdtemp()
+        self.store = SqliteStore(f"{self.tmp}/test.sqlite")
+        self.store.save_repository(
+            Repository(id="github:cat/repo", owner="cat", name="repo",
+                       url="https://github.com/cat/repo", stars=10)
+        )
+        self.store.save_repository(
+            Repository(id="github:nocat/repo", owner="nocat", name="repo",
+                       url="https://github.com/nocat/repo", stars=5)
+        )
+
+    def test_get_all_categories(self):
+        self.store.save_categories("github:cat/repo", ["AI", "Security"])
+        result = self.store.get_all_categories()
+        assert result == {"github:cat/repo": ["AI", "Security"]}
+        assert self.store.get_all_categories().get("github:nocat/repo") is None
+
+    def test_get_all_sources(self):
+        self.store.save_sources("github:cat/repo", [
+            {"repository": "github:other/list", "section": "Tools"}
+        ])
+        result = self.store.get_all_sources()
+        assert result["github:cat/repo"] == [
+            {"repository": "github:other/list", "section": "Tools"}
+        ]
+
+    def test_save_categories_does_not_leak_between_repos(self):
+        self.store.save_categories("github:cat/repo", ["AI"])
+        self.store.save_categories("github:nocat/repo", ["Security"])
+        assert [r["id"] for r in self.store.get_by_category("AI")] == ["github:cat/repo"]
+        assert [r["id"] for r in self.store.get_by_category("Security")] == ["github:nocat/repo"]
+
+
+class TestDocRenderers:
+    def setup_method(self):
+        self.renderer = MarkdownRenderer()
+        self.categories = {
+            "AI": [
+                {"id": "github:a/b", "name": "a/b", "url": "https://github.com/a/b",
+                 "description": "Thing", "score": 90.0, "stars": 100, "category": "AI"},
+                {"id": "github:a/c", "name": "a/c", "url": "https://github.com/a/c",
+                 "description": "Other", "score": 50.0, "stars": 10, "category": "AI"},
+            ],
+            "Security": [
+                {"id": "github:a/b", "name": "a/b", "url": "https://github.com/a/b",
+                 "description": "Thing", "score": 90.0, "stars": 100, "category": "Security"},
+            ],
+        }
+
+    def test_render_sitemap(self):
+        out = self.renderer.render_sitemap(self.categories, 2, "2026-09-15T00:00:00Z")
+        assert "# Awesome Repository Sitemap" in out
+        assert "Total repositories: 2" in out
+        assert "## AI" in out and "## Security" in out
+
+    def test_render_llms_txt(self):
+        out = self.renderer.render_llms_txt(self.categories, 2, "2026-09-15T00:00:00Z")
+        assert "# Awesome Collector" in out
+        assert "- [a/b](https://github.com/a/b): Thing" in out
+
+    def test_render_agents_md_dedupes_repos(self):
+        out = self.renderer.render_agents_md(
+            self.categories, {"total_stars": 110, "by_health": {"ACTIVE": 2}}, 2
+        )
+        assert "- Total repositories: 2" in out
+        assert "- `AI` (2 repositories)" in out
+        assert "- `Security` (1 repository)" in out
+        assert out.count("| [a/b](https://github.com/a/b) |") == 1
+
+    def test_render_agents_md_counts_unique_when_total_missing(self):
+        out = self.renderer.render_agents_md(self.categories)
+        assert "- Total repositories: 2" in out
+
+
+class TestGenerate:
+    def setup_method(self):
+        self.tmp = tempfile.mkdtemp()
+        self.commands = CLICommands(data_dir=f"{self.tmp}/data")
+        self.docs_dir = f"{self.tmp}/docs"
+        store = self.commands.sqlite_store
+        for repo_id, score, stars in [
+            ("github:high/repo", 90.0, 500),
+            ("github:low/repo", 10.0, 1),
+        ]:
+            owner, name = repo_id[len("github:"):].split("/")
+            store.save_repository(
+                Repository(id=repo_id, owner=owner, name=name,
+                           url=f"https://github.com/{owner}/{name}",
+                           stars=stars, language="Python",
+                           description="desc", score={"overall": score},
+                           health={"status": "ACTIVE"})
+            )
+        store.save_categories("github:high/repo", ["AI"])
+
+    def test_generate_writes_artifacts(self):
+        result = self.commands.generate(docs_dir=self.docs_dir)
+        assert result["repositories"] == 2
+        for name in ["sitemap.md", "llms.txt", "agents.md"]:
+            assert os.path.exists(f"{self.docs_dir}/{name}")
+        assert os.path.exists(f"{self.tmp}/data/index.json")
+
+    def test_generate_writes_index(self):
+        self.commands.generate(docs_dir=self.docs_dir)
+        with open(f"{self.tmp}/data/index.json") as f:
+            index = json.load(f)
+        assert index["total"] == 2
+        assert "AI" in index["categories"]
+        assert "Uncategorized" in index["categories"]
+
+    def test_generate_writes_daily_snapshot(self):
+        result = self.commands.generate(docs_dir=self.docs_dir)
+        date_str = os.path.basename(result["files"][-1]).replace(".json", "")
+        snapshot = self.commands.json_store.load_daily_snapshot(date_str)
+        assert snapshot["summary"]["total"] == 2
+        assert len(snapshot["sections"]) == 2
+
+    def test_generate_sorts_by_score_descending(self):
+        self.commands.generate(docs_dir=self.docs_dir)
+        with open(f"{self.docs_dir}/sitemap.md") as f:
+            content = f.read()
+        assert content.index("high/repo") < content.index("low/repo")
+
+
+class TestGenerateEmptyDataset:
+    def setup_method(self):
+        self.tmp = tempfile.mkdtemp()
+        self.commands = CLICommands(data_dir=f"{self.tmp}/data")
+        self.docs_dir = f"{self.tmp}/docs"
+
+    def test_generate_on_empty_dataset_writes_docs(self):
+        result = self.commands.generate(docs_dir=self.docs_dir)
+        assert result["repositories"] == 0
+        assert result["files"]
+
+    def test_generate_does_not_clobber_existing_docs_when_empty(self):
+        self.commands.generate(docs_dir=self.docs_dir)
+        with open(f"{self.docs_dir}/sitemap.md") as f:
+            before = f.read()
+
+        empty = CLICommands(data_dir=f"{self.tmp}/empty-data")
+        result = empty.generate(docs_dir=self.docs_dir)
+
+        assert result["skipped"] is True
+        assert result["files"] == []
+        with open(f"{self.docs_dir}/sitemap.md") as f:
+            assert f.read() == before
+
+
+class TestValidateAndTrending:
+    def setup_method(self):
+        self.tmp = tempfile.mkdtemp()
+        self.commands = CLICommands(data_dir=f"{self.tmp}/data")
+        store = self.commands.sqlite_store
+        for repo_id, score, health, stars in [
+            ("github:a/high", 90.0, "ACTIVE", 500),
+            ("github:a/low", 10.0, "STALE", 5),
+        ]:
+            owner, name = repo_id[len("github:"):].split("/")
+            store.save_repository(
+                Repository(id=repo_id, owner=owner, name=name,
+                           url=f"https://github.com/{owner}/{name}",
+                           stars=stars, language="Python",
+                           description="desc", collected_at="2026-10-09T00:00:00Z",
+                           score={"overall": score}, health={"status": health})
+            )
+
+    def test_validate_falls_back_to_sqlite(self):
+        result = self.commands.validate()
+        assert result["total"] == 2
+        assert result["errors"] == 0
+
+    def test_validate_reports_missing_fields(self):
+        self.commands.sqlite_store.save_repository(
+            Repository(id="github:a/bad", owner="a", name="bad",
+                       url="https://github.com/a/bad")
+        )
+        result = self.commands.validate()
+        assert result["errors"] == 1
+        assert "collected_at" in result["error_details"][0]
+
+    def test_trending_filters_and_sorts_by_score(self):
+        result = self.commands.trending()
+        assert result["total"] == 1
+        assert result["trending"][0]["id"] == "github:a/high"
+        assert result["trending"][0]["score"] == {"overall": 90.0}
+        assert result["trending"][0]["health"] == {"status": "ACTIVE"}
+
+    def test_score_persists_to_json_store(self):
+        self.commands.score()
+        stored = self.commands.json_store.load_repository("github:a/high")
+        assert stored is not None
+        assert stored["score"]["overall"] is not None
+        assert stored["health"]["status"] is not None

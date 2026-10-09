@@ -32,13 +32,14 @@ def is_awesome_list_url(url: str) -> bool:
 
 def _extract_path(url: str) -> Optional[str]:
     from urllib.parse import urlparse
+    from src.normalize.urls import _strip_git_suffix
     parsed = urlparse(url)
     if parsed.netloc in ("github.com", "www.github.com"):
-        return parsed.path.strip("/").rstrip(".git")
+        return _strip_git_suffix(parsed.path.strip("/"))
     if url.startswith("github:"):
-        return url[len("github:"):].rstrip(".git")
+        return _strip_git_suffix(url[len("github:"):])
     if url.startswith("git@github.com:"):
-        return url[len("git@github.com:"):].rstrip(".git")
+        return _strip_git_suffix(url[len("git@github.com:"):])
     return None
 
 

@@ -36,6 +36,9 @@ awesome export --format sqlite
 
 # Show trending
 awesome trending
+
+# Generate indexes and docs (sitemap.md, llms.txt, agents.md)
+awesome generate
 ```
 
 ## Commands
@@ -48,6 +51,7 @@ awesome trending
 | `awesome update` | Update metadata |
 | `awesome validate` | Validate data integrity |
 | `awesome score` | Score all repositories |
+| `awesome generate` | Generate indexes and documentation artifacts |
 | `awesome report` | Generate reports |
 | `awesome diff DATE1 DATE2` | Compare daily snapshots |
 | `awesome export --format` | Export data |

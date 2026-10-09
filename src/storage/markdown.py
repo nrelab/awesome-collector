@@ -111,6 +111,114 @@ class MarkdownRenderer:
             lines.append("")
         return "\n".join(lines)
 
+    def render_sitemap(
+        self,
+        categories: dict[str, list[dict]],
+        total: int,
+        generated_at: Optional[str] = None,
+    ) -> str:
+        lines = ["# Awesome Repository Sitemap", ""]
+        if generated_at:
+            lines.append(f"Generated: {generated_at}")
+            lines.append("")
+        lines.append(f"Total repositories: {total}")
+        lines.append("")
+        for category in sorted(categories):
+            repos = categories[category]
+            lines.append(f"## {category}")
+            lines.append("")
+            for repo in repos:
+                name = repo.get("name", "")
+                url = repo.get("url", "")
+                stars = repo.get("stars", 0) or 0
+                score = repo.get("score", 0) or 0
+                lines.append(f"- [{name}]({url}) - {stars:,} stars - score {score}")
+            lines.append("")
+        return "\n".join(lines)
+
+    def render_llms_txt(
+        self,
+        categories: dict[str, list[dict]],
+        total: int,
+        generated_at: Optional[str] = None,
+    ) -> str:
+        lines = [
+            "# Awesome Collector",
+            "",
+            "> Curated index of awesome GitHub repositories for the NRE Lab knowledge base.",
+            "",
+        ]
+        if generated_at:
+            lines.append(f"Generated: {generated_at}")
+            lines.append("")
+        lines.append(f"Total repositories: {total}")
+        lines.append("")
+        for category in sorted(categories):
+            repos = categories[category]
+            lines.append(f"## {category}")
+            lines.append("")
+            for repo in repos:
+                name = repo.get("name", "")
+                url = repo.get("url", "")
+                description = (repo.get("description") or "No description").strip()
+                lines.append(f"- [{name}]({url}): {description}")
+            lines.append("")
+        return "\n".join(lines)
+
+    def render_agents_md(
+        self,
+        categories: dict[str, list[dict]],
+        stats: Optional[dict] = None,
+        total: Optional[int] = None,
+    ) -> str:
+        if total is None:
+            total = len({r.get("id") for repos in categories.values() for r in repos})
+        lines = [
+            "# Agent Guide",
+            "",
+            "Machine-readable entry points for automated consumers of this dataset.",
+            "",
+            "## Dataset",
+            "",
+            f"- Total repositories: {total}",
+            f"- Categories: {len(categories)}",
+        ]
+        if stats:
+            lines.append(f"- Total stars: {stats.get('total_stars', 0):,}")
+            by_health = stats.get("by_health", {})
+            for status, count in sorted(by_health.items()):
+                lines.append(f"- Health {status}: {count}")
+        lines.append("")
+        lines.append("## Categories")
+        lines.append("")
+        for category in sorted(categories):
+            count = len(categories[category])
+            label = "repository" if count == 1 else "repositories"
+            lines.append(f"- `{category}` ({count} {label})")
+        lines.append("")
+        lines.append("## High-scoring repositories")
+        lines.append("")
+        seen: set[str] = set()
+        scored: list[dict] = []
+        for category in sorted(categories):
+            for repo in categories[category]:
+                if repo.get("id") in seen:
+                    continue
+                seen.add(repo.get("id"))
+                scored.append(repo)
+        scored.sort(key=lambda r: r.get("score", 0) or 0, reverse=True)
+        lines.append("| Repository | Score | Stars | Category |")
+        lines.append("|---|---:|---:|---|")
+        for repo in scored[:50]:
+            name = repo.get("name", "")
+            url = repo.get("url", "")
+            lines.append(
+                f"| [{name}]({url}) | {repo.get('score', 0) or 0} "
+                f"| {repo.get('stars', 0) or 0:,} | {repo.get('category', '')} |"
+            )
+        lines.append("")
+        return "\n".join(lines)
+
     @staticmethod
     def render_markdown_table(headers: list[str], rows: list[list[Any]]) -> str:
         if not rows:

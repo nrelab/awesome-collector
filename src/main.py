@@ -1,18 +1,18 @@
 import json
-import sys
 import click
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
-from src.models import Repository
-from src.normalize.urls import repository_id_from_url, normalize_url
+from src.normalize.urls import repository_from_row
 from src.normalize.repository import normalize_repository, create_repository_from_api
 from src.normalize.dedupe import dedupe_repositories
-from src.scoring.security import health_status, get_refresh_interval
 from src.storage.json_store import JsonStore, utc_now_iso
 from src.storage.sqlite import SqliteStore
 from src.storage.markdown import MarkdownRenderer, utc_today
+
+
+_GENERATED_DOCS = ("sitemap.md", "llms.txt", "agents.md")
 
 
 def _get_github_client(token: Optional[str]):
@@ -37,7 +37,6 @@ class CLICommands:
         client = _get_github_client(github_token)
         try:
             from src.discovery import DiscoveryEngine
-            from src.discovery.awesome_lists import AwesomeListDiscoverer
 
             collected_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             engine = DiscoveryEngine(client)
@@ -86,6 +85,158 @@ class CLICommands:
             if client:
                 client.close()
 
+    def discover(self, github_token: Optional[str] = None) -> dict:
+        from src.discovery import DiscoveryEngine
+        from src.discovery.awesome_lists import AwesomeListDiscoverer
+
+        client = _get_github_client(github_token)
+        try:
+            if client is None:
+                return {
+                    "discovered": 0,
+                    "saved": 0,
+                    "error": "GITHUB_TOKEN is required for discovery",
+                }
+            engine = DiscoveryEngine(client)
+            lists = engine.discover_awesome_lists()
+            discoverer = AwesomeListDiscoverer(client)
+
+            saved = 0
+            for item in lists:
+                repo_data = item.get("repository", {})
+                owner = repo_data.get("owner", {}).get("login", "")
+                name = repo_data.get("name", "")
+                if not owner or not name:
+                    continue
+                collected_at = utc_now_iso()
+                self.json_store.save_awesome_list(
+                    f"{owner}/{name}",
+                    {
+                        "id": f"github:{owner}/{name}",
+                        "name": name,
+                        "owner": owner,
+                        "url": repo_data.get("html_url", f"https://github.com/{owner}/{name}"),
+                        "description": repo_data.get("description"),
+                        "stars": repo_data.get("stargazers_count"),
+                        "language": repo_data.get("language"),
+                        "topics": repo_data.get("topics", []),
+                        "is_awesome_list": discoverer.is_awesome_list(repo_data),
+                        "source": item.get("source"),
+                        "query": item.get("query"),
+                        "collected_at": collected_at,
+                    },
+                )
+                saved += 1
+            return {
+                "discovered": len(lists),
+                "saved": saved,
+                "collected_at": utc_now_iso(),
+            }
+        finally:
+            if client:
+                client.close()
+
+    def generate(self, docs_dir: str = "docs") -> dict:
+        repos = self.sqlite_store.get_all_repositories()
+        if not repos:
+            repos = [r.to_dict() for r in self.json_store.get_all_repositories()]
+        category_map = self.sqlite_store.get_all_categories()
+
+        generated_at = utc_now_iso()
+        categories: dict[str, list[dict]] = {}
+        for repo in repos:
+            names = category_map.get(repo["id"], [])
+            if not names:
+                names = ["Uncategorized"]
+            for name in names:
+                categories.setdefault(name, []).append({
+                    "id": repo["id"],
+                    "name": f"{repo['owner']}/{repo['name']}",
+                    "url": repo["url"],
+                    "description": repo.get("description"),
+                    "stars": repo.get("stars") or 0,
+                    "language": repo.get("language"),
+                    "score": repo.get("score_overall") or 0,
+                    "health": repo.get("health_status", "UNKNOWN"),
+                    "category": name,
+                })
+
+        for entries in categories.values():
+            entries.sort(key=lambda r: r["score"], reverse=True)
+
+        total = len(repos)
+        docs_path = Path(docs_dir)
+        docs_path.mkdir(parents=True, exist_ok=True)
+
+        if total == 0 and any((docs_path / name).exists() for name in _GENERATED_DOCS):
+            return {
+                "generated_at": generated_at,
+                "repositories": 0,
+                "categories": 0,
+                "skipped": True,
+                "reason": "No repositories collected; existing docs left untouched",
+                "files": [],
+            }
+
+        stats = self.sqlite_store.get_stats()
+
+        sitemap = self.renderer.render_sitemap(categories, total, generated_at)
+        llms_txt = self.renderer.render_llms_txt(categories, total, generated_at)
+        agents_md = self.renderer.render_agents_md(categories, stats, total)
+
+        with open(docs_path / "sitemap.md", "w", encoding="utf-8") as f:
+            f.write(sitemap)
+        with open(docs_path / "llms.txt", "w", encoding="utf-8") as f:
+            f.write(llms_txt)
+        with open(docs_path / "agents.md", "w", encoding="utf-8") as f:
+            f.write(agents_md)
+
+        category_index = {
+            name: [entry["id"] for entry in entries]
+            for name, entries in categories.items()
+        }
+        self.json_store.save_index({
+            "last_updated": generated_at,
+            "total": total,
+            "categories": category_index,
+            "repositories": [
+                {
+                    "id": r["id"],
+                    "name": f"{r['owner']}/{r['name']}",
+                    "url": r["url"],
+                    "stars": r.get("stars"),
+                    "score": r.get("score_overall"),
+                    "health": r.get("health_status"),
+                }
+                for r in repos
+            ],
+        })
+
+        snapshot = {
+            "date": utc_today(),
+            "generated_at": generated_at,
+            "summary": {"total": total, "categories": len(categories)},
+            "sections": [
+                {"title": name, "repositories": categories[name]}
+                for name in sorted(categories)
+            ],
+            "repositories": repos,
+        }
+        self.json_store.save_daily_snapshot(utc_today(), snapshot)
+
+        return {
+            "generated_at": generated_at,
+            "repositories": total,
+            "categories": len(categories),
+            "files": [
+                f"{docs_path}/sitemap.md",
+                f"{docs_path}/llms.txt",
+                f"{docs_path}/agents.md",
+                f"{self.data_dir}/index.json",
+                f"{self.data_dir}/daily/{utc_today()}.json",
+            ],
+        }
+
     def sync(self, github_token: Optional[str] = None) -> dict:
         return self.collect(github_token=github_token)
 
@@ -94,6 +245,10 @@ class CLICommands:
 
     def validate(self) -> dict:
         repos = self.json_store.get_all_repositories()
+        if not repos:
+            repos = [
+                repository_from_row(r) for r in self.sqlite_store.get_all_repositories()
+            ]
         errors = []
         valid = []
         for repo in repos:
@@ -128,11 +283,12 @@ class CLICommands:
             repos = self.sqlite_store.get_all_repositories()
             scored = 0
             for repo_data in repos:
-                repo = Repository.from_dict(repo_data)
+                repo = repository_from_row(repo_data)
                 score = engine.score_repository(repo)
                 repo.score = score
                 repo.health = engine.classify_health(repo)
                 self.sqlite_store.save_repository(repo)
+                self.json_store.save_repository(repo)
                 scored += 1
             return {"scored": scored}
         finally:
@@ -210,7 +366,7 @@ class CLICommands:
         repos = self.sqlite_store.get_all_repositories()
         scored = []
         for r in repos:
-            repo = Repository.from_dict(r)
+            repo = repository_from_row(r)
             if repo.score and repo.score.get("overall", 0) >= 75:
                 scored.append(repo)
         scored.sort(key=lambda r: (r.score.get("overall", 0) if r.score else 0), reverse=True)
@@ -248,6 +404,15 @@ def discover(github_token):
     """Discover awesome lists"""
     commands = CLICommands()
     result = commands.discover(github_token=github_token)
+    click.echo(json.dumps(result, indent=2))
+
+
+@cli.command()
+@click.option("--docs-dir", default="docs", help="Directory for generated docs")
+def generate(docs_dir):
+    """Generate indexes and documentation artifacts"""
+    commands = CLICommands()
+    result = commands.generate(docs_dir=docs_dir)
     click.echo(json.dumps(result, indent=2))
 
 

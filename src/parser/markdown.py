@@ -3,6 +3,7 @@ from urllib.parse import urlparse
 from typing import Optional
 
 from src.models import Repository
+from src.normalize.urls import normalize_url, repository_id_from_url
 
 _LINK_PATTERN = re.compile(
     r"\[([^\]]*)\]\(([^)]+)\)", re.IGNORECASE
@@ -159,21 +160,21 @@ def _extract_all_repositories(markdown: str) -> list[dict]:
 
     for match in _GITHUB_LINK_PATTERN.finditer(markdown):
         text = match.group(1).strip()
-        url = normalize_url(match.group(2))
-        repo_id = repository_id_from_url(url)
+        raw_url = match.group(2)
+        repo_id = repository_id_from_url(raw_url)
         if repo_id and repo_id not in seen:
             seen.add(repo_id)
             repos.append(
-                {"repo_id": repo_id, "name": text, "url": url, "source": "link"}
+                {"repo_id": repo_id, "name": text, "url": normalize_url(raw_url), "source": "link"}
             )
 
     for match in _GITHUB_RAW_PATTERN.finditer(markdown):
-        url = normalize_url(match.group(1))
-        repo_id = repository_id_from_url(url)
+        raw_url = match.group(1)
+        repo_id = repository_id_from_url(raw_url)
         if repo_id and repo_id not in seen:
             seen.add(repo_id)
             repos.append(
-                {"repo_id": repo_id, "name": url, "url": url, "source": "raw_url"}
+                {"repo_id": repo_id, "name": raw_url, "url": normalize_url(raw_url), "source": "raw_url"}
             )
 
     return repos
