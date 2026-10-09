@@ -192,6 +192,12 @@ class TestMarkdownParser:
         assert len(refs) == 1
         assert refs[0]["repo_id"] == "github:user/repo"
 
+    def test_find_repository_references_strips_fragment(self):
+        md = "[list](https://github.com/user/repo#readme) and https://github.com/user/repo"
+        refs = find_repository_references(md)
+        assert len(refs) == 1
+        assert refs[0]["repo_id"] == "github:user/repo"
+
     def test_extract_readme_quality(self):
         md = "# Title\n\nThis is a decent readme with some content here.\n\n```python\ncode\n```\n\n| a | b |\n|---|---|\n| 1 | 2 |"
         quality = extract_readme_quality(md)
@@ -226,6 +232,22 @@ class TestMarkdownParser:
         md = "- [Tokio](https://github.com/tokio-rs/tokio.git)\n"
         parsed = parse_awesome_list(md)
         assert parsed["repositories"][0]["repo_id"] == "github:tokio-rs/tokio"
+
+    def test_strips_readme_fragment(self):
+        md = "- [Node.js](https://github.com/sindresorhus/awesome-nodejs#readme)\n"
+        parsed = parse_awesome_list(md)
+        assert parsed["repositories"][0]["repo_id"] == "github:sindresorhus/awesome-nodejs"
+
+    def test_fragment_and_plain_link_dedupe(self):
+        md = (
+            "- [Node.js](https://github.com/sindresorhus/awesome-nodejs#readme)\n"
+            "- [Node.js](https://github.com/sindresorhus/awesome-nodejs)\n"
+        )
+        assert parse_awesome_list(md)["total_repositories"] == 1
+
+    def test_anchor_within_path_is_not_part_of_id(self):
+        md = "- [Anchor](https://github.com/foo/bar/tree/main/docs)\n"
+        assert parse_awesome_list(md)["repositories"][0]["repo_id"] == "github:foo/bar"
 
 
 class TestAwesomeListDetection:

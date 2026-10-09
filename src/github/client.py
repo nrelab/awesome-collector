@@ -54,25 +54,31 @@ class GitHubClient:
         self._httpx = httpx
 
     def _wait_if_needed(self) -> None:
-        now = time.monotonic()
-        self._request_timestamps = [t for t in self._request_timestamps if now - t < 3600]
-        if len(self._request_timestamps) >= self.burst_size:
-            oldest = self._request_timestamps[0]
-            wait_time = 3600 - (now - oldest) + 0.1
-            if wait_time > 0:
-                time.sleep(min(wait_time, self.max_backoff_seconds))
-                self._request_timestamps = [t for t in self._request_timestamps if time.monotonic() - t < 3600]
+        self._prune_timestamps()
+        if len(self._request_timestamps) < self.requests_per_hour:
+            self._request_timestamps.append(time.monotonic())
+            return
+        oldest = self._request_timestamps[0]
+        wait_time = 3600 - (time.monotonic() - oldest) + 0.1
+        if wait_time > 0:
+            time.sleep(min(wait_time, self.max_backoff_seconds))
+            self._prune_timestamps()
         self._request_timestamps.append(time.monotonic())
 
+    def _prune_timestamps(self) -> None:
+        cutoff = time.monotonic() - 3600
+        self._request_timestamps = [t for t in self._request_timestamps if t > cutoff]
+
     async def _await_if_needed(self) -> None:
-        now = time.monotonic()
-        self._request_timestamps = [t for t in self._request_timestamps if now - t < 3600]
-        if len(self._request_timestamps) >= self.burst_size:
-            oldest = self._request_timestamps[0]
-            wait_time = 3600 - (now - oldest) + 0.1
-            if wait_time > 0:
-                await self._httpx.sleep(min(wait_time, self.max_backoff_seconds))
-                self._request_timestamps = [t for t in self._request_timestamps if time.monotonic() - t < 3600]
+        self._prune_timestamps()
+        if len(self._request_timestamps) < self.requests_per_hour:
+            self._request_timestamps.append(time.monotonic())
+            return
+        oldest = self._request_timestamps[0]
+        wait_time = 3600 - (time.monotonic() - oldest) + 0.1
+        if wait_time > 0:
+            await self._httpx.sleep(min(wait_time, self.max_backoff_seconds))
+            self._prune_timestamps()
         self._request_timestamps.append(time.monotonic())
 
     def get(self, path: str, **kwargs) -> dict:

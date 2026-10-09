@@ -2,7 +2,6 @@ import re
 from urllib.parse import urlparse
 from typing import Optional
 
-from src.models import Repository
 from src.normalize.urls import normalize_url, repository_id_from_url
 
 _LINK_PATTERN = re.compile(
@@ -56,19 +55,10 @@ def extract_repo_info_from_link(
 
 
 def _parse_github_url(url: str) -> Optional[str]:
-    url = url.strip().rstrip("/")
-    if url.endswith(".git"):
-        url = url[:-4]
-    patterns = [
-        r"^https://github\.com/([^/]+)/([^/]+)$",
-        r"^git@github\.com:([^/]+)/([^/]+)\.git$",
-        r"^github:([^/]+)/([^/]+)$",
-    ]
-    for pattern in patterns:
-        m = re.match(pattern, url)
-        if m:
-            return f"github:{m.group(1).lower()}/{m.group(2).lower()}"
-    return None
+    url = url.strip()
+    if url.startswith("github:"):
+        return repository_id_from_url(f"https://github.com/{url[len('github:'):]}")
+    return repository_id_from_url(url)
 
 
 def find_repository_references(markdown: str) -> list[dict]:

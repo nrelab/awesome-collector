@@ -3,8 +3,6 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 from src.github.client import GitHubClient
-from src.models import Repository
-from src.normalize.urls import repository_id_from_url, normalize_url
 
 
 @dataclass
@@ -112,8 +110,19 @@ class AwesomeListDiscoverer:
             except Exception:
                 markdown = ""
 
-        parsed = parse_awesome_list(markdown or "", source_repo=f"{owner}/{repo}")
-        references = find_repository_references(markdown or "")
+        parse_awesome_list(markdown or "", source_repo=f"{owner}/{repo}")
+        self_id = f"github:{owner.lower()}/{repo.lower()}"
+        references = []
+        seen: set[str] = set()
+        for ref in find_repository_references(markdown or ""):
+            repo_id = ref["repo_id"]
+            if repo_id == self_id or repo_id in seen:
+                continue
+            seen.add(repo_id)
+            references.append(ref)
+
+        repo_ids = [ref["repo_id"] for ref in references]
+        sections = _infer_sections(markdown or "", repo_ids)
 
         results = []
         for ref in references:
@@ -123,7 +132,7 @@ class AwesomeListDiscoverer:
                 "source": "awesome-list",
                 "parent_list": f"{owner}/{repo}",
                 "repo_id": repo_id,
-                "section": _infer_section(markdown or "", repo_id),
+                "section": sections.get(repo_id, ""),
                 "repository": {
                     "name": owner_name.split("/")[-1] if "/" in owner_name else owner_name,
                     "owner": owner_name.split("/")[0],
@@ -133,15 +142,23 @@ class AwesomeListDiscoverer:
         return results
 
 
-def _infer_section(markdown: str, repo_id: str) -> str:
+def _infer_sections(markdown: str, repo_ids: list[str]) -> dict[str, str]:
     from src.parser.markdown import _SECTION_PATTERN
-    lines = markdown.split("\n")
+
+    remaining = set(repo_ids)
+    sections: dict[str, str] = {}
     current_section = ""
-    for line in lines:
+    for line in markdown.split("\n"):
         heading_match = _SECTION_PATTERN.match(line)
         if heading_match:
             current_section = heading_match.group(1).strip()
-        repo_in_line = repo_id.split("/")[-1].lower()
-        if repo_in_line in line.lower() and repo_id in line:
-            return current_section
-    return current_section
+            continue
+        if not remaining:
+            break
+        lowered = line.lower()
+        for repo_id in list(remaining):
+            name = repo_id.split("/")[-1]
+            if f"github.com/{repo_id[len('github:'):]}" in lowered or f"/{name}" in lowered:
+                sections[repo_id] = current_section
+                remaining.discard(repo_id)
+    return sections
