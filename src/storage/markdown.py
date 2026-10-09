@@ -206,7 +206,10 @@ class MarkdownRenderer:
                     continue
                 seen.add(repo.get("id"))
                 scored.append(repo)
-        scored.sort(key=lambda r: r.get("score", 0) or 0, reverse=True)
+        scored.sort(
+            key=lambda r: (r.get("score", 0) or 0, r.get("stars", 0) or 0),
+            reverse=True,
+        )
         lines.append("| Repository | Score | Stars | Category |")
         lines.append("|---|---:|---:|---|")
         for repo in scored[:50]:

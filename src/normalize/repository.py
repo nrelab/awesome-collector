@@ -1,13 +1,16 @@
-import re
 from typing import Optional
 
 from src.models import Repository
-from src.normalize.urls import normalize_url, repository_id, repository_id_from_url
+from src.normalize.urls import (
+    repository_id,
+    repository_id_from_url,
+    to_canonical_url,
+)
 
 
 def normalize_repository(repo: Repository) -> Repository:
     repo.id = repository_id(repo.owner, repo.name)
-    repo.url = normalize_url(repo.url)
+    repo.url = to_canonical_url(repo.id)
     repo.owner = repo.owner.strip().lower()
     repo.name = repo.name.strip().lower()
     return repo

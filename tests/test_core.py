@@ -2,6 +2,7 @@ import pytest
 
 from src.models import Repository
 from src.normalize.dedupe import dedupe_repositories
+from src.normalize.repository import normalize_repository
 from src.normalize.urls import (
     extract_owner_name_from_id,
     is_github_url,
@@ -115,6 +116,34 @@ class TestNormalizeURLs:
 
     def test_repository_id_from_url_keeps_repo_name(self):
         assert repository_id_from_url("https://github.com/abc/defigit") == "github:abc/defigit"
+
+
+class TestNormalizeRepository:
+    def test_keeps_a_usable_url(self):
+        repo = Repository(
+            id="placeholder", owner="WorldCoin", name="Awesome-ZkML",
+            url="https://github.com/WorldCoin/Awesome-ZkML",
+        )
+        result = normalize_repository(repo)
+        assert result.url == "https://github.com/worldcoin/awesome-zkml"
+
+    def test_rebuilds_url_from_owner_and_name(self):
+        repo = Repository(
+            id="placeholder", owner="rust-lang", name="rust",
+            url="https://example.com/not-a-github-url",
+        )
+        result = normalize_repository(repo)
+        assert result.url == "https://github.com/rust-lang/rust"
+
+    def test_canonicalizes_id_and_case(self):
+        repo = Repository(
+            id="placeholder", owner="Rust-Lang", name="Rust",
+            url="https://github.com/Rust-Lang/Rust",
+        )
+        result = normalize_repository(repo)
+        assert result.id == "github:rust-lang/rust"
+        assert result.owner == "rust-lang"
+        assert result.name == "rust"
 
 
 class TestDedup:

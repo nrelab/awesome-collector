@@ -15,6 +15,10 @@ from src.storage.markdown import MarkdownRenderer, utc_today
 _GENERATED_DOCS = ("sitemap.md", "llms.txt", "agents.md")
 
 
+def _sort_key(entry: dict) -> tuple:
+    return (entry.get("score", 0) or 0, entry.get("stars", 0) or 0)
+
+
 def _get_github_client(token: Optional[str]):
     from src.github.client import GitHubClient
     return GitHubClient(token=token) if token else None
@@ -162,7 +166,7 @@ class CLICommands:
                 })
 
         for entries in categories.values():
-            entries.sort(key=lambda r: r["score"], reverse=True)
+            entries.sort(key=_sort_key, reverse=True)
 
         total = len(repos)
         docs_path = Path(docs_dir)
