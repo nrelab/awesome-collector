@@ -30,7 +30,7 @@ jobs:
         run: |
           python -m src.main discover
 
-      - name: Recalculate categories
+      - name: Recalculate scores
         run: |
           python -m src.main score
 

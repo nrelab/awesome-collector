@@ -12,8 +12,17 @@ on:
           - all
           - ai
           - security
+          - infrastructure
+          - data
+          - web3
+          - mobile
+          - programming-languages
+          - development
           - rust
           - devops
+          - llm
+          - kubernetes
+          - docker
       mode:
         description: "Collection mode"
         required: false

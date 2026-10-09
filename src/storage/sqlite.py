@@ -44,9 +44,12 @@ class SqliteStore:
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS categories (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    name TEXT UNIQUE
+                    name TEXT UNIQUE,
+                    parent_id INTEGER REFERENCES categories(id)
                 )
             """)
+            self._ensure_category_parent_column(conn)
+
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS repository_categories (
                     repository_id TEXT,
@@ -81,6 +84,14 @@ class SqliteStore:
             """)
             conn.commit()
 
+    @staticmethod
+    def _ensure_category_parent_column(conn: sqlite3.Connection) -> None:
+        """Add ``categories.parent_id`` to databases created before it existed."""
+        columns = {row[1] for row in conn.execute("PRAGMA table_info(categories)")}
+        if "parent_id" in columns:
+            return
+        conn.execute("ALTER TABLE categories ADD COLUMN parent_id INTEGER REFERENCES categories(id)")
+
     def save_repository(self, repo: Repository) -> None:
         with self._lock, self._get_connection() as conn:
             conn.execute("""
@@ -98,20 +109,53 @@ class SqliteStore:
             ))
             conn.commit()
 
-    def save_categories(self, repo_id: str, categories: list[str]) -> None:
+    def save_categories(
+        self,
+        repo_id: str,
+        categories: list[str],
+        parents: Optional[dict[str, str]] = None,
+    ) -> None:
+        """Attach leaf categories to a repository.
+
+        ``parents`` maps a leaf name to its parent name; parents are persisted as
+        their own rows so the two-level taxonomy survives a round-trip.
+        """
+        parent_names = parents or {}
         with self._lock, self._get_connection() as conn:
+            parent_ids: dict[str, int] = {}
+            for parent_name in dict.fromkeys(parent_names.values()):
+                parent_ids[parent_name] = self._upsert_category(conn, parent_name)
+
             for cat_name in categories:
-                conn.execute(
-                    "INSERT OR IGNORE INTO categories (name) VALUES (?)", (cat_name,)
-                )
-                cat_id = conn.execute(
-                    "SELECT id FROM categories WHERE name = ?", (cat_name,)
-                ).fetchone()[0]
+                cat_id = self._upsert_category(conn, cat_name, parent_names.get(cat_name))
                 conn.execute(
                     "INSERT OR IGNORE INTO repository_categories (repository_id, category_id) VALUES (?, ?)",
                     (repo_id, cat_id),
                 )
             conn.commit()
+
+    @staticmethod
+    def _upsert_category(
+        conn: sqlite3.Connection, name: str, parent_name: Optional[str] = None
+    ) -> int:
+        parent_id = None
+        if parent_name and parent_name != name:
+            conn.execute(
+                "INSERT OR IGNORE INTO categories (name, parent_id) VALUES (?, NULL)",
+                (parent_name,),
+            )
+            parent_id = conn.execute(
+                "SELECT id FROM categories WHERE name = ?", (parent_name,)
+            ).fetchone()[0]
+
+        conn.execute(
+            "INSERT OR IGNORE INTO categories (name, parent_id) VALUES (?, ?)",
+            (name, parent_id),
+        )
+        row = conn.execute("SELECT id FROM categories WHERE name = ?", (name,)).fetchone()
+        if row is None:
+            raise ValueError(f"Failed to persist category: {name}")
+        return row[0]
 
     def save_sources(self, repo_id: str, sources: list[dict]) -> None:
         with self._lock, self._get_connection() as conn:
@@ -171,6 +215,28 @@ class SqliteStore:
         for names in categories.values():
             names.sort()
         return categories
+
+    def get_category_parents(self) -> dict[str, Optional[str]]:
+        """Map every known category name to its parent name, or ``None`` for parents."""
+        with self._get_connection() as conn:
+            rows = conn.execute("""
+                SELECT child.name, parent.name FROM categories child
+                LEFT JOIN categories parent ON child.parent_id = parent.id
+            """).fetchall()
+        return {child: parent for child, parent in rows}
+
+    def get_category_tree(self) -> dict[str, list[str]]:
+        """Return ``{parent: [leaf, ...]}`` for every category that has a parent."""
+        with self._get_connection() as conn:
+            rows = conn.execute("""
+                SELECT parent.name, child.name FROM categories child
+                JOIN categories parent ON child.parent_id = parent.id
+                ORDER BY parent.name, child.name
+            """).fetchall()
+        tree: dict[str, list[str]] = {}
+        for parent, child in rows:
+            tree.setdefault(parent, []).append(child)
+        return tree
 
     def get_all_sources(self) -> dict[str, list[dict]]:
         with self._get_connection() as conn:

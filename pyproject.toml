@@ -27,6 +27,7 @@ dev = [
     "pytest-cov>=5.0",
     "ruff>=0.4",
     "mypy>=1.8",
+    "types-PyYAML>=6.0",
 ]
 
 [project.scripts]
@@ -41,3 +42,10 @@ testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+
+[[tool.mypy.overrides]]
+module = "yaml.*"
+ignore_missing_imports = true

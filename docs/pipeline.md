@@ -19,11 +19,15 @@
                            ▼
                      Classification
                            │
-             ┌─────────────┼─────────────┐
-             ▼             ▼             ▼
-          AI/ML         Security      Developer
-             │             │             │
-             └─────────────┼─────────────┘
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+   GitHub topics    Primary language   Description/name
+        │                  │            keyword match
+        └──────────────────┼──────────────────┘
+                           ▼
+              config/categories.yml
+              (taxonomy → parent ▸ leaf)
+                           │
                            ▼
                      Quality Score
                            │

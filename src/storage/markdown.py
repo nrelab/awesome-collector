@@ -5,6 +5,19 @@ from typing import Any, Optional
 from src.models import Repository
 
 
+def _walk_leaves(leaves: dict, parent: str) -> list[tuple[str, list, str]]:
+    """Yield ``(leaf, entries, heading_level)`` for one category group.
+
+    A group whose only leaf is the parent itself (the Uncategorized bucket) has
+    no heading of its own, so it renders flat instead of repeating itself.
+    """
+    out: list[tuple[str, list, str]] = []
+    for leaf in sorted(leaves):
+        level = "" if leaf == parent else "###"
+        out.append((leaf, leaves[leaf], level))
+    return out
+
+
 class MarkdownRenderer:
     def render_report(self, date_str: str, summary: dict, sections: list[dict]) -> str:
         lines = [
@@ -26,19 +39,22 @@ class MarkdownRenderer:
 
         for section in sections:
             title = section.get("title", "Unknown")
-            repos = section.get("repositories", [])
-            if repos:
-                lines.append(f"## {title}")
-                lines.append("")
-                lines.append("| Repository | Stars | Category | Score |")
-                lines.append("|---|---:|---|---:|")
-                for repo in repos:
+            leaves = section.get("repositories", {})
+            if not isinstance(leaves, dict):
+                continue
+            if not leaves:
+                continue
+            lines.append(f"## {title}")
+            lines.append("")
+            lines.append("| Repository | Stars | Category | Score |")
+            lines.append("|---|---:|---|---:|")
+            for leaf, entries, _level in _walk_leaves(leaves, title):
+                for repo in entries:
                     name = repo.get("name", "")
                     stars = repo.get("stars", 0) or 0
-                    category = repo.get("category", "")
                     score = repo.get("score", 0) or 0
-                    lines.append(f"| {name} | {stars:,} | {category} | {score} |")
-                lines.append("")
+                    lines.append(f"| {name} | {stars:,} | {leaf} | {score} |")
+            lines.append("")
 
         return "\n".join(lines)
 
@@ -101,19 +117,21 @@ class MarkdownRenderer:
             f"- {health} - Score: {score_str}"
         )
 
-    def render_category_index(self, categories: dict[str, list[str]]) -> str:
+    def render_category_index(self, tree: dict[str, dict[str, list[str]]]) -> str:
         lines = ["# Category Index", "", ""]
-        for category, repos in categories.items():
-            lines.append(f"## {category}")
+        for parent in sorted(tree):
+            leaves = tree[parent]
+            lines.append(f"## {parent}")
             lines.append("")
-            for repo_id in repos:
-                lines.append(f"- {repo_id}")
+            for leaf, entries, _level in _walk_leaves(leaves, parent):
+                for repo_id in entries:
+                    lines.append(f"- {repo_id}")
             lines.append("")
         return "\n".join(lines)
 
     def render_sitemap(
         self,
-        categories: dict[str, list[dict]],
+        tree: dict[str, dict[str, list[dict]]],
         total: int,
         generated_at: Optional[str] = None,
     ) -> str:
@@ -123,22 +141,25 @@ class MarkdownRenderer:
             lines.append("")
         lines.append(f"Total repositories: {total}")
         lines.append("")
-        for category in sorted(categories):
-            repos = categories[category]
-            lines.append(f"## {category}")
+        for parent in sorted(tree):
+            lines.append(f"## {parent}")
             lines.append("")
-            for repo in repos:
-                name = repo.get("name", "")
-                url = repo.get("url", "")
-                stars = repo.get("stars", 0) or 0
-                score = repo.get("score", 0) or 0
-                lines.append(f"- [{name}]({url}) - {stars:,} stars - score {score}")
-            lines.append("")
+            for leaf, repos, level in _walk_leaves(tree[parent], parent):
+                if level:
+                    lines.append(f"{level} {leaf}")
+                    lines.append("")
+                for repo in repos:
+                    name = repo.get("name", "")
+                    url = repo.get("url", "")
+                    stars = repo.get("stars", 0) or 0
+                    score = repo.get("score", 0) or 0
+                    lines.append(f"- [{name}]({url}) - {stars:,} stars - score {score}")
+                lines.append("")
         return "\n".join(lines)
 
     def render_llms_txt(
         self,
-        categories: dict[str, list[dict]],
+        tree: dict[str, dict[str, list[dict]]],
         total: int,
         generated_at: Optional[str] = None,
     ) -> str:
@@ -153,26 +174,34 @@ class MarkdownRenderer:
             lines.append("")
         lines.append(f"Total repositories: {total}")
         lines.append("")
-        for category in sorted(categories):
-            repos = categories[category]
-            lines.append(f"## {category}")
+        for parent in sorted(tree):
+            lines.append(f"## {parent}")
             lines.append("")
-            for repo in repos:
-                name = repo.get("name", "")
-                url = repo.get("url", "")
-                description = (repo.get("description") or "No description").strip()
-                lines.append(f"- [{name}]({url}): {description}")
-            lines.append("")
+            for leaf, repos, level in _walk_leaves(tree[parent], parent):
+                if level:
+                    lines.append(f"{level} {leaf}")
+                    lines.append("")
+                for repo in repos:
+                    name = repo.get("name", "")
+                    url = repo.get("url", "")
+                    description = (repo.get("description") or "No description").strip()
+                    lines.append(f"- [{name}]({url}): {description}")
+                lines.append("")
         return "\n".join(lines)
 
     def render_agents_md(
         self,
-        categories: dict[str, list[dict]],
+        tree: dict[str, dict[str, list[dict]]],
         stats: Optional[dict] = None,
         total: Optional[int] = None,
     ) -> str:
         if total is None:
-            total = len({r.get("id") for repos in categories.values() for r in repos})
+            total = len({
+                r.get("id")
+                for leaves in tree.values()
+                for entries in leaves.values()
+                for r in entries
+            })
         lines = [
             "# Agent Guide",
             "",
@@ -181,7 +210,8 @@ class MarkdownRenderer:
             "## Dataset",
             "",
             f"- Total repositories: {total}",
-            f"- Categories: {len(categories)}",
+            f"- Categories: {sum(len(leaves) for leaves in tree.values())}",
+            f"- Category groups: {len(tree)}",
         ]
         if stats:
             lines.append(f"- Total stars: {stats.get('total_stars', 0):,}")
@@ -191,33 +221,41 @@ class MarkdownRenderer:
         lines.append("")
         lines.append("## Categories")
         lines.append("")
-        for category in sorted(categories):
-            count = len(categories[category])
-            label = "repository" if count == 1 else "repositories"
-            lines.append(f"- `{category}` ({count} {label})")
+        for parent in sorted(tree):
+            parent_count = sum(len(entries) for entries in tree[parent].values())
+            parent_label = "repository" if parent_count == 1 else "repositories"
+            lines.append(f"- `{parent}` ({parent_count} {parent_label})")
+            for leaf in sorted(tree[parent]):
+                if leaf == parent:
+                    continue
+                count = len(tree[parent][leaf])
+                label = "repository" if count == 1 else "repositories"
+                lines.append(f"  - `{leaf}` ({count} {label})")
         lines.append("")
         lines.append("## High-scoring repositories")
         lines.append("")
         seen: set[str] = set()
         scored: list[dict] = []
-        for category in sorted(categories):
-            for repo in categories[category]:
-                if repo.get("id") in seen:
-                    continue
-                seen.add(repo.get("id"))
-                scored.append(repo)
+        for parent in sorted(tree):
+            for leaf in sorted(tree[parent]):
+                for repo in tree[parent][leaf]:
+                    if repo.get("id") in seen:
+                        continue
+                    seen.add(repo.get("id"))
+                    scored.append(repo)
         scored.sort(
             key=lambda r: (r.get("score", 0) or 0, r.get("stars", 0) or 0),
             reverse=True,
         )
-        lines.append("| Repository | Score | Stars | Category |")
-        lines.append("|---|---:|---:|---|")
+        lines.append("| Repository | Score | Stars | Category | Group |")
+        lines.append("|---|---:|---:|---|---|")
         for repo in scored[:50]:
             name = repo.get("name", "")
             url = repo.get("url", "")
             lines.append(
                 f"| [{name}]({url}) | {repo.get('score', 0) or 0} "
-                f"| {repo.get('stars', 0) or 0:,} | {repo.get('category', '')} |"
+                f"| {repo.get('stars', 0) or 0:,} | {repo.get('category', '')} "
+                f"| {repo.get('parent', '')} |"
             )
         lines.append("")
         return "\n".join(lines)

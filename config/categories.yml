@@ -1,31 +1,38 @@
+# Category taxonomy for awesome-collector.
+#
+# taxonomy: parent -> ordered list of leaf categories (the single source of truth)
+# keywords: leaf category -> phrases matched against repo description/name/topics
+# topics:   leaf category -> exact GitHub topic names
+#
+# Every leaf listed under `taxonomy` is the only kind of value the pipeline writes
+# to the `categories` table; its parent is stored alongside it. Keywords and topics
+# resolve to leaves, never to parents, so the DB only ever contains taxonomy names.
+
 taxonomy:
   AI:
     - LLM
     - Agents
     - RAG
-    - ML
-    - "Computer Vision"
+    - Machine Learning
+    - Computer Vision
     - NLP
     - Audio
     - Robotics
   Security:
     - AppSec
-    - "Cloud Security"
+    - Cloud Security
     - Pentesting
     - Malware
-    - "Threat Intelligence"
+    - Threat Intelligence
     - DFIR
-    - "Detection Engineering"
-    - "Supply Chain"
+    - Detection Engineering
+    - Supply Chain
+    - Cryptography
   Development:
-    - Rust
-    - TypeScript
-    - Python
-    - Go
     - CLI
-    - "Web Development"
-    - "Mobile Development"
-    - "Game Development"
+    - Web Development
+    - Mobile Development
+    - Game Development
   Infrastructure:
     - Kubernetes
     - Docker
@@ -33,32 +40,25 @@ taxonomy:
     - Cloud
     - DevOps
     - Terraform
-    - "CI/CD"
+    - CI/CD
     - Observability
+    - Monitoring
+    - Logging
   Data:
     - Databases
     - Search
-    - "Data Engineering"
-    - Observability
-    - "Machine Learning"
+    - Data Engineering
     - Analytics
   Web3:
     - Blockchain
     - DeFi
     - NFT
-    - "Smart Contracts"
+    - Smart Contracts
   Mobile:
     - iOS
     - Android
     - Cross-Platform
-  DevOps:
-    - "CI/CD"
-    - Kubernetes
-    - Docker
-    - Terraform
-    - Monitoring
-    - Logging
-  Programming:
+  Programming Languages:
     - Python
     - Rust
     - Go
@@ -67,71 +67,541 @@ taxonomy:
     - Java
     - C
     - C++
+    - C#
     - Swift
     - Kotlin
+    - Ruby
 
 keywords:
-  AI/ML:
-    - artificial intelligence
+  LLM:
+    - llm
+    - large language model
+    - gpt
+    - prompt
+    - fine-tuning
+    - inference
+  Agents:
+    - agent
+    - multi-agent
+    - autonomous agent
+    - agentic
+  RAG:
+    - rag
+    - retrieval augmented
+    - vector search
+    - embedding
+    - embeddings
+  Machine Learning:
     - machine learning
     - deep learning
-    - llm
-    - "large language model"
-    - gpt
-    - transformer
+    - artificial intelligence
+    - ai/ml
     - neural
-    - rag
-    - agent
-    - embedding
-  Security:
+    - transformer
+    - training
+    - model serving
+  Computer Vision:
+    - computer vision
+    - image recognition
+    - object detection
+    - ocr
+  NLP:
+    - natural language processing
+    - nlp
+    - text classification
+    - tokenization
+  Audio:
+    - speech recognition
+    - text-to-speech
+    - voice
+    - audio
+  Robotics:
+    - robotics
+    - robot
+    - embedded ai
+  AppSec:
+    - application security
+    - appsec
     - security
-    - vulnerability
-    - pentest
-    - exploit
-    - cve
-    - "threat intelligence"
-    - malware
-    - cryptography
-    - "app sec"
+    - secure coding
     - owasp
-  DevOps:
-    - docker
+    - sast
+    - dast
+  Cloud Security:
+    - cloud security
+    - cloud posture
+    - container security
+    - kubernetes security
+  Pentesting:
+    - pentest
+    - penetration testing
+    - red team
+    - exploit
+    - vulnerability scanner
+    - cve
+  Malware:
+    - malware
+    - ransomware
+    - reverse engineering
+    - anti-virus
+  Threat Intelligence:
+    - threat intelligence
+    - threat hunting
+    - indicator of compromise
+    - ioc
+    - attack
+  DFIR:
+    - digital forensics
+    - incident response
+    - forensics
+  Detection Engineering:
+    - detection engineering
+    - detection logic
+    - sigma
+    - siem
+  Supply Chain:
+    - supply chain
+    - dependency scanning
+    - sbom
+    - provenance
+  Cryptography:
+    - cryptography
+    - encryption
+    - tls
+    - secrets management
+  CLI:
+    - cli tool
+    - command line
+    - terminal
+    - tui
+    - shell
+  Web Development:
+    - web development
+    - frontend
+    - backend
+    - fullstack
+    - react
+    - vue
+    - next.js
+    - css framework
+  Mobile Development:
+    - mobile development
+    - mobile
+    - ios app
+    - android app
+    - cross-platform app
+  Game Development:
+    - game development
+    - game engine
+    - gamedev
+    - opengl
+  Kubernetes:
     - kubernetes
     - k8s
-    - terraform
+    - kubectl
     - helm
+    - istio
+  Docker:
+    - docker
+    - containerd
+    - podman
+    - container image
+    - oci
+  Linux:
+    - linux
+    - kernel
+    - systemd
+    - distribution
+    - debian
+    - ubuntu
+  Cloud:
+    - cloud
+    - aws
+    - azure
+    - gcp
+    - multi-cloud
+  DevOps:
+    - devops
+    - platform engineering
+    - infrastructure
+    - infrastructure as code
+    - sre
+    - "运维"
+  Terraform:
+    - terraform
+    - pulumi
+    - cloudformation
+    - "infrastructure as code"
+  CI/CD:
     - ci/cd
-    - "continuous integration"
-    - "continuous deployment"
-    -运维
-    - "cloud native"
-  Data:
+    - continuous integration
+    - continuous delivery
+    - continuous deployment
+    - pipeline
+  Observability:
+    - observability
+    - telemetry
+    - tracing
+    - opentelemetry
+    - metrics
+  Monitoring:
+    - monitoring
+    - alerting
+    - uptime
+    - prometheus
+    - grafana
+  Logging:
+    - logging
+    - log aggregation
+    - centralized logging
+    - loki
+  Databases:
     - database
     - sql
     - nosql
+    - postgres
+    - mysql
+    - sqlite
+    - key-value store
+  Search:
+    - search engine
+    - search
+    - indexing
+    - full-text search
     - elasticsearch
+  Data Engineering:
+    - data engineering
+    - data pipeline
+    - etl
+    - streaming
     - kafka
-    - "data engineering"
+    - spark
+  Analytics:
     - analytics
-    - "data science"
-    - "big data"
-  Development:
-    - "web development"
-    - "frontend"
-    - "backend"
-    - api
-    - framework
-    - "cli tool"
-    - "command line"
-    - sdk
-  Programming Languages:
+    - data science
+    - big data
+    - data warehouse
+    - bi
+  Blockchain:
+    - blockchain
+    - cryptocurrency
+    - bitcoin
+    - ethereum
+    - web3
+  DeFi:
+    - defi
+    - decentralized finance
+    - yield farming
+    - liquidity pool
+  NFT:
+    - nft
+    - non-fungible token
+  Smart Contracts:
+    - smart contract
+    - solidity
+    - evm
+    - dao
+  iOS:
+    - ios
+    - swiftui
+    - uikit
+    - xcode
+  Android:
+    - android
+    - jetpack compose
+    - gradle
+  Cross-Platform:
+    - flutter
+    - react native
+    - ionic
+    - expo
+  Python:
     - python
+    - django
+    - flask
+    - fastapi
+    - asyncio
+  Rust:
     - rust
-    - go
-    - javascript
+    - cargo
+    - tokio
+    - wasm
+  Go:
+    - golang
+    - "go toolkit"
+    - grpc
+  TypeScript:
     - typescript
+    - deno
+    - bun
+  JavaScript:
+    - javascript
+    - node.js
+    - nodejs
+    - npm package
+  Java:
     - java
+    - spring boot
+    - jvm
+  C:
+    - c programming
+    - embedded c
+    - systems programming
+  C++:
     - "c++"
-    - ruby
+    - boost
+    - cmake
+  C#:
+    - "c#"
+    - dotnet
+    - ".net"
+    - unity
+  Swift:
     - swift
+    - swift package manager
+  Kotlin:
     - kotlin
+    - android jetpack
+  Ruby:
+    - ruby
+    - rails
+    - gem
+
+topics:
+  LLM:
+    - llm
+    - gpt
+    - large-language-models
+    - prompt-engineering
+  Agents:
+    - ai-agents
+    - agentic-ai
+    - multi-agent-systems
+  RAG:
+    - rag
+    - retrieval-augmented-generation
+    - vector-database
+    - embeddings
+  Machine Learning:
+    - machine-learning
+    - deep-learning
+    - neural-networks
+    - pytorch
+    - tensorflow
+  Computer Vision:
+    - computer-vision
+    - object-detection
+    - image-recognition
+  NLP:
+    - nlp
+    - natural-language-processing
+    - text-generation
+  Audio:
+    - speech-recognition
+    - text-to-speech
+    - asr
+    - tts
+  Robotics:
+    - robotics
+    - ros
+  AppSec:
+    - appsec
+    - application-security
+    - owasp
+    - sast
+    - devsecops
+  Cloud Security:
+    - cloud-security
+    - container-security
+  Pentesting:
+    - pentesting
+    - penetration-testing
+    - exploit
+    - vulnerability
+    - red-team
+  Malware:
+    - malware-analysis
+    - reverse-engineering
+    - ransomware
+  Threat Intelligence:
+    - threat-intelligence
+    - threat-hunting
+    - ioc
+  DFIR:
+    - digital-forensics
+    - incident-response
+  Detection Engineering:
+    - detection-engineering
+    - siem
+    - sigma
+  Supply Chain:
+    - supply-chain-security
+    - sbom
+    - dependency-scanning
+  Cryptography:
+    - cryptography
+    - encryption
+    - secrets-management
+  CLI:
+    - cli
+    - command-line
+    - terminal
+    - tui
+  Web Development:
+    - web-development
+    - frontend
+    - backend
+    - react
+    - vue
+    - nextjs
+  Mobile Development:
+    - mobile-development
+    - cross-platform
+  Game Development:
+    - game-development
+    - game-engine
+    - gamedev
+  Kubernetes:
+    - kubernetes
+    - k8s
+    - helm
+    - istio
+  Docker:
+    - docker
+    - containers
+    - oci
+    - podman
+  Linux:
+    - linux
+    - kernel
+    - systemd
+  Cloud:
+    - cloud
+    - aws
+    - azure
+    - gcp
+  DevOps:
+    - devops
+    - platform-engineering
+    - sre
+    - gitops
+  Terraform:
+    - terraform
+    - pulumi
+    - infrastructure-as-code
+  CI/CD:
+    - ci-cd
+    - continuous-integration
+    - github-actions
+    - pipeline
+  Observability:
+    - observability
+    - opentelemetry
+    - tracing
+    - telemetry
+  Monitoring:
+    - monitoring
+    - prometheus
+    - grafana
+    - alerting
+  Logging:
+    - logging
+    - loki
+    - log-management
+  Databases:
+    - database
+    - sql
+    - nosql
+    - postgres
+    - mysql
+    - sqlite
+  Search:
+    - search-engine
+    - search
+    - full-text-search
+    - indexing
+  Data Engineering:
+    - data-engineering
+    - data-pipeline
+    - etl
+    - kafka
+    - spark
+    - streaming
+  Analytics:
+    - analytics
+    - data-science
+    - big-data
+    - data-warehouse
+  Blockchain:
+    - blockchain
+    - ethereum
+    - bitcoin
+    - cryptocurrency
+  DeFi:
+    - defi
+    - decentralized-finance
+  NFT:
+    - nft
+  Smart Contracts:
+    - smart-contracts
+    - solidity
+    - evm
+  iOS:
+    - ios
+    - swiftui
+    - swift
+  Android:
+    - android
+    - kotlin
+    - jetpack-compose
+  Cross-Platform:
+    - flutter
+    - react-native
+    - expo
+  Python:
+    - python
+    - django
+    - flask
+    - fastapi
+    - asyncio
+  Rust:
+    - rust
+    - cargo
+    - tokio
+    - webassembly
+  Go:
+    - go
+    - golang
+    - grpc-go
+  TypeScript:
+    - typescript
+    - deno
+  JavaScript:
+    - javascript
+    - nodejs
+    - node
+  Java:
+    - java
+    - spring-boot
+    - jvm
+  C:
+    - c
+    - embedded-systems
+  C++:
+    - c-plus-plus
+    - cpp
+    - boost
+  C#:
+    - c-sharp
+    - dotnet
+    - unity
+  Swift:
+    - swift
+    - swift-package-manager
+  Kotlin:
+    - kotlin
+    - android-development
+  Ruby:
+    - ruby
+    - rails
+    - ruby-on-rails

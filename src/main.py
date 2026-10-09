@@ -1,18 +1,26 @@
 import json
+import os
 import click
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
+from src.config import load_categories
 from src.normalize.urls import repository_from_row
 from src.normalize.repository import normalize_repository, create_repository_from_api
 from src.normalize.dedupe import dedupe_repositories
+from src.parser.categories import (
+    category_parents,
+    classify_repository,
+    section_to_category,
+)
 from src.storage.json_store import JsonStore, utc_now_iso
 from src.storage.sqlite import SqliteStore
 from src.storage.markdown import MarkdownRenderer, utc_today
 
 
 _GENERATED_DOCS = ("sitemap.md", "llms.txt", "agents.md")
+UNCATEGORIZED = "Uncategorized"
 
 
 def _sort_key(entry: dict) -> tuple:
@@ -21,7 +29,11 @@ def _sort_key(entry: dict) -> tuple:
 
 def _get_github_client(token: Optional[str]):
     from src.github.client import GitHubClient
-    return GitHubClient(token=token) if token else None
+    if token:
+        return GitHubClient(token=token)
+    if os.environ.get("GITHUB_TOKEN"):
+        return GitHubClient(token=os.environ["GITHUB_TOKEN"])
+    return None
 
 
 class CLICommands:
@@ -31,6 +43,101 @@ class CLICommands:
         self.json_store = JsonStore(data_dir)
         self.sqlite_store = SqliteStore(f"{data_dir}/database/awesome.sqlite")
         self.renderer = MarkdownRenderer()
+        self._taxonomy = None
+
+    @property
+    def taxonomy(self):
+        """The category taxonomy, loaded lazily so commands that never
+        categorize still run without ``config/categories.yml`` on disk."""
+        if self._taxonomy is None:
+            self._taxonomy = load_categories(self.config_dir)
+        return self._taxonomy
+
+    def _persist_categories(self, repo, categories: list[str]) -> None:
+        if not categories:
+            return
+        self.sqlite_store.save_categories(
+            repo.id, categories, category_parents(categories, self.taxonomy)
+        )
+
+    def collect_from_list(
+        self,
+        owner: str,
+        repo: str,
+        github_token: Optional[str] = None,
+        dry_run: bool = False,
+    ) -> dict:
+        from src.discovery.awesome_lists import AwesomeListDiscoverer
+
+        client = _get_github_client(github_token)
+        collected_at = utc_now_iso()
+        try:
+            if client is None:
+                return {
+                    "source": f"{owner}/{repo}",
+                    "collected": 0,
+                    "error": "GITHUB_TOKEN is required to fetch repository metadata",
+                }
+            discoverer = AwesomeListDiscoverer(client)
+            references = discoverer.discover_from_awesome_list(owner, repo)
+
+            raw_repos = []
+            for ref in references:
+                repo_data = ref.get("repository", {})
+                enriched = self._enrich(client, repo_data)
+                item = normalize_repository(
+                    create_repository_from_api(enriched, collected_at)
+                )
+                item.sources = [{
+                    "repository": f"github:{owner}/{repo}",
+                    "section": ref.get("section", ""),
+                }]
+                section = section_to_category(ref.get("section", ""), self.taxonomy)
+                categories = list(self.taxonomy.filter_leaves(
+                    [section] if section else []
+                ))
+                for name in classify_repository(item, self.taxonomy):
+                    if name not in categories:
+                        categories.append(name)
+                item.awesome = {
+                    "is_awesome_list": True,
+                    "categories": categories,
+                }
+                raw_repos.append(item)
+
+            deduped, duplicates = dedupe_repositories(raw_repos)
+            if not dry_run:
+                for item in deduped:
+                    self.json_store.save_repository(item)
+                    self.sqlite_store.save_repository(item)
+                    categories = (item.awesome or {}).get("categories") or []
+                    self._persist_categories(item, categories)
+                    if item.sources:
+                        self.sqlite_store.save_sources(item.id, item.sources)
+
+            return {
+                "source": f"{owner}/{repo}",
+                "collected": len(deduped),
+                "duplicates_merged": len(duplicates),
+                "categorized": sum(
+                    1 for item in deduped
+                    if ((item.awesome or {}).get("categories") or [])
+                ),
+                "collected_at": collected_at,
+                "dry_run": dry_run,
+            }
+        finally:
+            if client:
+                client.close()
+
+    @staticmethod
+    def _enrich(client, repo_data: dict) -> dict:
+        from src.discovery.github_search import GithubSearcher
+        data = dict(repo_data)
+        owner = data.get("owner")
+        if isinstance(owner, str):
+            data["owner"] = {"login": owner}
+        return GithubSearcher(client).enrich_repository_data(data)
 
     def collect(
         self,
@@ -48,13 +155,15 @@ class CLICommands:
 
             raw_repos = []
             for result in results:
-                repo_data = result.get("repository", {})
+                repo_data = self._enrich(client, result.get("repository", {}))
                 repo = create_repository_from_api(repo_data, collected_at)
                 repo = normalize_repository(repo)
                 raw_repos.append(repo)
 
             deduped, duplicates = dedupe_repositories(raw_repos)
+            wanted = self._resolve_category_filter(category)
 
+            categorized = 0
             for repo in deduped:
                 for dup in duplicates:
                     if dup.primary.id == repo.id:
@@ -62,18 +171,16 @@ class CLICommands:
                             for s in d.sources:
                                 repo.sources.append(s)
 
-                if repo.sources and not repo.awesome:
-                    repo.awesome = {"is_awesome_list": False}
+                repo.awesome = repo.awesome or {"is_awesome_list": False}
+                categories = classify_repository(repo, self.taxonomy)
+                if categories:
+                    categorized += 1
+                repo.awesome["categories"] = categories
 
-                if not dry_run:
+                if not dry_run and (wanted is None or self._matches(repo, wanted)):
                     self.json_store.save_repository(repo)
                     self.sqlite_store.save_repository(repo)
-
-                    categories = []
-                    if repo.awesome and repo.awesome.get("categories"):
-                        categories = repo.awesome["categories"]
-                    if categories:
-                        self.sqlite_store.save_categories(repo.id, categories)
+                    self._persist_categories(repo, categories)
                     if repo.sources:
                         self.sqlite_store.save_sources(repo.id, repo.sources)
 
@@ -81,6 +188,7 @@ class CLICommands:
                 "collected": len(deduped),
                 "duplicates_merged": len(duplicates),
                 "new": len(deduped),
+                "categorized": categorized,
                 "collected_at": collected_at,
                 "category": category,
                 "dry_run": dry_run,
@@ -88,6 +196,24 @@ class CLICommands:
         finally:
             if client:
                 client.close()
+
+    def _resolve_category_filter(self, category: Optional[str]) -> Optional[set[str]]:
+        """Turn a ``--category`` value into the set of leaves it selects."""
+        if not category or category.lower() == "all":
+            return None
+        name = category.strip()
+        taxonomy = self.taxonomy
+        if taxonomy.has(name):
+            return {name}
+        if name in taxonomy.parents:
+            return {leaf for leaf, parent in taxonomy.leaf_parent.items() if parent == name}
+        return {leaf for leaf in taxonomy.leaves if leaf.lower() == name.lower()}
+
+    @staticmethod
+    def _matches(repo, wanted: Optional[set[str]]) -> bool:
+        if wanted is None:
+            return True
+        return bool(wanted & set((repo.awesome or {}).get("categories") or []))
 
     def discover(self, github_token: Optional[str] = None) -> dict:
         from src.discovery import DiscoveryEngine
@@ -145,15 +271,18 @@ class CLICommands:
         if not repos:
             repos = [r.to_dict() for r in self.json_store.get_all_repositories()]
         category_map = self.sqlite_store.get_all_categories()
+        parent_map = self.sqlite_store.get_category_parents()
 
         generated_at = utc_now_iso()
-        categories: dict[str, list[dict]] = {}
+        tree: dict[str, dict[str, list[dict]]] = {}
         for repo in repos:
             names = category_map.get(repo["id"], [])
             if not names:
-                names = ["Uncategorized"]
+                names = [UNCATEGORIZED]
             for name in names:
-                categories.setdefault(name, []).append({
+                parent = parent_map.get(name) or UNCATEGORIZED
+                leaf = UNCATEGORIZED if name == UNCATEGORIZED else name
+                tree.setdefault(parent, {}).setdefault(leaf, []).append({
                     "id": repo["id"],
                     "name": f"{repo['owner']}/{repo['name']}",
                     "url": repo["url"],
@@ -163,11 +292,14 @@ class CLICommands:
                     "score": repo.get("score_overall") or 0,
                     "health": repo.get("health_status", "UNKNOWN"),
                     "category": name,
+                    "parent": parent,
                 })
 
-        for entries in categories.values():
-            entries.sort(key=_sort_key, reverse=True)
+        for leaves in tree.values():
+            for entries in leaves.values():
+                entries.sort(key=_sort_key, reverse=True)
 
+        leaf_names = {leaf for leaves in tree.values() for leaf in leaves}
         total = len(repos)
         docs_path = Path(docs_dir)
         docs_path.mkdir(parents=True, exist_ok=True)
@@ -184,9 +316,9 @@ class CLICommands:
 
         stats = self.sqlite_store.get_stats()
 
-        sitemap = self.renderer.render_sitemap(categories, total, generated_at)
-        llms_txt = self.renderer.render_llms_txt(categories, total, generated_at)
-        agents_md = self.renderer.render_agents_md(categories, stats, total)
+        sitemap = self.renderer.render_sitemap(tree, total, generated_at)
+        llms_txt = self.renderer.render_llms_txt(tree, total, generated_at)
+        agents_md = self.renderer.render_agents_md(tree, stats, total)
 
         with open(docs_path / "sitemap.md", "w", encoding="utf-8") as f:
             f.write(sitemap)
@@ -195,14 +327,17 @@ class CLICommands:
         with open(docs_path / "agents.md", "w", encoding="utf-8") as f:
             f.write(agents_md)
 
-        category_index = {
-            name: [entry["id"] for entry in entries]
-            for name, entries in categories.items()
-        }
         self.json_store.save_index({
             "last_updated": generated_at,
             "total": total,
-            "categories": category_index,
+            "categories": {
+                parent: [entry["id"] for entries in leaves.values() for entry in entries]
+                for parent, leaves in tree.items()
+            },
+            "category_tree": {
+                parent: {leaf: [e["id"] for e in entries] for leaf, entries in leaves.items()}
+                for parent, leaves in tree.items()
+            },
             "repositories": [
                 {
                     "id": r["id"],
@@ -219,10 +354,10 @@ class CLICommands:
         snapshot = {
             "date": utc_today(),
             "generated_at": generated_at,
-            "summary": {"total": total, "categories": len(categories)},
+            "summary": {"total": total, "categories": len(leaf_names), "parents": len(tree)},
             "sections": [
-                {"title": name, "repositories": categories[name]}
-                for name in sorted(categories)
+                {"title": parent, "category": parent, "repositories": leaves}
+                for parent, leaves in sorted(tree.items())
             ],
             "repositories": repos,
         }
@@ -231,7 +366,8 @@ class CLICommands:
         return {
             "generated_at": generated_at,
             "repositories": total,
-            "categories": len(categories),
+            "categories": len(leaf_names),
+            "category_parents": len(tree),
             "files": [
                 f"{docs_path}/sitemap.md",
                 f"{docs_path}/llms.txt",
@@ -392,7 +528,11 @@ def cli():
 
 
 @cli.command()
-@click.option("--category", default=None, help="Filter by category")
+@click.option(
+    "--category",
+    default=None,
+    help="Only collect repositories in this category (taxonomy leaf or parent name)",
+)
 @click.option("--github-token", envvar="GITHUB_TOKEN", default=None)
 @click.option("--dry-run", is_flag=True, help="Preview without saving")
 def collect(category, github_token, dry_run):
@@ -408,6 +548,20 @@ def discover(github_token):
     """Discover awesome lists"""
     commands = CLICommands()
     result = commands.discover(github_token=github_token)
+    click.echo(json.dumps(result, indent=2))
+
+
+@cli.command()
+@click.argument("owner")
+@click.argument("repo")
+@click.option("--github-token", envvar="GITHUB_TOKEN", default=None)
+@click.option("--dry-run", is_flag=True, help="Preview without saving")
+def collect_from(owner, repo, github_token, dry_run):
+    """Collect repositories referenced by one awesome list"""
+    commands = CLICommands()
+    result = commands.collect_from_list(
+        owner=owner, repo=repo, github_token=github_token, dry_run=dry_run
+    )
     click.echo(json.dumps(result, indent=2))
 
 

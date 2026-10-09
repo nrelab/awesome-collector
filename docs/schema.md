@@ -19,7 +19,7 @@
   "archived": false,
   "awesome": {
     "is_awesome_list": true,
-    "categories": ["security", "tools", "resources"]
+    "categories": ["AppSec", "Threat Intelligence", "Pentesting"]
   },
   "sources": [
     { "repository": "github:someone/awesome-security", "section": "Security Tools" }
@@ -55,7 +55,8 @@ CREATE TABLE repositories (
 
 CREATE TABLE categories (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT UNIQUE
+    name TEXT UNIQUE,
+    parent_id INTEGER REFERENCES categories(id)
 );
 
 CREATE TABLE repository_categories (
@@ -107,6 +108,37 @@ CREATE TABLE daily_metrics (
   "timestamp": "2026-09-15T02:30:00Z"
 }
 ```
+
+## Category Taxonomy
+
+Categories are a two-level tree defined in `config/categories.yml`, which is the
+single source of truth. Nothing else in the pipeline may invent a category name.
+
+```yaml
+taxonomy:          # parent -> ordered leaves
+  AI:
+    - LLM
+    - Agents
+    - RAG
+keywords:          # leaf -> phrases matched against description/name/topics
+  LLM:
+    - llm
+    - large language model
+topics:            # leaf -> exact GitHub topic names
+  LLM:
+    - llm
+    - prompt-engineering
+```
+
+Rules:
+
+- Only names listed under `taxonomy` are ever written to the `categories` table.
+- Parents are stored as their own rows; a leaf points at its parent via `parent_id`.
+- `keywords` and `topics` must name declared leaves — the loader rejects anything else.
+- A repository may hold several leaves, capped at 5, ranked strongest signal first
+  (topics → language → keyword text).
+- Repositories that match nothing are grouped under `Uncategorized`, which is a
+  display-only bucket and is not part of the taxonomy.
 
 ## Scoring Model
 

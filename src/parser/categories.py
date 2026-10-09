@@ -1,6 +1,7 @@
 import re
 from typing import Optional
 
+from src.config import CategoryTaxonomy
 from src.models import Repository
 from src.normalize.urls import normalize_url
 
@@ -121,3 +122,132 @@ def categorize_by_topics(repo: Repository, topic_map: dict) -> list[str]:
                     matched.append(category)
                 break
     return matched
+
+
+_LANGUAGE_CATEGORIES = {
+    "python": "Python",
+    "rust": "Rust",
+    "go": "Go",
+    "javascript": "JavaScript",
+    "typescript": "TypeScript",
+    "java": "Java",
+    "c++": "C++",
+    "cpp": "C++",
+    "c#": "C#",
+    "csharp": "C#",
+    "c": "C",
+    "swift": "Swift",
+    "kotlin": "Kotlin",
+    "ruby": "Ruby",
+    "shell": "CLI",
+    "html": "Web Development",
+}
+
+_EMOJI_PATTERN = re.compile(
+    "["
+    "\U0001F000-\U0001FAFF"
+    "\u2190-\u21FF"
+    "\u2300-\u27BF"
+    "\u2B00-\u2BFF"
+    "\uFE0F"
+    "\u200D"
+    "]+"
+)
+_NOISE_PATTERN = re.compile(r"[\[\](){}*_`#•·|]+")
+_WHITESPACE_PATTERN = re.compile(r"\s+")
+_WORD_BOUNDARY = r"(?<![a-z0-9]){}(?![a-z0-9])"
+
+
+def normalize_section_name(section: str) -> str:
+    """Reduce an awesome-list heading to a bare title.
+
+    Strips emoji, bracketed decoration, badges, and collapsed whitespace so that
+    headings like ``"## [awesome] Security 🔐 Tools"`` compare cleanly against
+    taxonomy names.
+    """
+    text = _NOISE_PATTERN.sub(" ", section or "")
+    text = _EMOJI_PATTERN.sub(" ", text)
+    text = _WHITESPACE_PATTERN.sub(" ", text).strip()
+    text = text.strip("-–—:|,")
+    return text.strip()
+
+
+def _keyword_matcher(keyword: str) -> re.Pattern:
+    escaped = re.escape(keyword)
+    if keyword.isascii():
+        escaped = _WORD_BOUNDARY.format(escaped)
+    return re.compile(escaped, re.IGNORECASE)
+
+
+def _matched_categories(text: str, index: dict[str, list[str]]) -> list[str]:
+    if not text.strip():
+        return []
+    matched = []
+    for category, keywords in index.items():
+        for keyword in keywords:
+            if _keyword_matcher(keyword).search(text):
+                matched.append(category)
+                break
+    return matched
+
+
+def section_to_category(section: str, taxonomy: CategoryTaxonomy) -> Optional[str]:
+    """Map an awesome-list heading onto a taxonomy leaf.
+
+    Returns ``None`` when the heading cannot be resolved, so callers can drop
+    unrecognised headings instead of polluting the category table.
+    """
+    title = normalize_section_name(section)
+    if not title:
+        return None
+
+    lookup = {leaf.lower(): leaf for leaf in taxonomy.leaves}
+    if title.lower() in lookup:
+        return lookup[title.lower()]
+
+    index = taxonomy.keyword_map()
+    if title in taxonomy.parents:
+        index = {
+            leaf: keywords
+            for leaf, keywords in index.items()
+            if taxonomy.parent_of(leaf) == title
+        }
+
+    matches = _matched_categories(title, index)
+    return matches[0] if matches else None
+
+
+def classify_repository(
+    repo: Repository, taxonomy: CategoryTaxonomy, max_categories: int = 5
+) -> list[str]:
+    """Assign taxonomy leaves to a repository.
+
+    Signals are gathered strongest-first — explicit GitHub topics, then the
+    primary language, then free-text keyword matches — so that when the result
+    is truncated the surviving categories are the most reliable ones. Every
+    returned value is guaranteed to be a declared leaf in ``taxonomy``.
+    """
+    ranked: list[str] = []
+
+    def add(names: list[str]) -> None:
+        for name in taxonomy.filter_leaves(names):
+            if name not in ranked:
+                ranked.append(name)
+
+    add(categorize_by_topics(repo, taxonomy.topic_map()))
+
+    language = (repo.language or "").strip().lower()
+    if language in _LANGUAGE_CATEGORIES:
+        add([_LANGUAGE_CATEGORIES[language]])
+
+    text = " ".join(
+        [repo.description or "", " ".join(repo.topics or []), repo.name or ""]
+    )
+    add(_matched_categories(text, taxonomy.keyword_map()))
+
+    return ranked[:max_categories]
+
+
+def category_parents(categories: list[str], taxonomy: CategoryTaxonomy) -> dict[str, str]:
+    """Map each leaf name in ``categories`` to its parent name."""
+    return {name: taxonomy.leaf_parent[name] for name in categories if taxonomy.has(name)}

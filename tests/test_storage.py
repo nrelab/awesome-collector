@@ -161,11 +161,26 @@ class TestMarkdownRenderer:
         renderer = MarkdownRenderer()
         sections = [{
             "title": "Security",
-            "repositories": [{"name": "test/repo", "stars": 100, "category": "Security", "score": 90}],
+            "category": "Security",
+            "repositories": {
+                "AppSec": [
+                    {"name": "test/repo", "stars": 100, "category": "AppSec",
+                     "parent": "Security", "score": 90},
+                ],
+            },
         }]
         report = renderer.render_report("2026-09-15", {"total": 10}, sections)
         assert "Security" in report
         assert "test/repo" in report
+
+    def test_render_report_skips_legacy_flat_sections(self):
+        renderer = MarkdownRenderer()
+        sections = [{
+            "title": "Security",
+            "repositories": [{"name": "test/repo", "stars": 100, "score": 90}],
+        }]
+        report = renderer.render_report("2026-09-15", {"total": 10}, sections)
+        assert "Security" not in report
 
     def test_render_daily_diff(self):
         renderer = MarkdownRenderer()
@@ -234,20 +249,89 @@ class TestSqliteStoreLookups:
         assert [r["id"] for r in self.store.get_by_category("Security")] == ["github:nocat/repo"]
 
 
+class TestCategoryHierarchy:
+    def setup_method(self):
+        self.tmp = tempfile.mkdtemp()
+        self.store = SqliteStore(f"{self.tmp}/db/awesome.sqlite")
+        self.store.save_repository(
+            Repository(id="github:a/b", owner="a", name="b",
+                       url="https://github.com/a/b")
+        )
+
+    def test_saves_leaf_with_parent(self):
+        self.store.save_categories("github:a/b", ["LLM"], {"LLM": "AI"})
+        parents = self.store.get_category_parents()
+        assert parents["LLM"] == "AI"
+        assert parents["AI"] is None
+
+    def test_get_category_tree(self):
+        self.store.save_categories(
+            "github:a/b", ["LLM", "Agents", "Rust"], {"LLM": "AI", "Agents": "AI", "Rust": "Programming Languages"}
+        )
+        tree = self.store.get_category_tree()
+        assert tree["AI"] == ["Agents", "LLM"]
+        assert tree["Programming Languages"] == ["Rust"]
+
+    def test_categories_without_parent_still_save(self):
+        self.store.save_categories("github:a/b", ["AI"])
+        assert self.store.get_category_parents()["AI"] is None
+        assert len(self.store.get_by_category("AI")) == 1
+
+    def test_parent_is_shared_across_repositories(self):
+        self.store.save_repository(
+            Repository(id="github:a/c", owner="a", name="c", url="https://github.com/a/c")
+        )
+        self.store.save_categories("github:a/b", ["LLM"], {"LLM": "AI"})
+        self.store.save_categories("github:a/c", ["Agents"], {"Agents": "AI"})
+        assert self.store.get_by_category("LLM")[0]["id"] == "github:a/b"
+        assert self.store.get_by_category("Agents")[0]["id"] == "github:a/c"
+        assert self.store.get_category_parents()["AI"] is None
+
+    def test_upsert_does_not_orphan_an_existing_leaf(self):
+        self.store.save_categories("github:a/b", ["LLM"], {"LLM": "AI"})
+        self.store.save_categories("github:a/b", ["LLM"])
+        assert self.store.get_category_parents()["LLM"] == "AI"
+
+    def test_migration_adds_parent_id_to_legacy_database(self):
+        legacy = os.path.join(self.tmp, "legacy.sqlite")
+        import sqlite3
+
+        conn = sqlite3.connect(legacy)
+        conn.execute("CREATE TABLE categories (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT UNIQUE)")
+        conn.execute("INSERT INTO categories (name) VALUES ('LLM')")
+        conn.commit()
+        conn.close()
+
+        migrated = SqliteStore(legacy)
+        columns = {
+            row[1]
+            for row in migrated._get_connection().execute("PRAGMA table_info(categories)")
+        }
+        assert "parent_id" in columns
+        assert migrated.get_category_parents() == {"LLM": None}
+
+
 class TestDocRenderers:
     def setup_method(self):
         self.renderer = MarkdownRenderer()
         self.categories = {
-            "AI": [
-                {"id": "github:a/b", "name": "a/b", "url": "https://github.com/a/b",
-                 "description": "Thing", "score": 90.0, "stars": 100, "category": "AI"},
-                {"id": "github:a/c", "name": "a/c", "url": "https://github.com/a/c",
-                 "description": "Other", "score": 50.0, "stars": 10, "category": "AI"},
-            ],
-            "Security": [
-                {"id": "github:a/b", "name": "a/b", "url": "https://github.com/a/b",
-                 "description": "Thing", "score": 90.0, "stars": 100, "category": "Security"},
-            ],
+            "AI": {
+                "LLM": [
+                    {"id": "github:a/b", "name": "a/b", "url": "https://github.com/a/b",
+                     "description": "Thing", "score": 90.0, "stars": 100,
+                     "category": "LLM", "parent": "AI"},
+                    {"id": "github:a/c", "name": "a/c", "url": "https://github.com/a/c",
+                     "description": "Other", "score": 50.0, "stars": 10,
+                     "category": "LLM", "parent": "AI"},
+                ],
+            },
+            "Security": {
+                "AppSec": [
+                    {"id": "github:a/b", "name": "a/b", "url": "https://github.com/a/b",
+                     "description": "Thing", "score": 90.0, "stars": 100,
+                     "category": "AppSec", "parent": "Security"},
+                ],
+            },
         }
 
     def test_render_sitemap(self):
@@ -255,6 +339,11 @@ class TestDocRenderers:
         assert "# Awesome Repository Sitemap" in out
         assert "Total repositories: 2" in out
         assert "## AI" in out and "## Security" in out
+        assert "### LLM" in out and "### AppSec" in out
+
+    def test_render_sitemap_orders_leaves(self):
+        out = self.renderer.render_sitemap(self.categories, 2)
+        assert out.index("### LLM") < out.index("### AppSec")
 
     def test_render_llms_txt(self):
         out = self.renderer.render_llms_txt(self.categories, 2, "2026-09-15T00:00:00Z")
@@ -267,12 +356,20 @@ class TestDocRenderers:
         )
         assert "- Total repositories: 2" in out
         assert "- `AI` (2 repositories)" in out
+        assert "  - `LLM` (2 repositories)" in out
         assert "- `Security` (1 repository)" in out
         assert out.count("| [a/b](https://github.com/a/b) |") == 1
 
     def test_render_agents_md_counts_unique_when_total_missing(self):
         out = self.renderer.render_agents_md(self.categories)
         assert "- Total repositories: 2" in out
+
+    def test_render_category_index(self):
+        out = self.renderer.render_category_index(
+            {"AI": {"LLM": ["github:a/b"]}}
+        )
+        assert "## AI" in out
+        assert "- github:a/b" in out
 
 
 class TestGenerate:
@@ -293,7 +390,7 @@ class TestGenerate:
                            description="desc", score={"overall": score},
                            health={"status": "ACTIVE"})
             )
-        store.save_categories("github:high/repo", ["AI"])
+        store.save_categories("github:high/repo", ["LLM"], {"LLM": "AI"})
 
     def test_generate_writes_artifacts(self):
         result = self.commands.generate(docs_dir=self.docs_dir)
@@ -309,6 +406,15 @@ class TestGenerate:
         assert index["total"] == 2
         assert "AI" in index["categories"]
         assert "Uncategorized" in index["categories"]
+        assert index["category_tree"]["AI"]["LLM"] == ["github:high/repo"]
+
+    def test_generate_nests_leaves_under_parent(self):
+        self.commands.generate(docs_dir=self.docs_dir)
+        with open(f"{self.docs_dir}/sitemap.md") as f:
+            content = f.read()
+        assert "## AI" in content
+        assert "### LLM" in content
+        assert content.index("## AI") < content.index("### LLM")
 
     def test_generate_writes_daily_snapshot(self):
         result = self.commands.generate(docs_dir=self.docs_dir)
@@ -316,6 +422,7 @@ class TestGenerate:
         snapshot = self.commands.json_store.load_daily_snapshot(date_str)
         assert snapshot["summary"]["total"] == 2
         assert len(snapshot["sections"]) == 2
+        assert snapshot["summary"]["categories"] == 2
 
     def test_generate_sorts_by_score_descending(self):
         self.commands.generate(docs_dir=self.docs_dir)
