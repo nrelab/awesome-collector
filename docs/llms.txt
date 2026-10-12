@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-11T09:17:33Z
+Generated: 2026-10-12T09:45:15Z
 
 Total repositories: 562
 
@@ -790,8 +790,8 @@ Total repositories: 562
 - [xalgord/massive-web-application-penetration-testing-bug-bounty-notes](https://github.com/xalgord/massive-web-application-penetration-testing-bug-bounty-notes): A comprehensive guide for web application penetration testing and bug bounty hunting, covering methodologies, tools, and resources for identifying and exploiting vulnerabilities.
 - [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap): Here we collect and discuss the best DeFi, Blockchain and crypto-related OpSec researches and data terminals - contributions are welcome.
 - [packing-box/awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing): A curated list of awesome resources related to executable packing
-- [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security): Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
+- [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security): Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide): Linux Guide. Learn about Linux Hardware vendors, Linux in the Cloud, Desktop Environments, Window Mangers, Linux Distributions, Linux Security, Graphics (AMD/NVIDIA/Intel ARC), and Software Apps.
 - [wallarm/awesome-nginx-security](https://github.com/wallarm/awesome-nginx-security): 🔥 A curated list of awesome links related to application security related to the environments with NGINX or Kubernetes Ingres Controller (based on NGINX)
 - [xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection](https://github.com/xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection): Awesome graph anomaly detection techniques built based on deep learning frameworks. Collections of commonly used datasets, papers as well as implementations are listed in this github repository. We also invite researchers interested in anomaly detection, graph representation learning, and graph anomaly detection to join this project as contributors and boost further research in this area.
@@ -947,8 +947,8 @@ Total repositories: 562
 - [hendurhance/ui-ux](https://github.com/hendurhance/ui-ux): 📚 This guide is designed to help you learn UI/UX design, and is divided into three levels: Beginner, Intermediate, and Expert. It includes learning resource, guides and tools that cover all aspects of designing user interfaces and user experiences.
 - [taranjeet/awesome-gpts](https://github.com/taranjeet/awesome-gpts): Collection of all the GPTs created by the community
 - [gbadev-org/awesome-gbadev](https://github.com/gbadev-org/awesome-gbadev): A curated list of Game Boy Advance development resources
-- [linsa-io/courses](https://github.com/linsa-io/courses): Awesome Courses
 - [atakanaltok/awesome-useful-websites](https://github.com/atakanaltok/awesome-useful-websites): Hand-curated list of awesome and useful websites
+- [linsa-io/courses](https://github.com/linsa-io/courses): Awesome Courses
 - [rajasegar/awesome-micro-frontends](https://github.com/rajasegar/awesome-micro-frontends): An Awesome list of posts, videos and tutorials on Micro Frontends
 - [ghoullier/awesome-template-literal-types](https://github.com/ghoullier/awesome-template-literal-types): Curated list of awesome Template Literal Types examples
 - [terryds/awesome-strudel](https://github.com/terryds/awesome-strudel): A curated collection of awesome Strudel resources including tracks (popular song covers and remixes), tutorials, and repositories
@@ -971,8 +971,8 @@ Total repositories: 562
 - [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [uhub/awesome-lua](https://github.com/uhub/awesome-lua): A curated list of awesome Lua frameworks, libraries and software.
 - [changanvr/awesome-embodied-vision](https://github.com/changanvr/awesome-embodied-vision): Reading list for research topics in embodied vision
-- [uhub/awesome-css](https://github.com/uhub/awesome-css): A curated list of awesome CSS frameworks, libraries and software.
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
+- [uhub/awesome-css](https://github.com/uhub/awesome-css): A curated list of awesome CSS frameworks, libraries and software.
 - [janesmae/awesome-drones](https://github.com/janesmae/awesome-drones): A curated list of Awesome Drones resources
 - [choubari/awesome-muslims](https://github.com/choubari/awesome-muslims): A currated list of Open Source Resources to encourage and help muslim developers produce more islamic apps.
 - [uhub/awesome-php](https://github.com/uhub/awesome-php): A curated list of awesome PHP frameworks, libraries and software.
