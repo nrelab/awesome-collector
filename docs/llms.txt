@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-12T09:45:15Z
+Generated: 2026-10-13T09:48:44Z
 
 Total repositories: 562
 
@@ -30,8 +30,9 @@ Total repositories: 562
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
 - [evolinkai/awesome-openclaw-usecases-moltbook](https://github.com/evolinkai/awesome-openclaw-usecases-moltbook): 📚 Real-world OpenClaw automation examples from Moltbook
-- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
+- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
+- [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi): A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev): Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
 - [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins): Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
@@ -73,14 +74,14 @@ Total repositories: 562
 - [openmindclub/awesome-chatgpt](https://github.com/openmindclub/awesome-chatgpt): ⚡ Everything about ChatGPT
 - [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus): 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀
 - [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills): A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents
-- [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering): A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
+- [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering): A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.
 - [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers): 🌎💎 개발자들의 첫 번째 북마크
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
 - [uhub/awesome-llm](https://github.com/uhub/awesome-llm): A curated list of awesome LLM frameworks, libraries and software.
-- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
+- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev): Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
 - [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins): Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese.
 - [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc): 🚀🚀🚀 This repository lists some awesome public CUDA, cuda-python, cuBLAS, cuDNN, CUTLASS, TensorRT, TensorRT-LLM, Triton, TVM, MLIR, PTX and High Performance Computing (HPC) projects.
@@ -93,9 +94,9 @@ Total repositories: 562
 - [targed/awesome-plugins](https://github.com/targed/awesome-plugins): Awesome-Plugins is a GitHub repository that serves as a comprehensive list of plugins, add-ons, and extensions for ChatGPT, as well as other language models that are compatible with the GPT architecture.
 - [natnew/awesome-prompt-engineering](https://github.com/natnew/awesome-prompt-engineering): Awesome-Prompt-Engineering - This repository includes resources for prompt engineering. 🌟 Star if you like it!
 - [machinelearningzuu/awesome-llm-projects](https://github.com/machinelearningzuu/awesome-llm-projects): Welcome to the "Awesome LLM Projects" repository! This collection is dedicated to curating a list of outstanding Language Model projects from the community that showcase the incredible potential of these models across various domains with very unique use-cases
+- [adongwanai/awesome-awesome-llms](https://github.com/adongwanai/awesome-awesome-llms): 🌟 The ultimate meta-collection of 200+ awesome LLM repositories
 - [itgoyo/awesome-gpt-image2](https://github.com/itgoyo/awesome-gpt-image2): A bilingual awesome list of GPT-Image-2 related GitHub repositories
 - [correia-jpv/fucking-awesome-chatgpt](https://github.com/correia-jpv/fucking-awesome-chatgpt): Curated list of awesome tools, demos, docs for ChatGPT and GPT-3. With repository stars⭐ and forks🍴
-- [adongwanai/awesome-awesome-llms](https://github.com/adongwanai/awesome-awesome-llms): 🌟 The ultimate meta-collection of 200+ awesome LLM repositories
 
 ### Machine Learning
 
@@ -122,8 +123,8 @@ Total repositories: 562
 - [akuity/awesome-argo](https://github.com/akuity/awesome-argo): A curated list of awesome projects and resources related to Argo (a CNCF graduated project)
 - [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization): A curated collection of papers, benchmarks, surveys, and tools for model quantization, covering low-bit networks, LLMs, multimodal and generative models, vector and lattice quantization, and efficient deployment.
 - [robertsdionne/neural-network-papers](https://github.com/robertsdionne/neural-network-papers): No description
-- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
+- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [mohitmishra786/amilearningenough](https://github.com/mohitmishra786/amilearningenough): Low-Level Programming Roadmap and Resources
 - [becauseofai/awesome-face](https://github.com/becauseofai/awesome-face): An awesome face technology repository.
 - [ayushidalmia/awesome-fashion-ai](https://github.com/ayushidalmia/awesome-fashion-ai): A repository to curate and summarise research papers related to fashion and e-commerce
@@ -650,9 +651,9 @@ Total repositories: 562
 - [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience): Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome
 - [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills): A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn): 超赞列表合集
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering): A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical): Resources on programming practices for safety-critical software.
 - [garimasingh128/awesome-python-projects](https://github.com/garimasingh128/awesome-python-projects): 📱 ✅ Some awesome projects in python! 📱 ✅
 - [djangoex/awesome-python-resources](https://github.com/djangoex/awesome-python-resources): Awesome Python Resources
@@ -667,8 +668,8 @@ Total repositories: 562
 - [wx-chevalier/awesome-lists-and-cheatsheets](https://github.com/wx-chevalier/awesome-lists-and-cheatsheets): :books: Guide to Galaxy, curated, worthy and up-to-date links/reading List, CheatSheets, MindMaps for ITCS-Coding/Algorithm/SoftwareArchitecture/AI.  :dizzy: ITCS-编程/算法/软件架构/人工智能等领域的文章/书籍/资料/项目链接精选，岁月沉淀的美好
 - [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation): This repository collects an extensive list of awesome papers about Story Generation / Storytelling, exclusively focusing on the era of Large Language Models (LLMs).
 - [cristianoliveira/awesome4girls](https://github.com/cristianoliveira/awesome4girls): A curated list of inclusive events/projects/initiatives for women in the tech area. :gift_heart:
-- [flyhigher139/awesome-github-repo](https://github.com/flyhigher139/awesome-github-repo): A curated list of awesome GitHub repositories. Inspired by awesome-python, which is inspired by awesome-php.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
+- [flyhigher139/awesome-github-repo](https://github.com/flyhigher139/awesome-github-repo): A curated list of awesome GitHub repositories. Inspired by awesome-python, which is inspired by awesome-php.
 - [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc): 🚀🚀🚀 This repository lists some awesome public CUDA, cuda-python, cuBLAS, cuDNN, CUTLASS, TensorRT, TensorRT-LLM, Triton, TVM, MLIR, PTX and High Performance Computing (HPC) projects.
 - [prathimacode-hub/awesome_python_scripts](https://github.com/prathimacode-hub/awesome_python_scripts): 🚀 Curated collection of Awesome Python Scripts which will make you go wow. Dive into this world of 360+ scripts. Feel free to contribute. Show your support by ✨this repository.
 - [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects): A huge collection of awesome beginner-friendly Python projects starting from very basics to advance. Prefect repository for learning python and enhancing your python programming skills.
@@ -789,8 +790,8 @@ Total repositories: 562
 - [nikivdev/privacy-respecting](https://github.com/nikivdev/privacy-respecting): Curated List of Privacy Respecting Services and Software
 - [xalgord/massive-web-application-penetration-testing-bug-bounty-notes](https://github.com/xalgord/massive-web-application-penetration-testing-bug-bounty-notes): A comprehensive guide for web application penetration testing and bug bounty hunting, covering methodologies, tools, and resources for identifying and exploiting vulnerabilities.
 - [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap): Here we collect and discuss the best DeFi, Blockchain and crypto-related OpSec researches and data terminals - contributions are welcome.
-- [packing-box/awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing): A curated list of awesome resources related to executable packing
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
+- [packing-box/awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing): A curated list of awesome resources related to executable packing
 - [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security): Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide): Linux Guide. Learn about Linux Hardware vendors, Linux in the Cloud, Desktop Environments, Window Mangers, Linux Distributions, Linux Security, Graphics (AMD/NVIDIA/Intel ARC), and Software Apps.
 - [wallarm/awesome-nginx-security](https://github.com/wallarm/awesome-nginx-security): 🔥 A curated list of awesome links related to application security related to the environments with NGINX or Kubernetes Ingres Controller (based on NGINX)
@@ -960,8 +961,8 @@ Total repositories: 562
 - [tehtbl/awesome-note-taking](https://github.com/tehtbl/awesome-note-taking): A curated list of 100+ awesome note-taking apps, PKM tools & knowledge management software — open source and proprietary. Updated regularly.
 - [chobeat/awesome-critical-tech-reading-list](https://github.com/chobeat/awesome-critical-tech-reading-list): A reading list for the modern critical programmer
 - [linsa-io/curated-lists](https://github.com/linsa-io/curated-lists): Curated lists on various topics
-- [otacilion/awesome-hacktoberfest](https://github.com/otacilion/awesome-hacktoberfest): A curated list of awesome Hacktoberfest 2023 repositories, guides and resources
 - [sebastrion/awesome-unofficial-pc-ports](https://github.com/sebastrion/awesome-unofficial-pc-ports): A curated list of awesome unoffical PC Ports.
+- [otacilion/awesome-hacktoberfest](https://github.com/otacilion/awesome-hacktoberfest): A curated list of awesome Hacktoberfest 2023 repositories, guides and resources
 - [linsa-io/macos-apps](https://github.com/linsa-io/macos-apps): Awesome macOS apps
 - [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
 - [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
@@ -974,7 +975,6 @@ Total repositories: 562
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
 - [uhub/awesome-css](https://github.com/uhub/awesome-css): A curated list of awesome CSS frameworks, libraries and software.
 - [janesmae/awesome-drones](https://github.com/janesmae/awesome-drones): A curated list of Awesome Drones resources
-- [choubari/awesome-muslims](https://github.com/choubari/awesome-muslims): A currated list of Open Source Resources to encourage and help muslim developers produce more islamic apps.
 - [uhub/awesome-php](https://github.com/uhub/awesome-php): A curated list of awesome PHP frameworks, libraries and software.
 - [terremoth/awesome-hilarious-repos](https://github.com/terremoth/awesome-hilarious-repos): Awesome hilarious github repositories
 - [linsa-io/blogs](https://github.com/linsa-io/blogs): Awesome Blogs

@@ -7,13 +7,13 @@ Machine-readable entry points for automated consumers of this dataset.
 - Total repositories: 562
 - Categories: 51
 - Category groups: 9
-- Total stars: 8,545,161
+- Total stars: 8,550,146
 - Health UNKNOWN: 562
 
 ## Categories
 
-- `AI` (137 repositories)
-  - `Agents` (28 repositories)
+- `AI` (138 repositories)
+  - `Agents` (29 repositories)
   - `Audio` (4 repositories)
   - `Computer Vision` (6 repositories)
   - `LLM` (39 repositories)
@@ -66,7 +66,7 @@ Machine-readable entry points for automated consumers of this dataset.
   - `Malware` (10 repositories)
   - `Pentesting` (15 repositories)
   - `Threat Intelligence` (3 repositories)
-- `Uncategorized` (193 repositories)
+- `Uncategorized` (192 repositories)
 - `Web3` (15 repositories)
   - `Blockchain` (6 repositories)
   - `DeFi` (4 repositories)
@@ -76,53 +76,53 @@ Machine-readable entry points for automated consumers of this dataset.
 
 | Repository | Score | Stars | Category | Group |
 |---|---:|---:|---|---|
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 0 | 552,666 | Uncategorized | Uncategorized |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 0 | 517,869 | Uncategorized | Uncategorized |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 0 | 487,753 | Python | Programming Languages |
-| [vinta/awesome-python](https://github.com/vinta/awesome-python) | 0 | 326,745 | Python | Programming Languages |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 0 | 325,725 | Cloud | Infrastructure |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 0 | 249,408 | Search | Data |
-| [ossu/computer-science](https://github.com/ossu/computer-science) | 0 | 209,902 | Web Development | Development |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 0 | 187,964 | Go | Programming Languages |
-| [521xueweihan/hellogithub](https://github.com/521xueweihan/hellogithub) | 0 | 181,515 | Python | Programming Languages |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 0 | 172,675 | LLM | AI |
-| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 0 | 139,386 | Web Development | Development |
-| [chalarangelo/30-seconds-of-code](https://github.com/chalarangelo/30-seconds-of-code) | 0 | 129,172 | JavaScript | Programming Languages |
-| [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) | 0 | 122,251 | Android | Mobile |
-| [voltagent/awesome-design-md](https://github.com/voltagent/awesome-design-md) | 0 | 120,431 | Uncategorized | Uncategorized |
-| [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 0 | 115,907 | Search | Data |
-| [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) | 0 | 110,462 | CLI | Development |
-| [ruvnet/ruview](https://github.com/ruvnet/ruview) | 0 | 97,456 | Web Development | Development |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 0 | 552,904 | Uncategorized | Uncategorized |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 0 | 518,342 | Uncategorized | Uncategorized |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 0 | 488,171 | Python | Programming Languages |
+| [vinta/awesome-python](https://github.com/vinta/awesome-python) | 0 | 327,023 | Python | Programming Languages |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 0 | 326,003 | Cloud | Infrastructure |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 0 | 249,675 | Search | Data |
+| [ossu/computer-science](https://github.com/ossu/computer-science) | 0 | 209,946 | Web Development | Development |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 0 | 188,127 | Go | Programming Languages |
+| [521xueweihan/hellogithub](https://github.com/521xueweihan/hellogithub) | 0 | 181,763 | Python | Programming Languages |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 0 | 172,791 | LLM | AI |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 0 | 139,438 | Web Development | Development |
+| [chalarangelo/30-seconds-of-code](https://github.com/chalarangelo/30-seconds-of-code) | 0 | 129,181 | JavaScript | Programming Languages |
+| [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) | 0 | 122,387 | Android | Mobile |
+| [voltagent/awesome-design-md](https://github.com/voltagent/awesome-design-md) | 0 | 120,763 | Uncategorized | Uncategorized |
+| [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 0 | 116,003 | Search | Data |
+| [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) | 0 | 110,494 | CLI | Development |
+| [ruvnet/ruview](https://github.com/ruvnet/ruview) | 0 | 97,703 | Web Development | Development |
 | [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) | 0 | 94,783 | Java | Programming Languages |
-| [mungell/awesome-for-beginners](https://github.com/mungell/awesome-for-beginners) | 0 | 90,145 | Uncategorized | Uncategorized |
-| [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) | 0 | 84,922 | Android | Mobile |
-| [enaqx/awesome-react](https://github.com/enaqx/awesome-react) | 0 | 74,858 | Web Development | Development |
-| [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | 0 | 74,660 | Machine Learning | AI |
-| [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) | 0 | 74,436 | Agents | AI |
-| [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) | 0 | 73,758 | C | Programming Languages |
-| [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | 0 | 71,807 | Uncategorized | Uncategorized |
-| [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) | 0 | 67,085 | JavaScript | Programming Languages |
-| [solido/awesome-flutter](https://github.com/solido/awesome-flutter) | 0 | 61,475 | Mobile Development | Development |
-| [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | 0 | 59,801 | Rust | Programming Languages |
-| [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | 0 | 59,601 | Uncategorized | Uncategorized |
-| [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) | 0 | 57,916 | Android | Mobile |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 0 | 55,481 | Agents | AI |
-| [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) | 0 | 53,587 | iOS | Mobile |
-| [voltagent/awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills) | 0 | 53,080 | Agents | AI |
-| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | 0 | 52,533 | Web Development | Development |
-| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 0 | 50,762 | iOS | Mobile |
-| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 0 | 49,392 | Python | Programming Languages |
-| [dovamir/awesome-design-patterns](https://github.com/dovamir/awesome-design-patterns) | 0 | 49,302 | Cloud | Infrastructure |
-| [akullpp/awesome-java](https://github.com/akullpp/awesome-java) | 0 | 49,232 | Java | Programming Languages |
-| [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | 0 | 48,605 | Web Development | Development |
-| [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | 0 | 47,607 | Web Development | Development |
-| [docker/awesome-compose](https://github.com/docker/awesome-compose) | 0 | 46,512 | Web Development | Development |
-| [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook) | 0 | 44,434 | Data Engineering | Data |
-| [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | 0 | 42,156 | Web Development | Development |
-| [goabstract/awesome-design-tools](https://github.com/goabstract/awesome-design-tools) | 0 | 41,465 | JavaScript | Programming Languages |
-| [patrickjs/awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules) | 0 | 40,895 | JavaScript | Programming Languages |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 0 | 39,938 | Agents | AI |
-| [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) | 0 | 39,351 | Uncategorized | Uncategorized |
-| [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | 0 | 37,767 | CLI | Development |
-| [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) | 0 | 37,213 | Computer Vision | AI |
-| [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | 0 | 37,018 | Docker | Infrastructure |
+| [mungell/awesome-for-beginners](https://github.com/mungell/awesome-for-beginners) | 0 | 90,192 | Uncategorized | Uncategorized |
+| [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) | 0 | 84,944 | Android | Mobile |
+| [enaqx/awesome-react](https://github.com/enaqx/awesome-react) | 0 | 74,879 | Web Development | Development |
+| [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | 0 | 74,686 | Machine Learning | AI |
+| [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) | 0 | 74,444 | Agents | AI |
+| [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) | 0 | 73,786 | C | Programming Languages |
+| [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | 0 | 71,843 | Uncategorized | Uncategorized |
+| [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) | 0 | 67,102 | JavaScript | Programming Languages |
+| [solido/awesome-flutter](https://github.com/solido/awesome-flutter) | 0 | 61,491 | Mobile Development | Development |
+| [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | 0 | 59,820 | Rust | Programming Languages |
+| [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | 0 | 59,626 | Uncategorized | Uncategorized |
+| [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) | 0 | 57,931 | Android | Mobile |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 0 | 55,556 | Agents | AI |
+| [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) | 0 | 53,596 | iOS | Mobile |
+| [voltagent/awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills) | 0 | 53,102 | Agents | AI |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | 0 | 52,556 | Web Development | Development |
+| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 0 | 50,779 | iOS | Mobile |
+| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 0 | 49,427 | Python | Programming Languages |
+| [dovamir/awesome-design-patterns](https://github.com/dovamir/awesome-design-patterns) | 0 | 49,317 | Cloud | Infrastructure |
+| [akullpp/awesome-java](https://github.com/akullpp/awesome-java) | 0 | 49,243 | Java | Programming Languages |
+| [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | 0 | 48,616 | Web Development | Development |
+| [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | 0 | 47,609 | Web Development | Development |
+| [docker/awesome-compose](https://github.com/docker/awesome-compose) | 0 | 46,519 | Web Development | Development |
+| [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook) | 0 | 44,448 | Data Engineering | Data |
+| [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | 0 | 42,193 | Web Development | Development |
+| [goabstract/awesome-design-tools](https://github.com/goabstract/awesome-design-tools) | 0 | 41,473 | JavaScript | Programming Languages |
+| [patrickjs/awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules) | 0 | 40,896 | JavaScript | Programming Languages |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 0 | 39,973 | Agents | AI |
+| [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) | 0 | 39,353 | Uncategorized | Uncategorized |
+| [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | 0 | 37,773 | CLI | Development |
+| [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) | 0 | 37,241 | Computer Vision | AI |
+| [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | 0 | 37,023 | Docker | Infrastructure |
