@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-13T09:48:44Z
+Generated: 2026-10-14T08:02:59Z
 
 Total repositories: 562
 
@@ -30,9 +30,9 @@ Total repositories: 562
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
 - [evolinkai/awesome-openclaw-usecases-moltbook](https://github.com/evolinkai/awesome-openclaw-usecases-moltbook): 📚 Real-world OpenClaw automation examples from Moltbook
+- [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi): A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
 - [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
-- [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi): A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev): Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
 - [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins): Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
@@ -76,8 +76,8 @@ Total repositories: 562
 - [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills): A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering): A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.
-- [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers): 🌎💎 개발자들의 첫 번째 북마크
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
+- [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers): 🌎💎 개발자들의 첫 번째 북마크
 - [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
 - [uhub/awesome-llm](https://github.com/uhub/awesome-llm): A curated list of awesome LLM frameworks, libraries and software.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
@@ -677,8 +677,8 @@ Total repositories: 562
 - [javedali99/python-resources-for-earth-sciences](https://github.com/javedali99/python-resources-for-earth-sciences): A Curated List of Python Resources for Earth Sciences
 - [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
-- [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts): Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.
 - [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live): Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
+- [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts): Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
 - [jiganesh/loads-of-logic](https://github.com/jiganesh/loads-of-logic): Repository with leetcode solutions and dedicated index to prepare for your Meta, Google, Amazon, Microsoft interviews. Feel free to share and contribute to this awesome repository.
 - [cuuupid/awesome-lists](https://github.com/cuuupid/awesome-lists): [DEPRECATED] A curated list of curated lists.
@@ -1007,8 +1007,8 @@ Total repositories: 562
 - [hijoput4/sharingware](https://github.com/hijoput4/sharingware): FAL (Frequently Asked Links) list so you stop asking these everywhere. It covers 99% your internet needs.
 - [lzhbrian/arbitrary-text-to-image-papers](https://github.com/lzhbrian/arbitrary-text-to-image-papers): A collection of arbitrary text to image papers with code (constantly updating)
 - [components/font-awesome](https://github.com/components/font-awesome): Shim repository for Font Awesome.
-- [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio): Awesome hamradio repositories.
 - [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins): Curated repository of awesome Digital Twin resources
+- [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio): Awesome hamradio repositories.
 - [transformeroptimus/awesome-superagi](https://github.com/transformeroptimus/awesome-superagi): Awesome Repository of SuperAGI
 - [reziamini/awesome-github](https://github.com/reziamini/awesome-github): List of awesome Github repository
 - [mintisan/awesome-kalman-filter](https://github.com/mintisan/awesome-kalman-filter): A curated list of awesome libraries, projects, tutorials, papers, and other resources related to Kalman Filter(KF). This repository aims to be a comprehensive and organized collection that will help researchers and developers in the world of KF!
