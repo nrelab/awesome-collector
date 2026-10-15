@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-14T08:02:59Z
+Generated: 2026-10-15T07:47:49Z
 
 Total repositories: 562
 
@@ -241,8 +241,8 @@ Total repositories: 562
 - [linsa-io/command-line-tools](https://github.com/linsa-io/command-line-tools): Awesome Command Line Utilities
 - [rjcarneiro/windows-terminals](https://github.com/rjcarneiro/windows-terminals): Repository with some awesome Windows Terminals themes
 - [miravaorg/mirava](https://github.com/miravaorg/mirava): Mirava is a curated list of Iranian package mirrors, providing reliable and fast access to essential software resources within Iran.
-- [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software): A list of awesome applications, software, tools and other materials for Linux distros. With repository stars⭐ and forks🍴
 - [dreadl0ck/golang-libs](https://github.com/dreadl0ck/golang-libs): List of awesome golang repositories and useful resources for development
+- [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software): A list of awesome applications, software, tools and other materials for Linux distros. With repository stars⭐ and forks🍴
 - [coslyk/debianopt-repo](https://github.com/coslyk/debianopt-repo): Additional debian repository for awesome open-source projects.
 - [correia-jpv/fucking-awesome-shell](https://github.com/correia-jpv/fucking-awesome-shell): A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. With repository stars⭐ and forks🍴
 - [correia-jpv/fucking-awesome-raspberry-pi](https://github.com/correia-jpv/fucking-awesome-raspberry-pi): CC0 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources. 😎 Awesome lists about all kinds of interesting topics. With repository stars⭐ and forks🍴
@@ -568,8 +568,8 @@ Total repositories: 562
 - [ascoders/weekly](https://github.com/ascoders/weekly): 前端精读周刊。帮你理解最前沿、实用的技术。
 - [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode): 🎨 A curated list of delightful VS Code packages and resources.
 - [lissy93/dashy](https://github.com/lissy93/dashy): 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
-- [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): Jargon from the functional programming world in simple terms!
 - [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin): A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
+- [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): Jargon from the functional programming world in simple terms!
 - [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev): A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
 - [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist): 🎮 The only Front-End Performance Checklist that runs faster than the others
 - [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite): ⚡️ A curated list of awesome things related to Vite.js
