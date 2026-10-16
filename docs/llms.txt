@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-15T07:47:49Z
+Generated: 2026-10-16T07:34:26Z
 
 Total repositories: 562
 
@@ -580,6 +580,7 @@ Total repositories: 562
 - [micromata/awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning): A tiny list limited to the best JavaScript Learning Resources
 - [sindresorhus/promise-fun](https://github.com/sindresorhus/promise-fun): Promise packages, patterns, chat, and tutorials
 - [ritikpatni/front-end-web-development-resources](https://github.com/ritikpatni/front-end-web-development-resources): This repository contains content which will be helpful in your journey as a front-end Web Developer
+- [gbdev/awesome-gbdev](https://github.com/gbdev/awesome-gbdev): A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.
 - [ayushparikh-code/web-dev-mini-projects](https://github.com/ayushparikh-code/web-dev-mini-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
 - [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops): A curated list of awesome DevOps platforms, tools, practices and resources
 - [dylan-israel/ultimate-coding-resources](https://github.com/dylan-israel/ultimate-coding-resources): A collection of the best resources for programming, web development, computer science and more.
@@ -954,8 +955,8 @@ Total repositories: 562
 - [ghoullier/awesome-template-literal-types](https://github.com/ghoullier/awesome-template-literal-types): Curated list of awesome Template Literal Types examples
 - [terryds/awesome-strudel](https://github.com/terryds/awesome-strudel): A curated collection of awesome Strudel resources including tracks (popular song covers and remixes), tutorials, and repositories
 - [hiddify/awesome-freedom](https://github.com/hiddify/awesome-freedom): In this repository we have collected all awesome tools for iranian people
-- [daviddias/awesome-hacking-locations](https://github.com/daviddias/awesome-hacking-locations): :computer: :coffee: List of Awesome Hacking Locations, organised by Country and City, listing if it features power and wifi
 - [corsinvest/awesome-proxmox-ve](https://github.com/corsinvest/awesome-proxmox-ve): A collection of awesome Proxmox VE documentation, tools, api, blogs, site
+- [daviddias/awesome-hacking-locations](https://github.com/daviddias/awesome-hacking-locations): :computer: :coffee: List of Awesome Hacking Locations, organised by Country and City, listing if it features power and wifi
 - [738/awesome-url-shortener](https://github.com/738/awesome-url-shortener): 🔗 A curated list of awesome url shortener
 - [appwrite/awesome-appwrite](https://github.com/appwrite/awesome-appwrite): Carefully curated list of awesome Appwrite resources 💪
 - [tehtbl/awesome-note-taking](https://github.com/tehtbl/awesome-note-taking): A curated list of 100+ awesome note-taking apps, PKM tools & knowledge management software — open source and proprietary. Updated regularly.
@@ -971,8 +972,8 @@ Total repositories: 562
 - [devrelcollective/awesome-devrel](https://github.com/devrelcollective/awesome-devrel): Awesome Developer Relations resources curated by the DevRel Collective
 - [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [uhub/awesome-lua](https://github.com/uhub/awesome-lua): A curated list of awesome Lua frameworks, libraries and software.
-- [changanvr/awesome-embodied-vision](https://github.com/changanvr/awesome-embodied-vision): Reading list for research topics in embodied vision
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
+- [changanvr/awesome-embodied-vision](https://github.com/changanvr/awesome-embodied-vision): Reading list for research topics in embodied vision
 - [uhub/awesome-css](https://github.com/uhub/awesome-css): A curated list of awesome CSS frameworks, libraries and software.
 - [janesmae/awesome-drones](https://github.com/janesmae/awesome-drones): A curated list of Awesome Drones resources
 - [uhub/awesome-php](https://github.com/uhub/awesome-php): A curated list of awesome PHP frameworks, libraries and software.
