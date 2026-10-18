@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-17T07:14:17Z
+Generated: 2026-10-18T07:28:07Z
 
 Total repositories: 562
 
@@ -66,7 +66,7 @@ Total repositories: 562
 - [aihubcn/awesome-chinese-llm](https://github.com/aihubcn/awesome-chinese-llm): 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
 - [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering): 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.
 - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins): A collection of ZSH frameworks, plugins, themes and tutorials.
-- [evolinkai/awesome-gpt-image-2-api-and-prompts](https://github.com/evolinkai/awesome-gpt-image-2-api-and-prompts): GPT-Image-2 API and Prompts
+- [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts): GPT-Image-2 API and Prompts
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 - [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
 - [rafska/awesome-local-llm](https://github.com/rafska/awesome-local-llm): A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally
@@ -86,8 +86,8 @@ Total repositories: 562
 - [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins): Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese.
 - [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc): 🚀🚀🚀 This repository lists some awesome public CUDA, cuda-python, cuBLAS, cuDNN, CUTLASS, TensorRT, TensorRT-LLM, Triton, TVM, MLIR, PTX and High Performance Computing (HPC) projects.
 - [iaar-shanghai/awesome-attention-heads](https://github.com/iaar-shanghai/awesome-attention-heads): An awesome repository & A comprehensive survey on interpretability of LLM attention heads.
-- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live): Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
+- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
 - [liyunqianggyn/awesome-llms-pruning](https://github.com/liyunqianggyn/awesome-llms-pruning): Awesome LLM pruning papers all-in-one repository with integrating all useful resources and insights.
@@ -636,7 +636,7 @@ Total repositories: 562
 - [lilittlecat/awesome-free-chatgpt](https://github.com/lilittlecat/awesome-free-chatgpt): 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.
 - [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
 - [runacapital/awesome-oss-alternatives](https://github.com/runacapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products 🚀
-- [evolinkai/awesome-gpt-image-2-api-and-prompts](https://github.com/evolinkai/awesome-gpt-image-2-api-and-prompts): GPT-Image-2 API and Prompts
+- [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts): GPT-Image-2 API and Prompts
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 - [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list): A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
 - [rossant/awesome-math](https://github.com/rossant/awesome-math): A curated list of awesome mathematics resources
@@ -660,8 +660,8 @@ Total repositories: 562
 - [djangoex/awesome-python-resources](https://github.com/djangoex/awesome-python-resources): Awesome Python Resources
 - [xyou365/autorclone](https://github.com/xyou365/autorclone): AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
 - [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources): آرشیو منابع رایگان آموزش برنامه نویسی به زبان فارسی ( هر کسی باید بتونه برنامه نویسی رو یاد بگیره، مهم نیست پول داره یا نداره، به امید اینکه کسی به خاطر نداشتن پول از آموزش عقب نمونه )
-- [uhub/awesome-python](https://github.com/uhub/awesome-python): A curated list of awesome Python frameworks, libraries and software.
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
+- [uhub/awesome-python](https://github.com/uhub/awesome-python): A curated list of awesome Python frameworks, libraries and software.
 - [freecodecamp/awesome-quincy-larson-emails](https://github.com/freecodecamp/awesome-quincy-larson-emails): This repository is an archive of emails that are sent by the awesome Quincy Larson every week.
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl): OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars): A curated list of Polars talks, tools, examples & articles. Contributions welcome !
@@ -676,8 +676,8 @@ Total repositories: 562
 - [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects): A huge collection of awesome beginner-friendly Python projects starting from very basics to advance. Prefect repository for learning python and enhancing your python programming skills.
 - [geiserx/awesome-spain](https://github.com/geiserx/awesome-spain): Una selección de software open source que da soporte específico a España
 - [javedali99/python-resources-for-earth-sciences](https://github.com/javedali99/python-resources-for-earth-sciences): A Curated List of Python Resources for Earth Sciences
-- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live): Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
+- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
 - [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts): Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
@@ -698,8 +698,8 @@ Total repositories: 562
 - [itgoyo/awesome-gpt-image2](https://github.com/itgoyo/awesome-gpt-image2): A bilingual awesome list of GPT-Image-2 related GitHub repositories
 - [correia-jpv/fucking-awesome-chatgpt](https://github.com/correia-jpv/fucking-awesome-chatgpt): Curated list of awesome tools, demos, docs for ChatGPT and GPT-3. With repository stars⭐ and forks🍴
 - [correia-jpv/fucking-awesome-honeypots](https://github.com/correia-jpv/fucking-awesome-honeypots): An awesome list of honeypot resources. With repository stars⭐ and forks🍴
-- [correia-jpv/fucking-awesome-python](https://github.com/correia-jpv/fucking-awesome-python): A curated list of awesome Python frameworks, libraries, software and resources.  With repository stars⭐ and forks🍴
 - [hexsecs/awesome-automotive-security](https://github.com/hexsecs/awesome-automotive-security): This repository is an awesome list for automotive security
+- [correia-jpv/fucking-awesome-python](https://github.com/correia-jpv/fucking-awesome-python): A curated list of awesome Python frameworks, libraries, software and resources.  With repository stars⭐ and forks🍴
 - [mani1soni/python-scripts](https://github.com/mani1soni/python-scripts): A repository for Awesome Python Scripts
 - [correia-jpv/fucking-awesome-machine-learning](https://github.com/correia-jpv/fucking-awesome-machine-learning): A curated list of awesome Machine Learning frameworks, libraries and software. With repository stars⭐ and forks🍴
 - [animeshsrivastava24/pythonscriptsforbeginners](https://github.com/animeshsrivastava24/pythonscriptsforbeginners): The repository is dedicated towards Python and its awesome potential to automate task. #Hacktoberfest
