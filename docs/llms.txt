@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-18T07:28:07Z
+Generated: 2026-10-19T08:08:25Z
 
 Total repositories: 562
 
@@ -54,6 +54,7 @@ Total repositories: 562
 - [hwalsuklee/awesome-deep-text-detection-recognition](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition): A curated list of resources for text detection/recognition (optical character recognition ) with deep learning methods.
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl): OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning
 - [lzhbrian/image-to-image-papers](https://github.com/lzhbrian/image-to-image-papers): 🦓<->🦒 🌃<->🌆  A collection of image to image papers with code (constantly updating)
+- [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 - [ovshake/awesome-2-3d-vision](https://github.com/ovshake/awesome-2-3d-vision): Awesome list of awesome 3D vision related repositories
 
 ### LLM
@@ -90,6 +91,7 @@ Total repositories: 562
 - [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
+- [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 - [liyunqianggyn/awesome-llms-pruning](https://github.com/liyunqianggyn/awesome-llms-pruning): Awesome LLM pruning papers all-in-one repository with integrating all useful resources and insights.
 - [targed/awesome-plugins](https://github.com/targed/awesome-plugins): Awesome-Plugins is a GitHub repository that serves as a comprehensive list of plugins, add-ons, and extensions for ChatGPT, as well as other language models that are compatible with the GPT architecture.
 - [natnew/awesome-prompt-engineering](https://github.com/natnew/awesome-prompt-engineering): Awesome-Prompt-Engineering - This repository includes resources for prompt engineering. 🌟 Star if you like it!
@@ -139,6 +141,7 @@ Total repositories: 562
 - [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects): A huge collection of awesome beginner-friendly Python projects starting from very basics to advance. Prefect repository for learning python and enhancing your python programming skills.
 - [xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection](https://github.com/xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection): Awesome graph anomaly detection techniques built based on deep learning frameworks. Collections of commonly used datasets, papers as well as implementations are listed in this github repository. We also invite researchers interested in anomaly detection, graph representation learning, and graph anomaly detection to join this project as contributors and boost further research in this area.
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
+- [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 - [zhgqcn/awesome-nilm-with-code](https://github.com/zhgqcn/awesome-nilm-with-code): A repository of awesome Non-Intrusive Load Monitoring(NILM) with code.
 - [solaris33/awesome-machine-learning-papers](https://github.com/solaris33/awesome-machine-learning-papers): A curated list of awesome Machine Learning Papers, Repositories
 - [zhenyuyangmq/awesome-graph-level-learning](https://github.com/zhenyuyangmq/awesome-graph-level-learning): Awesome graph-level learning methods. Collections of commonly used datasets, papers as well as implementations are listed in this github repository. We also invite researchers interested in graph representation learning, graph regression and graph classification to join this project as contribut…
@@ -157,6 +160,7 @@ Total repositories: 562
 - [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch): Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.
 - [logancyang/my-cs-degree](https://github.com/logancyang/my-cs-degree): A CS degree with a focus on full-stack ML engineering, 2020
 - [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation): This repository collects an extensive list of awesome papers about Story Generation / Storytelling, exclusively focusing on the era of Large Language Models (LLMs).
+- [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 
 ### RAG
 
@@ -674,14 +678,15 @@ Total repositories: 562
 - [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc): 🚀🚀🚀 This repository lists some awesome public CUDA, cuda-python, cuBLAS, cuDNN, CUTLASS, TensorRT, TensorRT-LLM, Triton, TVM, MLIR, PTX and High Performance Computing (HPC) projects.
 - [prathimacode-hub/awesome_python_scripts](https://github.com/prathimacode-hub/awesome_python_scripts): 🚀 Curated collection of Awesome Python Scripts which will make you go wow. Dive into this world of 360+ scripts. Feel free to contribute. Show your support by ✨this repository.
 - [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects): A huge collection of awesome beginner-friendly Python projects starting from very basics to advance. Prefect repository for learning python and enhancing your python programming skills.
+- [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live): Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
 - [geiserx/awesome-spain](https://github.com/geiserx/awesome-spain): Una selección de software open source que da soporte específico a España
 - [javedali99/python-resources-for-earth-sciences](https://github.com/javedali99/python-resources-for-earth-sciences): A Curated List of Python Resources for Earth Sciences
-- [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live): Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
 - [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
 - [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts): Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
 - [jiganesh/loads-of-logic](https://github.com/jiganesh/loads-of-logic): Repository with leetcode solutions and dedicated index to prepare for your Meta, Google, Amazon, Microsoft interviews. Feel free to share and contribute to this awesome repository.
+- [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 - [cuuupid/awesome-lists](https://github.com/cuuupid/awesome-lists): [DEPRECATED] A curated list of curated lists.
 - [velocityra/awesome-game-file-format-reversing](https://github.com/velocityra/awesome-game-file-format-reversing): Collection of docs/tools/resources for reverse engineering and working with video game file formats.
 - [milkthink-lab/awesome-routing-llms](https://github.com/milkthink-lab/awesome-routing-llms): A curated list of awesome works in Routing LLMs paradigm (👉 Welcome to submit your contributions to this code repository)
@@ -970,8 +975,8 @@ Total repositories: 562
 - [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
 - [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
 - [devrelcollective/awesome-devrel](https://github.com/devrelcollective/awesome-devrel): Awesome Developer Relations resources curated by the DevRel Collective
-- [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
+- [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [uhub/awesome-lua](https://github.com/uhub/awesome-lua): A curated list of awesome Lua frameworks, libraries and software.
 - [changanvr/awesome-embodied-vision](https://github.com/changanvr/awesome-embodied-vision): Reading list for research topics in embodied vision
 - [uhub/awesome-css](https://github.com/uhub/awesome-css): A curated list of awesome CSS frameworks, libraries and software.
@@ -1006,7 +1011,6 @@ Total repositories: 562
 - [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list): 🌐 全网最全 RSS 订阅源汇总
 - [uhub/awesome-scala](https://github.com/uhub/awesome-scala): A curated list of awesome Scala frameworks, libraries and software.
 - [hijoput4/sharingware](https://github.com/hijoput4/sharingware): FAL (Frequently Asked Links) list so you stop asking these everywhere. It covers 99% your internet needs.
-- [lzhbrian/arbitrary-text-to-image-papers](https://github.com/lzhbrian/arbitrary-text-to-image-papers): A collection of arbitrary text to image papers with code (constantly updating)
 - [components/font-awesome](https://github.com/components/font-awesome): Shim repository for Font Awesome.
 - [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins): Curated repository of awesome Digital Twin resources
 - [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio): Awesome hamradio repositories.
