@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-19T08:08:25Z
+Generated: 2026-10-20T07:58:15Z
 
 Total repositories: 562
 
@@ -643,8 +643,8 @@ Total repositories: 562
 - [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts): GPT-Image-2 API and Prompts
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 - [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list): A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
-- [rossant/awesome-math](https://github.com/rossant/awesome-math): A curated list of awesome mathematics resources
 - [bobeff/open-source-games](https://github.com/bobeff/open-source-games): A list of open source games.
+- [rossant/awesome-math](https://github.com/rossant/awesome-math): A curated list of awesome mathematics resources
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.
 - [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models): Largest list of models for Core ML (for iOS 11+)
 - [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
@@ -670,8 +670,8 @@ Total repositories: 562
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl): OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars): A curated list of Polars talks, tools, examples & articles. Contributions welcome !
 - [tuan3w/awesome-tech-rss](https://github.com/tuan3w/awesome-tech-rss): List of awesome RSS channels related to startup, science and technology.
-- [wx-chevalier/awesome-lists-and-cheatsheets](https://github.com/wx-chevalier/awesome-lists-and-cheatsheets): :books: Guide to Galaxy, curated, worthy and up-to-date links/reading List, CheatSheets, MindMaps for ITCS-Coding/Algorithm/SoftwareArchitecture/AI.  :dizzy: ITCS-编程/算法/软件架构/人工智能等领域的文章/书籍/资料/项目链接精选，岁月沉淀的美好
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
+- [wx-chevalier/awesome-lists-and-cheatsheets](https://github.com/wx-chevalier/awesome-lists-and-cheatsheets): :books: Guide to Galaxy, curated, worthy and up-to-date links/reading List, CheatSheets, MindMaps for ITCS-Coding/Algorithm/SoftwareArchitecture/AI.  :dizzy: ITCS-编程/算法/软件架构/人工智能等领域的文章/书籍/资料/项目链接精选，岁月沉淀的美好
 - [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation): This repository collects an extensive list of awesome papers about Story Generation / Storytelling, exclusively focusing on the era of Large Language Models (LLMs).
 - [cristianoliveira/awesome4girls](https://github.com/cristianoliveira/awesome4girls): A curated list of inclusive events/projects/initiatives for women in the tech area. :gift_heart:
 - [flyhigher139/awesome-github-repo](https://github.com/flyhigher139/awesome-github-repo): A curated list of awesome GitHub repositories. Inspired by awesome-python, which is inspired by awesome-php.
@@ -928,8 +928,8 @@ Total repositories: 562
 - [chartjs/awesome](https://github.com/chartjs/awesome): A curated list of awesome Chart.js resources and libraries
 - [kgryte/awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer): A list of peer-to-peer resources.
 - [bst04/cybersources](https://github.com/bst04/cybersources): A curated list of cybersecurity tools and resources.
-- [hng/tech-coops](https://github.com/hng/tech-coops): A list of tech coops and resources concerning tech coops and worker owned cooperatives in general.
 - [bolajiayodeji/awesome-technical-writing](https://github.com/bolajiayodeji/awesome-technical-writing): :books: A curated list of awesome resources: articles, books, videos, tools, podcasts about technical writing.
+- [hng/tech-coops](https://github.com/hng/tech-coops): A list of tech coops and resources concerning tech coops and worker owned cooperatives in general.
 - [auctors/free-lunch](https://github.com/auctors/free-lunch): A curated list of free Windows software, online services and resources. Feel free to contribute!
 - [inttter/md-badges](https://github.com/inttter/md-badges): An extensive list of Shields.io badges.
 - [hameds/apis-made-in-iran](https://github.com/hameds/apis-made-in-iran): A list of APIs from Iran
@@ -1007,8 +1007,8 @@ Total repositories: 562
 - [linsa-io/websites](https://github.com/linsa-io/websites): Awesome Websites
 - [uhub/awesome-coq](https://github.com/uhub/awesome-coq): A curated list of awesome Coq frameworks, libraries and software.
 - [unkn0w/unknownews](https://github.com/unkn0w/unknownews): Archiwum wszystkich wydań newslettera unknowNews
-- [robodonut/awesome-spatial](https://github.com/robodonut/awesome-spatial): A list of awesome spatial repositories.
 - [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list): 🌐 全网最全 RSS 订阅源汇总
+- [robodonut/awesome-spatial](https://github.com/robodonut/awesome-spatial): A list of awesome spatial repositories.
 - [uhub/awesome-scala](https://github.com/uhub/awesome-scala): A curated list of awesome Scala frameworks, libraries and software.
 - [hijoput4/sharingware](https://github.com/hijoput4/sharingware): FAL (Frequently Asked Links) list so you stop asking these everywhere. It covers 99% your internet needs.
 - [components/font-awesome](https://github.com/components/font-awesome): Shim repository for Font Awesome.
