@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-20T07:58:15Z
+Generated: 2026-10-21T08:02:53Z
 
 Total repositories: 562
 
@@ -29,7 +29,7 @@ Total repositories: 562
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
-- [evolinkai/awesome-openclaw-usecases-moltbook](https://github.com/evolinkai/awesome-openclaw-usecases-moltbook): 📚 Real-world OpenClaw automation examples from Moltbook
+- [evolink-ai/awesome-openclaw-usecases-moltbook](https://github.com/evolink-ai/awesome-openclaw-usecases-moltbook): 📚 Real-world OpenClaw automation examples from Moltbook
 - [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi): A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
 - [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
@@ -642,8 +642,8 @@ Total repositories: 562
 - [runacapital/awesome-oss-alternatives](https://github.com/runacapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products 🚀
 - [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts): GPT-Image-2 API and Prompts
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
-- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list): A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
 - [bobeff/open-source-games](https://github.com/bobeff/open-source-games): A list of open source games.
+- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list): A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
 - [rossant/awesome-math](https://github.com/rossant/awesome-math): A curated list of awesome mathematics resources
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.
 - [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models): Largest list of models for Core ML (for iOS 11+)
@@ -957,8 +957,8 @@ Total repositories: 562
 - [atakanaltok/awesome-useful-websites](https://github.com/atakanaltok/awesome-useful-websites): Hand-curated list of awesome and useful websites
 - [linsa-io/courses](https://github.com/linsa-io/courses): Awesome Courses
 - [rajasegar/awesome-micro-frontends](https://github.com/rajasegar/awesome-micro-frontends): An Awesome list of posts, videos and tutorials on Micro Frontends
-- [ghoullier/awesome-template-literal-types](https://github.com/ghoullier/awesome-template-literal-types): Curated list of awesome Template Literal Types examples
 - [terryds/awesome-strudel](https://github.com/terryds/awesome-strudel): A curated collection of awesome Strudel resources including tracks (popular song covers and remixes), tutorials, and repositories
+- [ghoullier/awesome-template-literal-types](https://github.com/ghoullier/awesome-template-literal-types): Curated list of awesome Template Literal Types examples
 - [hiddify/awesome-freedom](https://github.com/hiddify/awesome-freedom): In this repository we have collected all awesome tools for iranian people
 - [corsinvest/awesome-proxmox-ve](https://github.com/corsinvest/awesome-proxmox-ve): A collection of awesome Proxmox VE documentation, tools, api, blogs, site
 - [daviddias/awesome-hacking-locations](https://github.com/daviddias/awesome-hacking-locations): :computer: :coffee: List of Awesome Hacking Locations, organised by Country and City, listing if it features power and wifi
@@ -1006,8 +1006,8 @@ Total repositories: 562
 - [beam-community/awesome-phoenix-liveview](https://github.com/beam-community/awesome-phoenix-liveview): A curated list of awesome Phoenix LiveView repositories, blog posts or other resources
 - [linsa-io/websites](https://github.com/linsa-io/websites): Awesome Websites
 - [uhub/awesome-coq](https://github.com/uhub/awesome-coq): A curated list of awesome Coq frameworks, libraries and software.
-- [unkn0w/unknownews](https://github.com/unkn0w/unknownews): Archiwum wszystkich wydań newslettera unknowNews
 - [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list): 🌐 全网最全 RSS 订阅源汇总
+- [unkn0w/unknownews](https://github.com/unkn0w/unknownews): Archiwum wszystkich wydań newslettera unknowNews
 - [robodonut/awesome-spatial](https://github.com/robodonut/awesome-spatial): A list of awesome spatial repositories.
 - [uhub/awesome-scala](https://github.com/uhub/awesome-scala): A curated list of awesome Scala frameworks, libraries and software.
 - [hijoput4/sharingware](https://github.com/hijoput4/sharingware): FAL (Frequently Asked Links) list so you stop asking these everywhere. It covers 99% your internet needs.
