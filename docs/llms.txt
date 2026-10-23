@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-22T07:58:56Z
+Generated: 2026-10-23T07:57:21Z
 
 Total repositories: 562
 
@@ -336,7 +336,7 @@ Total repositories: 562
 - [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software): A list of awesome applications, software, tools and other materials for Linux distros. With repository stars⭐ and forks🍴
 - [athityakumar/awesome-awesomes](https://github.com/athityakumar/awesome-awesomes): Heard of Inception? This repository can be called as "inspired by inception". This is a curated list of awesome "awesome X" curated lists. Generated automatically by ruby script.
 - [gschool/fullstack-resources](https://github.com/gschool/fullstack-resources): A repository of awesome fullstack learning resources.
-- [u7p4l-in/web-dev-projects](https://github.com/u7p4l-in/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
+- [epic-bro/web-dev-projects](https://github.com/epic-bro/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
 
 ## Infrastructure
 
@@ -616,7 +616,7 @@ Total repositories: 562
 - [tonngw/awesome-github-repos](https://github.com/tonngw/awesome-github-repos): 🚀 A curated collection of awesome GitHub repositories, organized by language and topic from my starred projects. Modern, elegant platform for showcasing your starred GitHub repositories.
 - [xiaoluoboding/awesome-starless](https://github.com/xiaoluoboding/awesome-starless): A curated list of awesome repositories with few stargazers but has a huge users.
 - [correia-jpv/fucking-awesome-honeypots](https://github.com/correia-jpv/fucking-awesome-honeypots): An awesome list of honeypot resources. With repository stars⭐ and forks🍴
-- [u7p4l-in/web-dev-projects](https://github.com/u7p4l-in/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
+- [epic-bro/web-dev-projects](https://github.com/epic-bro/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
 - [furkankoykiran/awesome-trending-repos](https://github.com/furkankoykiran/awesome-trending-repos): 🚀 Daily-updated list of the most awesome trending GitHub repositories. Automatically curated highlights of rising stars, top languages, and trending open-source projects.
 - [z1g-project/sodium](https://github.com/z1g-project/sodium): The repository for my Proxathon Entry and if I lose oh well this thing is awesome and will go public
 - [whitone/awesome-discoveries](https://github.com/whitone/awesome-discoveries): A curated list of awesome discoveries based on repositories found using GitHub Trending
@@ -681,8 +681,8 @@ Total repositories: 562
 - [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc): 🚀🚀🚀 This repository lists some awesome public CUDA, cuda-python, cuBLAS, cuDNN, CUTLASS, TensorRT, TensorRT-LLM, Triton, TVM, MLIR, PTX and High Performance Computing (HPC) projects.
 - [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects): A huge collection of awesome beginner-friendly Python projects starting from very basics to advance. Prefect repository for learning python and enhancing your python programming skills.
 - [prathimacode-hub/awesome_python_scripts](https://github.com/prathimacode-hub/awesome_python_scripts): 🚀 Curated collection of Awesome Python Scripts which will make you go wow. Dive into this world of 360+ scripts. Feel free to contribute. Show your support by ✨this repository.
-- [geiserx/awesome-spain](https://github.com/geiserx/awesome-spain): Una selección de software open source que da soporte específico a España
 - [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live): Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
+- [geiserx/awesome-spain](https://github.com/geiserx/awesome-spain): Una selección de software open source que da soporte específico a España
 - [javedali99/python-resources-for-earth-sciences](https://github.com/javedali99/python-resources-for-earth-sciences): A Curated List of Python Resources for Earth Sciences
 - [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning): A curated list of awesome instruction tuning datasets, models, papers and repositories.
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
@@ -931,8 +931,8 @@ Total repositories: 562
 - [chartjs/awesome](https://github.com/chartjs/awesome): A curated list of awesome Chart.js resources and libraries
 - [kgryte/awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer): A list of peer-to-peer resources.
 - [bst04/cybersources](https://github.com/bst04/cybersources): A curated list of cybersecurity tools and resources.
-- [bolajiayodeji/awesome-technical-writing](https://github.com/bolajiayodeji/awesome-technical-writing): :books: A curated list of awesome resources: articles, books, videos, tools, podcasts about technical writing.
 - [hng/tech-coops](https://github.com/hng/tech-coops): A list of tech coops and resources concerning tech coops and worker owned cooperatives in general.
+- [bolajiayodeji/awesome-technical-writing](https://github.com/bolajiayodeji/awesome-technical-writing): :books: A curated list of awesome resources: articles, books, videos, tools, podcasts about technical writing.
 - [auctors/free-lunch](https://github.com/auctors/free-lunch): A curated list of free Windows software, online services and resources. Feel free to contribute!
 - [inttter/md-badges](https://github.com/inttter/md-badges): An extensive list of Shields.io badges.
 - [hameds/apis-made-in-iran](https://github.com/hameds/apis-made-in-iran): A list of APIs from Iran
@@ -941,8 +941,8 @@ Total repositories: 562
 - [szabgab/awesome-for-non-programmers](https://github.com/szabgab/awesome-for-non-programmers): No description
 - [toutiaoio/weekly.manong.io](https://github.com/toutiaoio/weekly.manong.io): 码农周刊 - 每周五发送，欢迎订阅！欢迎加入读者圈子，一起交流！
 - [hilmanski/freestuffdev](https://github.com/hilmanski/freestuffdev): Complete list of free stuff for developer
-- [kalmaegi/computer-book-list](https://github.com/kalmaegi/computer-book-list): 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
 - [sereneblue/awesome-oss](https://github.com/sereneblue/awesome-oss): A list of open source projects with links to contribute or donate.
+- [kalmaegi/computer-book-list](https://github.com/kalmaegi/computer-book-list): 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
 - [uhub/awesome-matlab](https://github.com/uhub/awesome-matlab): A curated list of awesome MATLAB frameworks, libraries and software.
 - [jesselpalmer/the-engineering-managers-booklist](https://github.com/jesselpalmer/the-engineering-managers-booklist): Books for people who are or aspire to manage/lead team(s) of software engineers
 - [offciercia/non-typical-osint-guide](https://github.com/offciercia/non-typical-osint-guide): The most unusual OSINT guide you've ever seen. The repository is intended for bored professionals only. PRs are welcome!
@@ -969,15 +969,15 @@ Total repositories: 562
 - [appwrite/awesome-appwrite](https://github.com/appwrite/awesome-appwrite): Carefully curated list of awesome Appwrite resources 💪
 - [tehtbl/awesome-note-taking](https://github.com/tehtbl/awesome-note-taking): A curated list of 100+ awesome note-taking apps, PKM tools & knowledge management software — open source and proprietary. Updated regularly.
 - [chobeat/awesome-critical-tech-reading-list](https://github.com/chobeat/awesome-critical-tech-reading-list): A reading list for the modern critical programmer
-- [linsa-io/curated-lists](https://github.com/linsa-io/curated-lists): Curated lists on various topics
 - [sebastrion/awesome-unofficial-pc-ports](https://github.com/sebastrion/awesome-unofficial-pc-ports): A curated list of awesome unoffical PC Ports.
+- [linsa-io/curated-lists](https://github.com/linsa-io/curated-lists): Curated lists on various topics
 - [otacilion/awesome-hacktoberfest](https://github.com/otacilion/awesome-hacktoberfest): A curated list of awesome Hacktoberfest 2023 repositories, guides and resources
 - [linsa-io/macos-apps](https://github.com/linsa-io/macos-apps): Awesome macOS apps
 - [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
 - [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
 - [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
-- [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
+- [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
 - [devrelcollective/awesome-devrel](https://github.com/devrelcollective/awesome-devrel): Awesome Developer Relations resources curated by the DevRel Collective
 - [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [uhub/awesome-lua](https://github.com/uhub/awesome-lua): A curated list of awesome Lua frameworks, libraries and software.
@@ -1008,8 +1008,8 @@ Total repositories: 562
 - [iampavangandhi/iampavangandhi](https://github.com/iampavangandhi/iampavangandhi): Hey 👋, Glad to see you here! Check out this repository to learn more about me 🤓. You can also use it to make your awesome GitHub README ✨  (Don't Just Fork, Star Too 😅)
 - [beam-community/awesome-phoenix-liveview](https://github.com/beam-community/awesome-phoenix-liveview): A curated list of awesome Phoenix LiveView repositories, blog posts or other resources
 - [linsa-io/websites](https://github.com/linsa-io/websites): Awesome Websites
-- [uhub/awesome-coq](https://github.com/uhub/awesome-coq): A curated list of awesome Coq frameworks, libraries and software.
 - [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list): 🌐 全网最全 RSS 订阅源汇总
+- [uhub/awesome-coq](https://github.com/uhub/awesome-coq): A curated list of awesome Coq frameworks, libraries and software.
 - [unkn0w/unknownews](https://github.com/unkn0w/unknownews): Archiwum wszystkich wydań newslettera unknowNews
 - [robodonut/awesome-spatial](https://github.com/robodonut/awesome-spatial): A list of awesome spatial repositories.
 - [uhub/awesome-scala](https://github.com/uhub/awesome-scala): A curated list of awesome Scala frameworks, libraries and software.
@@ -1022,8 +1022,8 @@ Total repositories: 562
 - [victordedomenico/awesome-altstore](https://github.com/victordedomenico/awesome-altstore): A curated awesome list of AltStore sources (JSON repositories)
 - [wheel-smith/awesome-omarchy](https://github.com/wheel-smith/awesome-omarchy): A curated list of Omarchy themes. Discover, share, and contribute to a growing collection of themes for Omarchy—all in one place. Inspired by other awesome lists, this repository helps users explore and enhance their Omarchy experience with beautiful, community-driven themes.
 - [correia-jpv/fucking-awesome-sysadmin](https://github.com/correia-jpv/fucking-awesome-sysadmin): A curated list of amazingly awesome open source sysadmin resources. With up-to-date repository stars⭐ and forks🍴
-- [erbanku/awesome](https://github.com/erbanku/awesome): 🌟 My Awesome Repositories List. Automatically updates by GitHub Actions on UTC 00:00 & 16:00
 - [correia-jpv/fucking-awesome-macos](https://github.com/correia-jpv/fucking-awesome-macos):  A curated list of awesome applications, softwares, tools and shiny things for macOS. With up-to-date repository stars⭐ and forks🍴
+- [erbanku/awesome](https://github.com/erbanku/awesome): 🌟 My Awesome Repositories List. Automatically updates by GitHub Actions on UTC 00:00 & 16:00
 - [anderson-joyle/awesome-msdyn365fo](https://github.com/anderson-joyle/awesome-msdyn365fo): A curated list of awesome Microsoft Dynamics 365 for Finance and Operations repositories, blogs, documents and resources.
 - [pauljgasper/awesome-battery-data](https://github.com/pauljgasper/awesome-battery-data): An awesome list of open-source battery data (electrochemical, safety, and microstructural), data analysis tools, modeling code, microstructure analysis, and data repositories and review papers. This aims to be a one-stop shop for the open-source battery data, modeling, and analysis ecosystem!
 - [martinmiles/awesome-sitecore](https://github.com/martinmiles/awesome-sitecore): Awesome lists of useful Sitecore tools, extensions and GitHub repositories
