@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-23T07:57:21Z
+Generated: 2026-10-24T07:38:15Z
 
 Total repositories: 562
 
@@ -126,8 +126,8 @@ Total repositories: 562
 - [akuity/awesome-argo](https://github.com/akuity/awesome-argo): A curated list of awesome projects and resources related to Argo (a CNCF graduated project)
 - [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization): A curated collection of papers, benchmarks, surveys, and tools for model quantization, covering low-bit networks, LLMs, multimodal and generative models, vector and lattice quantization, and efficient deployment.
 - [robertsdionne/neural-network-papers](https://github.com/robertsdionne/neural-network-papers): No description
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [mohitmishra786/amilearningenough](https://github.com/mohitmishra786/amilearningenough): Low-Level Programming Roadmap and Resources
 - [becauseofai/awesome-face](https://github.com/becauseofai/awesome-face): An awesome face technology repository.
 - [ayushidalmia/awesome-fashion-ai](https://github.com/ayushidalmia/awesome-fashion-ai): A repository to curate and summarise research papers related to fashion and e-commerce
@@ -336,7 +336,7 @@ Total repositories: 562
 - [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software): A list of awesome applications, software, tools and other materials for Linux distros. With repository stars⭐ and forks🍴
 - [athityakumar/awesome-awesomes](https://github.com/athityakumar/awesome-awesomes): Heard of Inception? This repository can be called as "inspired by inception". This is a curated list of awesome "awesome X" curated lists. Generated automatically by ruby script.
 - [gschool/fullstack-resources](https://github.com/gschool/fullstack-resources): A repository of awesome fullstack learning resources.
-- [epic-bro/web-dev-projects](https://github.com/epic-bro/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
+- [u7p4l-in/web-dev-projects](https://github.com/u7p4l-in/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
 
 ## Infrastructure
 
@@ -344,7 +344,6 @@ Total repositories: 562
 
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions): A curated list of awesome actions to use on GitHub
 - [correia-jpv/fucking-awesome-actions](https://github.com/correia-jpv/fucking-awesome-actions): A curated list of awesome actions to use on GitHub. With repository stars⭐ and forks🍴
-- [furkankoykiran/awesome-trending-repos](https://github.com/furkankoykiran/awesome-trending-repos): 🚀 Daily-updated list of the most awesome trending GitHub repositories. Automatically curated highlights of rising stars, top languages, and trending open-source projects.
 
 ### Cloud
 
@@ -355,8 +354,8 @@ Total repositories: 562
 - [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus): 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists): :shield: The independent, comprehensive directory of filter and host lists for advertisements, trackers, malware, and annoyances.
 - [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security): Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
-- [kube-green/kube-green](https://github.com/kube-green/kube-green): A K8s operator to reduce CO2 footprint of your clusters
 - [xyou365/autorclone](https://github.com/xyou365/autorclone): AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
+- [kube-green/kube-green](https://github.com/kube-green/kube-green): A K8s operator to reduce CO2 footprint of your clusters
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide): Linux Guide. Learn about Linux Hardware vendors, Linux in the Cloud, Desktop Environments, Window Mangers, Linux Distributions, Linux Security, Graphics (AMD/NVIDIA/Intel ARC), and Software Apps.
 - [hetznercloud/awesome-hcloud](https://github.com/hetznercloud/awesome-hcloud): A curated list of awesome libraries, tools, and integrations for Hetzner Cloud
 - [devtoolsd/awesome-devtools](https://github.com/devtoolsd/awesome-devtools): A curated list of awesome developer tools and services — from cloud platforms and IDEs to AI-powered coding assistants and productivity utilities.
@@ -616,8 +615,7 @@ Total repositories: 562
 - [tonngw/awesome-github-repos](https://github.com/tonngw/awesome-github-repos): 🚀 A curated collection of awesome GitHub repositories, organized by language and topic from my starred projects. Modern, elegant platform for showcasing your starred GitHub repositories.
 - [xiaoluoboding/awesome-starless](https://github.com/xiaoluoboding/awesome-starless): A curated list of awesome repositories with few stargazers but has a huge users.
 - [correia-jpv/fucking-awesome-honeypots](https://github.com/correia-jpv/fucking-awesome-honeypots): An awesome list of honeypot resources. With repository stars⭐ and forks🍴
-- [epic-bro/web-dev-projects](https://github.com/epic-bro/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
-- [furkankoykiran/awesome-trending-repos](https://github.com/furkankoykiran/awesome-trending-repos): 🚀 Daily-updated list of the most awesome trending GitHub repositories. Automatically curated highlights of rising stars, top languages, and trending open-source projects.
+- [u7p4l-in/web-dev-projects](https://github.com/u7p4l-in/web-dev-projects): The repository contains the list of awesome✨ & cool web development beginner-friendly✌️ projects!
 - [z1g-project/sodium](https://github.com/z1g-project/sodium): The repository for my Proxathon Entry and if I lose oh well this thing is awesome and will go public
 - [whitone/awesome-discoveries](https://github.com/whitone/awesome-discoveries): A curated list of awesome discoveries based on repositories found using GitHub Trending
 
@@ -659,8 +657,8 @@ Total repositories: 562
 - [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience): Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome
 - [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills): A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn): 超赞列表合集
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering): A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.
 - [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical): Resources on programming practices for safety-critical software.
 - [garimasingh128/awesome-python-projects](https://github.com/garimasingh128/awesome-python-projects): 📱 ✅ Some awesome projects in python! 📱 ✅
@@ -948,8 +946,8 @@ Total repositories: 562
 - [offciercia/non-typical-osint-guide](https://github.com/offciercia/non-typical-osint-guide): The most unusual OSINT guide you've ever seen. The repository is intended for bored professionals only. PRs are welcome!
 - [tkmru/awesome-edr-bypass](https://github.com/tkmru/awesome-edr-bypass): Awesome EDR Bypass Resources For Ethical Hacking
 - [kr1sp1n/awesome-gemini](https://github.com/kr1sp1n/awesome-gemini): A collection of awesome things regarding the gemini protocol ecosystem.
-- [envoy1084/awesome-badges](https://github.com/envoy1084/awesome-badges): 😎 A curated list of GitHub badges for your next  project
 - [niri-wm/awesome-niri](https://github.com/niri-wm/awesome-niri): An awesome list for niri related projects [Maintainer - @Vortriz]
+- [envoy1084/awesome-badges](https://github.com/envoy1084/awesome-badges): 😎 A curated list of GitHub badges for your next  project
 - [svaksha/julia.jl](https://github.com/svaksha/julia.jl): Curated decibans of Julia programming language.
 - [cedrickchee/awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard): A curated list of WireGuard tools, projects, and resources.
 - [salgnt/cscs](https://github.com/salgnt/cscs): A curated list of Coding Style Conventions and Standards.
@@ -1061,6 +1059,7 @@ Total repositories: 562
 - [realmtai/awesome-awesome-awesome](https://github.com/realmtai/awesome-awesome-awesome): Awesome list of repositories of awesome lists 🤷‍♀️
 - [corranwebster/scipy-sprints-2014](https://github.com/corranwebster/scipy-sprints-2014): An awesome repository for learning how to sprint
 - [chiranjivmalla/talent-for-hire](https://github.com/chiranjivmalla/talent-for-hire): A repository for storing a list of awesome folks looking for their next engineering gig. If you have been impacted by COVID layoffs, or just job searching in these hard times, send a PR to include you
+- [gfranco008/awesome-opendata](https://github.com/gfranco008/awesome-opendata): A curated list of awesome opendata repositories.
 
 ## Web3
 
