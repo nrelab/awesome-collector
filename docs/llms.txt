@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-24T07:38:15Z
+Generated: 2026-10-25T07:51:13Z
 
 Total repositories: 562
 
@@ -282,8 +282,8 @@ Total repositories: 562
 - [f/prompts.chat](https://github.com/f/prompts.chat): f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev): A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
 - [ruvnet/ruview](https://github.com/ruvnet/ruview): π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
-- [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem
 - [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability): The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+- [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem
 - [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist): 🗂 The essential checklist for modern web development, for humans and AI agents
 - [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps): :iphone: Collaborative List of Open-Source iOS Apps
 - [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components): Curated List of React Components & Libraries.
@@ -417,8 +417,8 @@ Total repositories: 562
 - [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv): The largest Awesome Curated list of command line programs (CLI/TUI) with source data organized into CSV files
 - [xyou365/autorclone](https://github.com/xyou365/autorclone): AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide): Linux Guide. Learn about Linux Hardware vendors, Linux in the Cloud, Desktop Environments, Window Mangers, Linux Distributions, Linux Security, Graphics (AMD/NVIDIA/Intel ARC), and Software Apps.
-- [huytransformer/awesome-out-of-distribution-detection](https://github.com/huytransformer/awesome-out-of-distribution-detection): Out-of-distribution detection, robustness, and generalization resources. The repository contains a curated list of papers, tutorials, books, videos, articles and open-source libraries etc
 - [okhosting/awesome-storage](https://github.com/okhosting/awesome-storage): A curated list of storage open source tools. Backups, redundancy, sharing, distribution, encryption, etc.
+- [huytransformer/awesome-out-of-distribution-detection](https://github.com/huytransformer/awesome-out-of-distribution-detection): Out-of-distribution detection, robustness, and generalization resources. The repository contains a curated list of papers, tutorials, books, videos, articles and open-source libraries etc
 - [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software): A list of awesome applications, software, tools and other materials for Linux distros. With repository stars⭐ and forks🍴
 - [tamimhasan404/chart-of-wordlist](https://github.com/tamimhasan404/chart-of-wordlist): Chart-Of-Wordlist helps to create your own custom wordlist. Also in one repository, you can find a list of awesome wordlist.
 - [coslyk/debianopt-repo](https://github.com/coslyk/debianopt-repo): Additional debian repository for awesome open-source projects.
@@ -435,6 +435,7 @@ Total repositories: 562
 
 - [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide): Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.
 - [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist): 🎮 The only Front-End Performance Checklist that runs faster than the others
+- [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops): A curated list of awesome DevOps platforms, tools, practices and resources
 - [wendashi/cool-genai-fashion-papers](https://github.com/wendashi/cool-genai-fashion-papers): [ACM TIST 2025] GenAI in Fashion: Overview, also includes 🔥latest papers, ⚙️metrics, 👀workshops, 🚀companies & products, ...)
 
 ### Terraform
@@ -973,8 +974,8 @@ Total repositories: 562
 - [linsa-io/macos-apps](https://github.com/linsa-io/macos-apps): Awesome macOS apps
 - [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
 - [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
-- [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
+- [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
 - [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
 - [devrelcollective/awesome-devrel](https://github.com/devrelcollective/awesome-devrel): Awesome Developer Relations resources curated by the DevRel Collective
 - [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
@@ -987,8 +988,8 @@ Total repositories: 562
 - [linsa-io/blogs](https://github.com/linsa-io/blogs): Awesome Blogs
 - [simsieg/awesome-maps](https://github.com/simsieg/awesome-maps): There is more than google: A collection of great online maps 🌍🗺🌎
 - [linsa-io/chrome-extensions](https://github.com/linsa-io/chrome-extensions): Awesome Chrome Extensions
-- [statebox/awesome-applied-ct](https://github.com/statebox/awesome-applied-ct): ACT community resources
 - [uhub/awesome-haskell](https://github.com/uhub/awesome-haskell): A curated list of awesome Haskell frameworks, libraries and software.
+- [statebox/awesome-applied-ct](https://github.com/statebox/awesome-applied-ct): ACT community resources
 - [stockpilelabs/awesome-solana-oss](https://github.com/stockpilelabs/awesome-solana-oss): Compilation of awesome open-source Solana repositories on GitHub!
 - [correia-jpv/fucking-awesome-flipperzero](https://github.com/correia-jpv/fucking-awesome-flipperzero): 🐬 A collection of awesome resources for the Flipper Zero device. With repository stars⭐ and forks🍴
 - [ezshine/awesomelive2d](https://github.com/ezshine/awesomelive2d): Awesome live2d models repository
@@ -1002,8 +1003,8 @@ Total repositories: 562
 - [ruijun/awesome-gank.io](https://github.com/ruijun/awesome-gank.io): The repository is used to collect the awesome code of gank.io
 - [thedaviddias/indie-dev-toolkit](https://github.com/thedaviddias/indie-dev-toolkit): 🚀 A curated list of tools and resources for indie hackers, solo founders, and bootstrapped startups.
 - [valeman/awesome_catboost](https://github.com/valeman/awesome_catboost): The repository to showcase the best framework for tabular data - the Awesome CatBoost
-- [csbl-br/awesome-compbio-chatgpt](https://github.com/csbl-br/awesome-compbio-chatgpt): An awesome repository of community-curated applications of ChatGPT and other LLMs in computational biology
 - [iampavangandhi/iampavangandhi](https://github.com/iampavangandhi/iampavangandhi): Hey 👋, Glad to see you here! Check out this repository to learn more about me 🤓. You can also use it to make your awesome GitHub README ✨  (Don't Just Fork, Star Too 😅)
+- [csbl-br/awesome-compbio-chatgpt](https://github.com/csbl-br/awesome-compbio-chatgpt): An awesome repository of community-curated applications of ChatGPT and other LLMs in computational biology
 - [beam-community/awesome-phoenix-liveview](https://github.com/beam-community/awesome-phoenix-liveview): A curated list of awesome Phoenix LiveView repositories, blog posts or other resources
 - [linsa-io/websites](https://github.com/linsa-io/websites): Awesome Websites
 - [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list): 🌐 全网最全 RSS 订阅源汇总
