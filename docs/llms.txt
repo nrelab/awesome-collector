@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-29T08:53:31Z
+Generated: 2026-10-30T08:59:11Z
 
 Total repositories: 561
 
@@ -25,8 +25,8 @@ Total repositories: 561
 - [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents): 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents.
 - [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus): 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀
 - [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills): A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents
-- [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude): A curated list of awesome things related to Anthropic Claude
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
+- [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude): A curated list of awesome things related to Anthropic Claude
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
@@ -938,8 +938,8 @@ Total repositories: 561
 - [oshliaer/google-apps-script-awesome-list](https://github.com/oshliaer/google-apps-script-awesome-list): The usual list of links to interesting resources for Google Apps Script
 - [janhq/awesome-local-ai](https://github.com/janhq/awesome-local-ai): An awesome repository of local AI tools
 - [szabgab/awesome-for-non-programmers](https://github.com/szabgab/awesome-for-non-programmers): No description
-- [toutiaoio/weekly.manong.io](https://github.com/toutiaoio/weekly.manong.io): 码农周刊 - 每周五发送，欢迎订阅！欢迎加入读者圈子，一起交流！
 - [hilmanski/freestuffdev](https://github.com/hilmanski/freestuffdev): Complete list of free stuff for developer
+- [toutiaoio/weekly.manong.io](https://github.com/toutiaoio/weekly.manong.io): 码农周刊 - 每周五发送，欢迎订阅！欢迎加入读者圈子，一起交流！
 - [kalmaegi/computer-book-list](https://github.com/kalmaegi/computer-book-list): 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
 - [sereneblue/awesome-oss](https://github.com/sereneblue/awesome-oss): A list of open source projects with links to contribute or donate.
 - [uhub/awesome-matlab](https://github.com/uhub/awesome-matlab): A curated list of awesome MATLAB frameworks, libraries and software.
@@ -1043,8 +1043,8 @@ Total repositories: 561
 - [questflowai/awesome-a2a-hub](https://github.com/questflowai/awesome-a2a-hub): A curated list of awesome Agent2Agent (A2A) protocol agents, tools, and resources, with a focus on the https://a2a.build. This repository is supported by https://questflow.ai.
 - [redswallow/open-source-from-big-companies](https://github.com/redswallow/open-source-from-big-companies): A curated list of awesome open-source repositories of big companies
 - [oasiszrz/awesome-aisecops](https://github.com/oasiszrz/awesome-aisecops): This repository contains a curated list of awesome resources related to AISecOps.
-- [lakshmi-027/animated-rainbow](https://github.com/lakshmi-027/animated-rainbow): The repository contains the list of awesome✨ & cool animated rainbow
 - [correia-jpv/fucking-awesome-for-beginners](https://github.com/correia-jpv/fucking-awesome-for-beginners): A list of awesome beginners-friendly projects. With repository stars⭐ and forks🍴
+- [lakshmi-027/animated-rainbow](https://github.com/lakshmi-027/animated-rainbow): The repository contains the list of awesome✨ & cool animated rainbow
 - [petervg/awesome-tdr](https://github.com/petervg/awesome-tdr): List of all awesome Trusted Digital Repositories
 - [maksimabramchuk/awesome-boilerplate](https://github.com/maksimabramchuk/awesome-boilerplate): :eyeglasses: Boilerplate for creating awesome repositories. Just fork and be awesome! :eyeglasses:
 - [madhupriyaselvaraj/animated-color-wave](https://github.com/madhupriyaselvaraj/animated-color-wave): The repository cointains the list of awesome & cool animated color wave
