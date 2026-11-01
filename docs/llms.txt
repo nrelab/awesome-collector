@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-10-31T08:49:19Z
+Generated: 2026-11-01T09:39:17Z
 
 Total repositories: 561
 
@@ -689,8 +689,8 @@ Total repositories: 561
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent): TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
 - [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts): Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
-- [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 - [jiganesh/loads-of-logic](https://github.com/jiganesh/loads-of-logic): Repository with leetcode solutions and dedicated index to prepare for your Meta, Google, Amazon, Microsoft interviews. Feel free to share and contribute to this awesome repository.
+- [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 - [velocityra/awesome-game-file-format-reversing](https://github.com/velocityra/awesome-game-file-format-reversing): Collection of docs/tools/resources for reverse engineering and working with video game file formats.
 - [cuuupid/awesome-lists](https://github.com/cuuupid/awesome-lists): [DEPRECATED] A curated list of curated lists.
 - [milkthink-lab/awesome-routing-llms](https://github.com/milkthink-lab/awesome-routing-llms): A curated list of awesome works in Routing LLMs paradigm (👉 Welcome to submit your contributions to this code repository)
@@ -925,8 +925,8 @@ Total repositories: 561
 - [ocaml-community/awesome-ocaml](https://github.com/ocaml-community/awesome-ocaml): A curated collection of awesome OCaml tools, frameworks, libraries and articles.
 - [dictcp/awesome-git](https://github.com/dictcp/awesome-git): A curated list of amazingly awesome Git tools, resources and shiny things
 - [freedomintelligence/awesome-ai4med](https://github.com/freedomintelligence/awesome-ai4med): A curated list of medical LLMs, multimodal systems, datasets, benchmarks, and more. 🏥
-- [linsa-io/alfred-workflows](https://github.com/linsa-io/alfred-workflows): Amazing Alfred Workflows
 - [agucova/awesome-esp](https://github.com/agucova/awesome-esp): 📶 A curated list of awesome ESP8266/32 projects and code
+- [linsa-io/alfred-workflows](https://github.com/linsa-io/alfred-workflows): Amazing Alfred Workflows
 - [chartjs/awesome](https://github.com/chartjs/awesome): A curated list of awesome Chart.js resources and libraries
 - [kgryte/awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer): A list of peer-to-peer resources.
 - [bst04/cybersources](https://github.com/bst04/cybersources): A curated list of cybersecurity tools and resources.
@@ -972,8 +972,8 @@ Total repositories: 561
 - [linsa-io/curated-lists](https://github.com/linsa-io/curated-lists): Curated lists on various topics
 - [otacilion/awesome-hacktoberfest](https://github.com/otacilion/awesome-hacktoberfest): A curated list of awesome Hacktoberfest 2023 repositories, guides and resources
 - [linsa-io/macos-apps](https://github.com/linsa-io/macos-apps): Awesome macOS apps
-- [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
+- [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
 - [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
 - [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
 - [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
@@ -1021,8 +1021,8 @@ Total repositories: 561
 - [victordedomenico/awesome-altstore](https://github.com/victordedomenico/awesome-altstore): A curated awesome list of AltStore sources (JSON repositories)
 - [wheel-smith/awesome-omarchy](https://github.com/wheel-smith/awesome-omarchy): A curated list of Omarchy themes. Discover, share, and contribute to a growing collection of themes for Omarchy—all in one place. Inspired by other awesome lists, this repository helps users explore and enhance their Omarchy experience with beautiful, community-driven themes.
 - [correia-jpv/fucking-awesome-sysadmin](https://github.com/correia-jpv/fucking-awesome-sysadmin): A curated list of amazingly awesome open source sysadmin resources. With up-to-date repository stars⭐ and forks🍴
-- [erbanku/awesome](https://github.com/erbanku/awesome): 🌟 My Awesome Repositories List. Automatically updates by GitHub Actions on UTC 00:00 & 16:00
 - [correia-jpv/fucking-awesome-macos](https://github.com/correia-jpv/fucking-awesome-macos):  A curated list of awesome applications, softwares, tools and shiny things for macOS. With up-to-date repository stars⭐ and forks🍴
+- [erbanku/awesome](https://github.com/erbanku/awesome): 🌟 My Awesome Repositories List. Automatically updates by GitHub Actions on UTC 00:00 & 16:00
 - [anderson-joyle/awesome-msdyn365fo](https://github.com/anderson-joyle/awesome-msdyn365fo): A curated list of awesome Microsoft Dynamics 365 for Finance and Operations repositories, blogs, documents and resources.
 - [pauljgasper/awesome-battery-data](https://github.com/pauljgasper/awesome-battery-data): An awesome list of open-source battery data (electrochemical, safety, and microstructural), data analysis tools, modeling code, microstructure analysis, and data repositories and review papers. This aims to be a one-stop shop for the open-source battery data, modeling, and analysis ecosystem!
 - [martinmiles/awesome-sitecore](https://github.com/martinmiles/awesome-sitecore): Awesome lists of useful Sitecore tools, extensions and GitHub repositories
