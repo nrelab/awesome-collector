@@ -1,6 +1,6 @@
 # Awesome Repository Sitemap
 
-Generated: 2026-11-01T09:39:17Z
+Generated: 2026-11-02T09:57:09Z
 
 Total repositories: 561
 
@@ -8,31 +8,31 @@ Total repositories: 561
 
 ### Agents
 
-- [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) - 74,619 stars - score 0
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - 57,011 stars - score 0
-- [voltagent/awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills) - 53,479 stars - score 0
-- [github/awesome-copilot](https://github.com/github/awesome-copilot) - 40,646 stars - score 0
-- [voltagent/awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills) - 36,693 stars - score 0
-- [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - 30,740 stars - score 0
-- [voltagent/awesome-claude-code-subagents](https://github.com/voltagent/awesome-claude-code-subagents) - 26,243 stars - score 0
-- [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) - 26,212 stars - score 0
-- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,505 stars - score 0
-- [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) - 17,152 stars - score 0
-- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - 15,660 stars - score 0
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools) - 6,266 stars - score 0
-- [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) - 2,022 stars - score 0
-- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,918 stars - score 0
-- [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills) - 1,840 stars - score 0
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,709 stars - score 0
-- [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude) - 1,697 stars - score 0
-- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,287 stars - score 0
-- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course) - 1,091 stars - score 0
-- [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch) - 1,075 stars - score 0
-- [evolink-ai/awesome-openclaw-usecases-moltbook](https://github.com/evolink-ai/awesome-openclaw-usecases-moltbook) - 1,011 stars - score 0
-- [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) - 917 stars - score 0
-- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 745 stars - score 0
+- [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) - 74,630 stars - score 0
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - 57,082 stars - score 0
+- [voltagent/awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills) - 53,502 stars - score 0
+- [github/awesome-copilot](https://github.com/github/awesome-copilot) - 40,692 stars - score 0
+- [voltagent/awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills) - 36,748 stars - score 0
+- [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - 30,760 stars - score 0
+- [voltagent/awesome-claude-code-subagents](https://github.com/voltagent/awesome-claude-code-subagents) - 26,269 stars - score 0
+- [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) - 26,226 stars - score 0
+- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,515 stars - score 0
+- [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) - 17,171 stars - score 0
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - 15,671 stars - score 0
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools) - 6,272 stars - score 0
+- [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) - 2,024 stars - score 0
+- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,921 stars - score 0
+- [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills) - 1,842 stars - score 0
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,711 stars - score 0
+- [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude) - 1,699 stars - score 0
+- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,295 stars - score 0
+- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course) - 1,095 stars - score 0
+- [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch) - 1,076 stars - score 0
+- [evolink-ai/awesome-openclaw-usecases-moltbook](https://github.com/evolink-ai/awesome-openclaw-usecases-moltbook) - 1,012 stars - score 0
+- [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) - 927 stars - score 0
+- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 761 stars - score 0
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev) - 613 stars - score 0
-- [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins) - 564 stars - score 0
+- [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins) - 566 stars - score 0
 - [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live) - 378 stars - score 0
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent) - 340 stars - score 0
 - [natnew/awesome-prompt-engineering](https://github.com/natnew/awesome-prompt-engineering) - 114 stars - score 0
@@ -41,15 +41,15 @@ Total repositories: 561
 ### Audio
 
 - [ybayle/awesome-deep-learning-music](https://github.com/ybayle/awesome-deep-learning-music) - 2,999 stars - score 0
-- [re50urces/awesome-ai](https://github.com/re50urces/awesome-ai) - 898 stars - score 0
+- [re50urces/awesome-ai](https://github.com/re50urces/awesome-ai) - 899 stars - score 0
 - [zycv/awesome-keyword-spotting](https://github.com/zycv/awesome-keyword-spotting) - 294 stars - score 0
 - [ishandutta2007/awesome-text-to-speech](https://github.com/ishandutta2007/awesome-text-to-speech) - 219 stars - score 0
 - [lhx94as/awesome-spoken-language-identification](https://github.com/lhx94as/awesome-spoken-language-identification) - 109 stars - score 0
 
 ### Computer Vision
 
-- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,575 stars - score 0
-- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,730 stars - score 0
+- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,596 stars - score 0
+- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,733 stars - score 0
 - [hwalsuklee/awesome-deep-text-detection-recognition](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition) - 2,533 stars - score 0
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl) - 1,162 stars - score 0
 - [lzhbrian/image-to-image-papers](https://github.com/lzhbrian/image-to-image-papers) - 1,129 stars - score 0
@@ -58,88 +58,88 @@ Total repositories: 561
 
 ### LLM
 
-- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,465 stars - score 0
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - 57,011 stars - score 0
-- [github/awesome-copilot](https://github.com/github/awesome-copilot) - 40,646 stars - score 0
-- [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - 30,740 stars - score 0
-- [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - 30,064 stars - score 0
-- [aihubcn/awesome-chinese-llm](https://github.com/aihubcn/awesome-chinese-llm) - 22,771 stars - score 0
-- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,505 stars - score 0
-- [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - 18,101 stars - score 0
-- [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts) - 17,371 stars - score 0
-- [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) - 17,152 stars - score 0
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools) - 6,266 stars - score 0
-- [rafska/awesome-local-llm](https://github.com/rafska/awesome-local-llm) - 3,017 stars - score 0
-- [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization) - 2,461 stars - score 0
-- [openmindclub/awesome-chatgpt](https://github.com/openmindclub/awesome-chatgpt) - 1,952 stars - score 0
-- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,918 stars - score 0
-- [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills) - 1,840 stars - score 0
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,709 stars - score 0
-- [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering) - 1,644 stars - score 0
-- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,287 stars - score 0
+- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,574 stars - score 0
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - 57,082 stars - score 0
+- [github/awesome-copilot](https://github.com/github/awesome-copilot) - 40,692 stars - score 0
+- [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - 30,760 stars - score 0
+- [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - 30,102 stars - score 0
+- [aihubcn/awesome-chinese-llm](https://github.com/aihubcn/awesome-chinese-llm) - 22,775 stars - score 0
+- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,515 stars - score 0
+- [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - 18,104 stars - score 0
+- [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts) - 17,377 stars - score 0
+- [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) - 17,171 stars - score 0
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools) - 6,272 stars - score 0
+- [rafska/awesome-local-llm](https://github.com/rafska/awesome-local-llm) - 3,024 stars - score 0
+- [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization) - 2,462 stars - score 0
+- [openmindclub/awesome-chatgpt](https://github.com/openmindclub/awesome-chatgpt) - 1,953 stars - score 0
+- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,921 stars - score 0
+- [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills) - 1,842 stars - score 0
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,711 stars - score 0
+- [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering) - 1,645 stars - score 0
+- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,295 stars - score 0
 - [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers) - 1,182 stars - score 0
-- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course) - 1,091 stars - score 0
-- [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch) - 1,075 stars - score 0
-- [uhub/awesome-llm](https://github.com/uhub/awesome-llm) - 868 stars - score 0
-- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 745 stars - score 0
+- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course) - 1,095 stars - score 0
+- [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch) - 1,076 stars - score 0
+- [uhub/awesome-llm](https://github.com/uhub/awesome-llm) - 869 stars - score 0
+- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 761 stars - score 0
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev) - 613 stars - score 0
-- [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins) - 564 stars - score 0
-- [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) - 523 stars - score 0
+- [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins) - 566 stars - score 0
+- [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) - 524 stars - score 0
 - [iaar-shanghai/awesome-attention-heads](https://github.com/iaar-shanghai/awesome-attention-heads) - 414 stars - score 0
 - [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live) - 378 stars - score 0
-- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning) - 345 stars - score 0
+- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning) - 346 stars - score 0
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent) - 340 stars - score 0
-- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 287 stars - score 0
+- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 288 stars - score 0
 - [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses) - 254 stars - score 0
 - [liyunqianggyn/awesome-llms-pruning](https://github.com/liyunqianggyn/awesome-llms-pruning) - 182 stars - score 0
 - [targed/awesome-plugins](https://github.com/targed/awesome-plugins) - 154 stars - score 0
 - [natnew/awesome-prompt-engineering](https://github.com/natnew/awesome-prompt-engineering) - 114 stars - score 0
 - [machinelearningzuu/awesome-llm-projects](https://github.com/machinelearningzuu/awesome-llm-projects) - 82 stars - score 0
-- [adongwanai/awesome-awesome-llms](https://github.com/adongwanai/awesome-awesome-llms) - 43 stars - score 0
+- [adongwanai/awesome-awesome-llms](https://github.com/adongwanai/awesome-awesome-llms) - 45 stars - score 0
 - [itgoyo/awesome-gpt-image2](https://github.com/itgoyo/awesome-gpt-image2) - 41 stars - score 0
 - [correia-jpv/fucking-awesome-chatgpt](https://github.com/correia-jpv/fucking-awesome-chatgpt) - 40 stars - score 0
 
 ### Machine Learning
 
-- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,465 stars - score 0
-- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,269 stars - score 0
-- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,575 stars - score 0
-- [academic/awesome-datascience](https://github.com/academic/awesome-datascience) - 30,260 stars - score 0
-- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,978 stars - score 0
-- [christoschristofidis/awesome-deep-learning](https://github.com/christoschristofidis/awesome-deep-learning) - 29,117 stars - score 0
-- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,505 stars - score 0
-- [ethicalml/awesome-production-machine-learning](https://github.com/ethicalml/awesome-production-machine-learning) - 21,064 stars - score 0
-- [keon/awesome-nlp](https://github.com/keon/awesome-nlp) - 19,119 stars - score 0
+- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,574 stars - score 0
+- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,290 stars - score 0
+- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,596 stars - score 0
+- [academic/awesome-datascience](https://github.com/academic/awesome-datascience) - 30,263 stars - score 0
+- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,987 stars - score 0
+- [christoschristofidis/awesome-deep-learning](https://github.com/christoschristofidis/awesome-deep-learning) - 29,125 stars - score 0
+- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,515 stars - score 0
+- [ethicalml/awesome-production-machine-learning](https://github.com/ethicalml/awesome-production-machine-learning) - 21,066 stars - score 0
+- [keon/awesome-nlp](https://github.com/keon/awesome-nlp) - 19,120 stars - score 0
 - [ujjwalkarn/machine-learning-tutorials](https://github.com/ujjwalkarn/machine-learning-tutorials) - 18,325 stars - score 0
-- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,730 stars - score 0
-- [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models) - 7,068 stars - score 0
-- [vedenin/useful-java-links](https://github.com/vedenin/useful-java-links) - 6,209 stars - score 0
+- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,733 stars - score 0
+- [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models) - 7,070 stars - score 0
+- [vedenin/useful-java-links](https://github.com/vedenin/useful-java-links) - 6,210 stars - score 0
 - [instillai/deep-learning-roadmap](https://github.com/instillai/deep-learning-roadmap) - 4,636 stars - score 0
-- [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch) - 4,287 stars - score 0
-- [gamontal/awesome-katas](https://github.com/gamontal/awesome-katas) - 3,171 stars - score 0
+- [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch) - 4,289 stars - score 0
+- [gamontal/awesome-katas](https://github.com/gamontal/awesome-katas) - 3,173 stars - score 0
 - [mjebrahimi/awesome-microservices-dotnet](https://github.com/mjebrahimi/awesome-microservices-dotnet) - 3,089 stars - score 0
 - [ybayle/awesome-deep-learning-music](https://github.com/ybayle/awesome-deep-learning-music) - 2,999 stars - score 0
 - [hwalsuklee/awesome-deep-text-detection-recognition](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition) - 2,533 stars - score 0
 - [wenbihan/reproducible-image-denoising-state-of-the-art](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art) - 2,515 stars - score 0
-- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,505 stars - score 0
-- [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization) - 2,461 stars - score 0
+- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,506 stars - score 0
+- [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization) - 2,462 stars - score 0
 - [robertsdionne/neural-network-papers](https://github.com/robertsdionne/neural-network-papers) - 1,997 stars - score 0
-- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,726 stars - score 0
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,709 stars - score 0
+- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,729 stars - score 0
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,711 stars - score 0
 - [mohitmishra786/amilearningenough](https://github.com/mohitmishra786/amilearningenough) - 1,368 stars - score 0
 - [becauseofai/awesome-face](https://github.com/becauseofai/awesome-face) - 1,293 stars - score 0
 - [ayushidalmia/awesome-fashion-ai](https://github.com/ayushidalmia/awesome-fashion-ai) - 1,244 stars - score 0
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl) - 1,162 stars - score 0
-- [re50urces/awesome-ai](https://github.com/re50urces/awesome-ai) - 898 stars - score 0
+- [re50urces/awesome-ai](https://github.com/re50urces/awesome-ai) - 899 stars - score 0
 - [logancyang/my-cs-degree](https://github.com/logancyang/my-cs-degree) - 880 stars - score 0
 - [vibertthio/awesome-machine-learning-art](https://github.com/vibertthio/awesome-machine-learning-art) - 719 stars - score 0
 - [lzhbrian/cool-fashion-papers](https://github.com/lzhbrian/cool-fashion-papers) - 638 stars - score 0
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev) - 613 stars - score 0
-- [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) - 523 stars - score 0
-- [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects) - 423 stars - score 0
+- [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) - 524 stars - score 0
+- [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects) - 424 stars - score 0
 - [iaar-shanghai/awesome-attention-heads](https://github.com/iaar-shanghai/awesome-attention-heads) - 414 stars - score 0
 - [xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection](https://github.com/xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection) - 385 stars - score 0
-- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 287 stars - score 0
+- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 288 stars - score 0
 - [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses) - 254 stars - score 0
 - [ishandutta2007/awesome-text-to-speech](https://github.com/ishandutta2007/awesome-text-to-speech) - 219 stars - score 0
 - [zhgqcn/awesome-nilm-with-code](https://github.com/zhgqcn/awesome-nilm-with-code) - 147 stars - score 0
@@ -153,25 +153,25 @@ Total repositories: 561
 
 ### NLP
 
-- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,575 stars - score 0
-- [aihubcn/awesome-chinese-llm](https://github.com/aihubcn/awesome-chinese-llm) - 22,771 stars - score 0
-- [keon/awesome-nlp](https://github.com/keon/awesome-nlp) - 19,119 stars - score 0
-- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,730 stars - score 0
-- [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch) - 4,287 stars - score 0
+- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,596 stars - score 0
+- [aihubcn/awesome-chinese-llm](https://github.com/aihubcn/awesome-chinese-llm) - 22,775 stars - score 0
+- [keon/awesome-nlp](https://github.com/keon/awesome-nlp) - 19,120 stars - score 0
+- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,733 stars - score 0
+- [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch) - 4,289 stars - score 0
 - [logancyang/my-cs-degree](https://github.com/logancyang/my-cs-degree) - 880 stars - score 0
-- [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation) - 669 stars - score 0
+- [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation) - 671 stars - score 0
 - [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses) - 254 stars - score 0
 - [ishandutta2007/awesome-text-to-speech](https://github.com/ishandutta2007/awesome-text-to-speech) - 219 stars - score 0
 
 ### RAG
 
-- [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) - 26,212 stars - score 0
-- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,505 stars - score 0
-- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 287 stars - score 0
+- [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) - 26,226 stars - score 0
+- [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) - 22,515 stars - score 0
+- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 288 stars - score 0
 
 ### Robotics
 
-- [mathworks-robotics/awesome-matlab-robotics](https://github.com/mathworks-robotics/awesome-matlab-robotics) - 1,740 stars - score 0
+- [mathworks-robotics/awesome-matlab-robotics](https://github.com/mathworks-robotics/awesome-matlab-robotics) - 1,741 stars - score 0
 - [vibertthio/awesome-machine-learning-art](https://github.com/vibertthio/awesome-machine-learning-art) - 719 stars - score 0
 - [cajt/list_of_robot_electronics](https://github.com/cajt/list_of_robot_electronics) - 471 stars - score 0
 
@@ -179,15 +179,15 @@ Total repositories: 561
 
 ### Analytics
 
-- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,269 stars - score 0
-- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,575 stars - score 0
-- [academic/awesome-datascience](https://github.com/academic/awesome-datascience) - 30,260 stars - score 0
-- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,730 stars - score 0
-- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) - 14,713 stars - score 0
-- [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch) - 4,287 stars - score 0
-- [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis) - 2,157 stars - score 0
-- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,726 stars - score 0
-- [ishanvyas22/awesome-open-source-systems](https://github.com/ishanvyas22/awesome-open-source-systems) - 680 stars - score 0
+- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,290 stars - score 0
+- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,596 stars - score 0
+- [academic/awesome-datascience](https://github.com/academic/awesome-datascience) - 30,263 stars - score 0
+- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,733 stars - score 0
+- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) - 14,715 stars - score 0
+- [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch) - 4,289 stars - score 0
+- [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis) - 2,159 stars - score 0
+- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,729 stars - score 0
+- [ishanvyas22/awesome-open-source-systems](https://github.com/ishanvyas22/awesome-open-source-systems) - 679 stars - score 0
 - [dgomesbr/awesome-aws-workshops](https://github.com/dgomesbr/awesome-aws-workshops) - 419 stars - score 0
 - [prathimacode-hub/awesome_python_scripts](https://github.com/prathimacode-hub/awesome_python_scripts) - 414 stars - score 0
 - [correia-jpv/fucking-awesome-machine-learning](https://github.com/correia-jpv/fucking-awesome-machine-learning) - 18 stars - score 0
@@ -195,26 +195,26 @@ Total repositories: 561
 
 ### Data Engineering
 
-- [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook) - 44,900 stars - score 0
-- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) - 14,713 stars - score 0
-- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,726 stars - score 0
+- [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook) - 44,930 stars - score 0
+- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) - 14,715 stars - score 0
+- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,729 stars - score 0
 - [correia-jpv/fucking-awesome-bigdata](https://github.com/correia-jpv/fucking-awesome-bigdata) - 14 stars - score 0
 
 ### Databases
 
-- [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook) - 44,900 stars - score 0
-- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) - 14,713 stars - score 0
-- [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis) - 2,157 stars - score 0
+- [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook) - 44,930 stars - score 0
+- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) - 14,715 stars - score 0
+- [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis) - 2,159 stars - score 0
 - [dgomesbr/awesome-aws-workshops](https://github.com/dgomesbr/awesome-aws-workshops) - 419 stars - score 0
-- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 287 stars - score 0
+- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 288 stars - score 0
 - [correia-jpv/fucking-awesome-bigdata](https://github.com/correia-jpv/fucking-awesome-bigdata) - 14 stars - score 0
 
 ### Search
 
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 254,955 stars - score 0
-- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) - 117,504 stars - score 0
-- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,425 stars - score 0
-- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,449 stars - score 0
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 255,227 stars - score 0
+- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) - 117,585 stars - score 0
+- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,434 stars - score 0
+- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,455 stars - score 0
 - [bvaughn/redux-search](https://github.com/bvaughn/redux-search) - 1,389 stars - score 0
 - [prathimacode-hub/awesome_python_scripts](https://github.com/prathimacode-hub/awesome_python_scripts) - 414 stars - score 0
 - [morrisonwill/awesomeindex](https://github.com/morrisonwill/awesomeindex) - 52 stars - score 0
@@ -223,28 +223,28 @@ Total repositories: 561
 
 ### CLI
 
-- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - 111,093 stars - score 0
-- [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) - 37,878 stars - score 0
-- [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) - 31,067 stars - score 0
-- [voltagent/awesome-claude-code-subagents](https://github.com/voltagent/awesome-claude-code-subagents) - 26,243 stars - score 0
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - 111,122 stars - score 0
+- [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) - 37,883 stars - score 0
+- [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) - 31,074 stars - score 0
+- [voltagent/awesome-claude-code-subagents](https://github.com/voltagent/awesome-claude-code-subagents) - 26,269 stars - score 0
 - [rockerboo/awesome-neovim](https://github.com/rockerboo/awesome-neovim) - 21,535 stars - score 0
-- [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) - 20,584 stars - score 0
-- [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - 18,101 stars - score 0
-- [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - 17,062 stars - score 0
-- [k4m4/terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) - 13,155 stars - score 0
-- [k4m4/movies-for-hackers](https://github.com/k4m4/movies-for-hackers) - 11,986 stars - score 0
-- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,449 stars - score 0
-- [chubin/awesome-console-services](https://github.com/chubin/awesome-console-services) - 6,596 stars - score 0
+- [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) - 20,585 stars - score 0
+- [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - 18,104 stars - score 0
+- [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) - 17,069 stars - score 0
+- [k4m4/terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) - 13,153 stars - score 0
+- [k4m4/movies-for-hackers](https://github.com/k4m4/movies-for-hackers) - 11,989 stars - score 0
+- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,455 stars - score 0
+- [chubin/awesome-console-services](https://github.com/chubin/awesome-console-services) - 6,599 stars - score 0
 - [you-dont-need/you-dont-need-gui](https://github.com/you-dont-need/you-dont-need-gui) - 5,916 stars - score 0
 - [onevcat/fengniao](https://github.com/onevcat/fengniao) - 3,578 stars - score 0
-- [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv) - 2,658 stars - score 0
+- [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv) - 2,660 stars - score 0
 - [stevemao/awesome-git-addons](https://github.com/stevemao/awesome-git-addons) - 2,211 stars - score 0
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide) - 1,380 stars - score 0
-- [calee0219/awesome-5g](https://github.com/calee0219/awesome-5g) - 915 stars - score 0
+- [calee0219/awesome-5g](https://github.com/calee0219/awesome-5g) - 917 stars - score 0
 - [uhub/awesome-shell](https://github.com/uhub/awesome-shell) - 639 stars - score 0
 - [lzhbrian/cool-fashion-papers](https://github.com/lzhbrian/cool-fashion-papers) - 638 stars - score 0
 - [linsa-io/command-line-tools](https://github.com/linsa-io/command-line-tools) - 500 stars - score 0
-- [rjcarneiro/windows-terminals](https://github.com/rjcarneiro/windows-terminals) - 481 stars - score 0
+- [rjcarneiro/windows-terminals](https://github.com/rjcarneiro/windows-terminals) - 480 stars - score 0
 - [miravaorg/mirava](https://github.com/miravaorg/mirava) - 456 stars - score 0
 - [dreadl0ck/golang-libs](https://github.com/dreadl0ck/golang-libs) - 64 stars - score 0
 - [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software) - 64 stars - score 0
@@ -255,9 +255,9 @@ Total repositories: 561
 
 ### Game Development
 
-- [ellisonleao/magictools](https://github.com/ellisonleao/magictools) - 17,651 stars - score 0
+- [ellisonleao/magictools](https://github.com/ellisonleao/magictools) - 17,662 stars - score 0
 - [gbdev/awesome-gbdev](https://github.com/gbdev/awesome-gbdev) - 4,541 stars - score 0
-- [stevinz/awesome-game-engine-dev](https://github.com/stevinz/awesome-game-engine-dev) - 1,444 stars - score 0
+- [stevinz/awesome-game-engine-dev](https://github.com/stevinz/awesome-game-engine-dev) - 1,445 stars - score 0
 - [flame-engine/awesome-flame](https://github.com/flame-engine/awesome-flame) - 1,395 stars - score 0
 - [proyecto26/awesome-jsgames](https://github.com/proyecto26/awesome-jsgames) - 990 stars - score 0
 - [sayhiben/awesome-playdate](https://github.com/sayhiben/awesome-playdate) - 698 stars - score 0
@@ -266,56 +266,56 @@ Total repositories: 561
 
 ### Mobile Development
 
-- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,744 stars - score 0
+- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,754 stars - score 0
 - [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) - 35,707 stars - score 0
-- [luong-komorebi/awesome-linux-software](https://github.com/luong-komorebi/awesome-linux-software) - 25,648 stars - score 0
-- [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp) - 4,184 stars - score 0
-- [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources) - 1,955 stars - score 0
+- [luong-komorebi/awesome-linux-software](https://github.com/luong-komorebi/awesome-linux-software) - 25,649 stars - score 0
+- [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp) - 4,185 stars - score 0
+- [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources) - 1,956 stars - score 0
 - [matteocrippa/awesome-swift-ios](https://github.com/matteocrippa/awesome-swift-ios) - 47 stars - score 0
 - [correia-jpv/fucking-awesome-flutter](https://github.com/correia-jpv/fucking-awesome-flutter) - 28 stars - score 0
 
 ### Web Development
 
-- [ossu/computer-science](https://github.com/ossu/computer-science) - 210,597 stars - score 0
-- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,465 stars - score 0
-- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - 141,169 stars - score 0
-- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 101,913 stars - score 0
-- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,269 stars - score 0
-- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,122 stars - score 0
-- [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) - 74,619 stars - score 0
-- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,944 stars - score 0
-- [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) - 48,776 stars - score 0
-- [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) - 47,694 stars - score 0
-- [docker/awesome-compose](https://github.com/docker/awesome-compose) - 46,619 stars - score 0
-- [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) - 43,005 stars - score 0
+- [ossu/computer-science](https://github.com/ossu/computer-science) - 210,650 stars - score 0
+- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,574 stars - score 0
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - 141,500 stars - score 0
+- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 102,051 stars - score 0
+- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,290 stars - score 0
+- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,134 stars - score 0
+- [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) - 74,630 stars - score 0
+- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,962 stars - score 0
+- [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) - 48,786 stars - score 0
+- [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) - 47,700 stars - score 0
+- [docker/awesome-compose](https://github.com/docker/awesome-compose) - 46,627 stars - score 0
+- [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) - 43,027 stars - score 0
 - [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) - 35,707 stars - score 0
-- [ascoders/weekly](https://github.com/ascoders/weekly) - 31,640 stars - score 0
-- [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - 30,398 stars - score 0
-- [allthingssmitty/css-protips](https://github.com/allthingssmitty/css-protips) - 30,293 stars - score 0
-- [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - 30,064 stars - score 0
+- [ascoders/weekly](https://github.com/ascoders/weekly) - 31,651 stars - score 0
+- [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - 30,408 stars - score 0
+- [allthingssmitty/css-protips](https://github.com/allthingssmitty/css-protips) - 30,299 stars - score 0
+- [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) - 30,102 stars - score 0
 - [igglybuff/awesome-piracy](https://github.com/igglybuff/awesome-piracy) - 26,918 stars - score 0
-- [lissy93/dashy](https://github.com/lissy93/dashy) - 26,884 stars - score 0
-- [luong-komorebi/awesome-linux-software](https://github.com/luong-komorebi/awesome-linux-software) - 25,648 stars - score 0
+- [lissy93/dashy](https://github.com/lissy93/dashy) - 26,894 stars - score 0
+- [luong-komorebi/awesome-linux-software](https://github.com/luong-komorebi/awesome-linux-software) - 25,649 stars - score 0
 - [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) - 17,946 stars - score 0
-- [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist) - 17,385 stars - score 0
-- [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) - 15,527 stars - score 0
-- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - 9,235 stars - score 0
-- [markodenic/web-development-resources](https://github.com/markodenic/web-development-resources) - 8,104 stars - score 0
+- [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist) - 17,384 stars - score 0
+- [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) - 15,534 stars - score 0
+- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - 9,238 stars - score 0
+- [markodenic/web-development-resources](https://github.com/markodenic/web-development-resources) - 8,103 stars - score 0
 - [thedaviddias/front-end-design-checklist](https://github.com/thedaviddias/front-end-design-checklist) - 5,368 stars - score 0
-- [ritikpatni/front-end-web-development-resources](https://github.com/ritikpatni/front-end-web-development-resources) - 5,168 stars - score 0
-- [allthingssmitty/must-watch-css](https://github.com/allthingssmitty/must-watch-css) - 4,880 stars - score 0
-- [ayushparikh-code/web-dev-mini-projects](https://github.com/ayushparikh-code/web-dev-mini-projects) - 4,522 stars - score 0
+- [ritikpatni/front-end-web-development-resources](https://github.com/ritikpatni/front-end-web-development-resources) - 5,170 stars - score 0
+- [allthingssmitty/must-watch-css](https://github.com/allthingssmitty/must-watch-css) - 4,879 stars - score 0
+- [ayushparikh-code/web-dev-mini-projects](https://github.com/ayushparikh-code/web-dev-mini-projects) - 4,524 stars - score 0
 - [dylan-israel/ultimate-coding-resources](https://github.com/dylan-israel/ultimate-coding-resources) - 3,832 stars - score 0
-- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,799 stars - score 0
-- [zhashkevych/awesome-backend](https://github.com/zhashkevych/awesome-backend) - 3,499 stars - score 0
-- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,732 stars - score 0
-- [codingknite/frontend-development](https://github.com/codingknite/frontend-development) - 2,342 stars - score 0
+- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,800 stars - score 0
+- [zhashkevych/awesome-backend](https://github.com/zhashkevych/awesome-backend) - 3,498 stars - score 0
+- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,730 stars - score 0
+- [codingknite/frontend-development](https://github.com/codingknite/frontend-development) - 2,343 stars - score 0
 - [zualex/devmap](https://github.com/zualex/devmap) - 2,254 stars - score 0
-- [threekiii/vulnerability-wiki](https://github.com/threekiii/vulnerability-wiki) - 2,198 stars - score 0
-- [shahednasser/awesome-resources](https://github.com/shahednasser/awesome-resources) - 1,971 stars - score 0
-- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,918 stars - score 0
+- [threekiii/vulnerability-wiki](https://github.com/threekiii/vulnerability-wiki) - 2,200 stars - score 0
+- [shahednasser/awesome-resources](https://github.com/shahednasser/awesome-resources) - 1,973 stars - score 0
+- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,921 stars - score 0
+- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,729 stars - score 0
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) - 1,727 stars - score 0
-- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,726 stars - score 0
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists) - 1,660 stars - score 0
 - [yurimutti/recursos-frontend](https://github.com/yurimutti/recursos-frontend) - 1,584 stars - score 0
 - [becauseofai/awesome-face](https://github.com/becauseofai/awesome-face) - 1,293 stars - score 0
@@ -341,23 +341,23 @@ Total repositories: 561
 
 ### CI/CD
 
-- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - 28,387 stars - score 0
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - 28,394 stars - score 0
 - [correia-jpv/fucking-awesome-actions](https://github.com/correia-jpv/fucking-awesome-actions) - 30 stars - score 0
 
 ### Cloud
 
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 332,552 stars - score 0
-- [dovamir/awesome-design-patterns](https://github.com/dovamir/awesome-design-patterns) - 49,578 stars - score 0
-- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,425 stars - score 0
-- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,505 stars - score 0
-- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,918 stars - score 0
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 332,944 stars - score 0
+- [dovamir/awesome-design-patterns](https://github.com/dovamir/awesome-design-patterns) - 49,588 stars - score 0
+- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,434 stars - score 0
+- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,506 stars - score 0
+- [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus) - 1,921 stars - score 0
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists) - 1,660 stars - score 0
 - [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security) - 1,616 stars - score 0
 - [kube-green/kube-green](https://github.com/kube-green/kube-green) - 1,384 stars - score 0
 - [xyou365/autorclone](https://github.com/xyou365/autorclone) - 1,382 stars - score 0
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide) - 1,380 stars - score 0
 - [hetznercloud/awesome-hcloud](https://github.com/hetznercloud/awesome-hcloud) - 1,363 stars - score 0
-- [devtoolsd/awesome-devtools](https://github.com/devtoolsd/awesome-devtools) - 688 stars - score 0
+- [devtoolsd/awesome-devtools](https://github.com/devtoolsd/awesome-devtools) - 689 stars - score 0
 - [cyb3rmik3/mde-dfir-resources](https://github.com/cyb3rmik3/mde-dfir-resources) - 475 stars - score 0
 - [dgomesbr/awesome-aws-workshops](https://github.com/dgomesbr/awesome-aws-workshops) - 419 stars - score 0
 - [victorshinya/awesome-ibmcloud](https://github.com/victorshinya/awesome-ibmcloud) - 110 stars - score 0
@@ -365,29 +365,29 @@ Total repositories: 561
 
 ### DevOps
 
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 254,955 stars - score 0
-- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - 141,169 stars - score 0
-- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,269 stars - score 0
-- [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - 35,569 stars - score 0
-- [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) - 26,212 stars - score 0
-- [dariubs/gobooks](https://github.com/dariubs/gobooks) - 19,765 stars - score 0
-- [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) - 11,898 stars - score 0
-- [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) - 4,443 stars - score 0
-- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,505 stars - score 0
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 255,227 stars - score 0
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - 141,500 stars - score 0
+- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - 75,290 stars - score 0
+- [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - 35,576 stars - score 0
+- [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) - 26,226 stars - score 0
+- [dariubs/gobooks](https://github.com/dariubs/gobooks) - 19,768 stars - score 0
+- [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) - 11,899 stars - score 0
+- [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) - 4,445 stars - score 0
+- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,506 stars - score 0
 - [stephrobert/awesome-french-devops](https://github.com/stephrobert/awesome-french-devops) - 1,642 stars - score 0
 - [marcelscruz/dev-resources](https://github.com/marcelscruz/dev-resources) - 1,359 stars - score 0
-- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,287 stars - score 0
-- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 745 stars - score 0
-- [devtoolsd/awesome-devtools](https://github.com/devtoolsd/awesome-devtools) - 688 stars - score 0
+- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,295 stars - score 0
+- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 761 stars - score 0
+- [devtoolsd/awesome-devtools](https://github.com/devtoolsd/awesome-devtools) - 689 stars - score 0
 
 ### Docker
 
-- [docker/awesome-compose](https://github.com/docker/awesome-compose) - 46,619 stars - score 0
-- [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) - 37,149 stars - score 0
-- [lissy93/dashy](https://github.com/lissy93/dashy) - 26,884 stars - score 0
-- [guovin/iptv-api](https://github.com/guovin/iptv-api) - 25,901 stars - score 0
-- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,425 stars - score 0
-- [threekiii/vulnerability-wiki](https://github.com/threekiii/vulnerability-wiki) - 2,198 stars - score 0
+- [docker/awesome-compose](https://github.com/docker/awesome-compose) - 46,627 stars - score 0
+- [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) - 37,155 stars - score 0
+- [lissy93/dashy](https://github.com/lissy93/dashy) - 26,894 stars - score 0
+- [guovin/iptv-api](https://github.com/guovin/iptv-api) - 25,924 stars - score 0
+- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,434 stars - score 0
+- [threekiii/vulnerability-wiki](https://github.com/threekiii/vulnerability-wiki) - 2,200 stars - score 0
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists) - 1,660 stars - score 0
 - [stephrobert/awesome-french-devops](https://github.com/stephrobert/awesome-french-devops) - 1,642 stars - score 0
 - [1itt1eb0y/mycollection](https://github.com/1itt1eb0y/mycollection) - 54 stars - score 0
@@ -396,7 +396,7 @@ Total repositories: 561
 ### Kubernetes
 
 - [fairwindsops/goldilocks](https://github.com/fairwindsops/goldilocks) - 3,360 stars - score 0
-- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,505 stars - score 0
+- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,506 stars - score 0
 - [stephrobert/awesome-french-devops](https://github.com/stephrobert/awesome-french-devops) - 1,642 stars - score 0
 - [kube-green/kube-green](https://github.com/kube-green/kube-green) - 1,384 stars - score 0
 - [wallarm/awesome-nginx-security](https://github.com/wallarm/awesome-nginx-security) - 781 stars - score 0
@@ -404,19 +404,19 @@ Total repositories: 561
 
 ### Linux
 
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 254,955 stars - score 0
-- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,353 stars - score 0
-- [luong-komorebi/awesome-linux-software](https://github.com/luong-komorebi/awesome-linux-software) - 25,648 stars - score 0
-- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,425 stars - score 0
-- [awesome-harmonyos/harmonyos](https://github.com/awesome-harmonyos/harmonyos) - 20,011 stars - score 0
-- [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) - 11,898 stars - score 0
-- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,899 stars - score 0
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 255,227 stars - score 0
+- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,359 stars - score 0
+- [luong-komorebi/awesome-linux-software](https://github.com/luong-komorebi/awesome-linux-software) - 25,649 stars - score 0
+- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,434 stars - score 0
+- [awesome-harmonyos/harmonyos](https://github.com/awesome-harmonyos/harmonyos) - 20,013 stars - score 0
+- [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) - 11,899 stars - score 0
+- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,904 stars - score 0
 - [you-dont-need/you-dont-need-gui](https://github.com/you-dont-need/you-dont-need-gui) - 5,916 stars - score 0
-- [janikvonrotz/awesome-powershell](https://github.com/janikvonrotz/awesome-powershell) - 5,415 stars - score 0
-- [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv) - 2,658 stars - score 0
+- [janikvonrotz/awesome-powershell](https://github.com/janikvonrotz/awesome-powershell) - 5,418 stars - score 0
+- [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv) - 2,660 stars - score 0
 - [xyou365/autorclone](https://github.com/xyou365/autorclone) - 1,382 stars - score 0
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide) - 1,380 stars - score 0
-- [okhosting/awesome-storage](https://github.com/okhosting/awesome-storage) - 1,032 stars - score 0
+- [okhosting/awesome-storage](https://github.com/okhosting/awesome-storage) - 1,033 stars - score 0
 - [huytransformer/awesome-out-of-distribution-detection](https://github.com/huytransformer/awesome-out-of-distribution-detection) - 1,030 stars - score 0
 - [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software) - 64 stars - score 0
 - [tamimhasan404/chart-of-wordlist](https://github.com/tamimhasan404/chart-of-wordlist) - 60 stars - score 0
@@ -424,22 +424,22 @@ Total repositories: 561
 
 ### Monitoring
 
-- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 101,913 stars - score 0
-- [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) - 37,149 stars - score 0
+- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 102,051 stars - score 0
+- [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) - 37,155 stars - score 0
 - [stephrobert/awesome-french-devops](https://github.com/stephrobert/awesome-french-devops) - 1,642 stars - score 0
-- [ishanvyas22/awesome-open-source-systems](https://github.com/ishanvyas22/awesome-open-source-systems) - 680 stars - score 0
+- [ishanvyas22/awesome-open-source-systems](https://github.com/ishanvyas22/awesome-open-source-systems) - 679 stars - score 0
 - [zhgqcn/awesome-nilm-with-code](https://github.com/zhgqcn/awesome-nilm-with-code) - 147 stars - score 0
 
 ### Observability
 
-- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,425 stars - score 0
-- [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist) - 17,385 stars - score 0
-- [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) - 4,443 stars - score 0
+- [mikeroyal/self-hosting-guide](https://github.com/mikeroyal/self-hosting-guide) - 23,434 stars - score 0
+- [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist) - 17,384 stars - score 0
+- [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) - 4,445 stars - score 0
 - [wendashi/cool-genai-fashion-papers](https://github.com/wendashi/cool-genai-fashion-papers) - 249 stars - score 0
 
 ### Terraform
 
-- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,505 stars - score 0
+- [akuity/awesome-argo](https://github.com/akuity/awesome-argo) - 2,506 stars - score 0
 - [stephrobert/awesome-french-devops](https://github.com/stephrobert/awesome-french-devops) - 1,642 stars - score 0
 - [worldcoin/awesome-zkml](https://github.com/worldcoin/awesome-zkml) - 1,049 stars - score 0
 
@@ -447,12 +447,12 @@ Total repositories: 561
 
 ### Android
 
-- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,277 stars - score 0
-- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,307 stars - score 0
-- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,744 stars - score 0
-- [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) - 58,251 stars - score 0
-- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,572 stars - score 0
-- [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources) - 1,955 stars - score 0
+- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,381 stars - score 0
+- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,329 stars - score 0
+- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,754 stars - score 0
+- [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) - 58,264 stars - score 0
+- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,573 stars - score 0
+- [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources) - 1,956 stars - score 0
 - [adisonhuang/awesome-kotlin-android](https://github.com/adisonhuang/awesome-kotlin-android) - 1,016 stars - score 0
 - [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts) - 307 stars - score 0
 - [hakerdefo/robota-liberated](https://github.com/hakerdefo/robota-liberated) - 231 stars - score 0
@@ -466,9 +466,9 @@ Total repositories: 561
 
 ### Cross-Platform
 
-- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,122 stars - score 0
-- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,744 stars - score 0
-- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,944 stars - score 0
+- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,134 stars - score 0
+- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,754 stars - score 0
+- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,962 stars - score 0
 - [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) - 35,707 stars - score 0
 - [flutteropen/flutter-ui-nice](https://github.com/flutteropen/flutter-ui-nice) - 3,802 stars - score 0
 - [flame-engine/awesome-flame](https://github.com/flame-engine/awesome-flame) - 1,395 stars - score 0
@@ -477,16 +477,16 @@ Total repositories: 561
 
 ### iOS
 
-- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) - 117,504 stars - score 0
-- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,744 stars - score 0
-- [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) - 53,833 stars - score 0
-- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,944 stars - score 0
-- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,157 stars - score 0
-- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,353 stars - score 0
+- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) - 117,585 stars - score 0
+- [solido/awesome-flutter](https://github.com/solido/awesome-flutter) - 61,754 stars - score 0
+- [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) - 53,841 stars - score 0
+- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,962 stars - score 0
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,179 stars - score 0
+- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,359 stars - score 0
 - [mac-cain13/r.swift](https://github.com/mac-cain13/r.swift) - 9,549 stars - score 0
-- [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models) - 7,068 stars - score 0
+- [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models) - 7,070 stars - score 0
 - [onevcat/fengniao](https://github.com/onevcat/fengniao) - 3,578 stars - score 0
-- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,572 stars - score 0
+- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,573 stars - score 0
 - [eleev/ios-learning-materials](https://github.com/eleev/ios-learning-materials) - 3,066 stars - score 0
 - [uhub/awesome-swift](https://github.com/uhub/awesome-swift) - 866 stars - score 0
 - [uhub/awesome-objective-c](https://github.com/uhub/awesome-objective-c) - 342 stars - score 0
@@ -499,21 +499,21 @@ Total repositories: 561
 
 ### C
 
-- [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) - 74,124 stars - score 0
-- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,157 stars - score 0
-- [awesome-harmonyos/harmonyos](https://github.com/awesome-harmonyos/harmonyos) - 20,011 stars - score 0
-- [uhub/awesome-c](https://github.com/uhub/awesome-c) - 2,242 stars - score 0
+- [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) - 74,162 stars - score 0
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,179 stars - score 0
+- [awesome-harmonyos/harmonyos](https://github.com/awesome-harmonyos/harmonyos) - 20,013 stars - score 0
+- [uhub/awesome-c](https://github.com/uhub/awesome-c) - 2,243 stars - score 0
 - [cajt/list_of_robot_electronics](https://github.com/cajt/list_of_robot_electronics) - 471 stars - score 0
 - [correia-jpv/fucking-open-source-mac-os-apps](https://github.com/correia-jpv/fucking-open-source-mac-os-apps) - 83 stars - score 0
 - [whitone/awesome-discoveries](https://github.com/whitone/awesome-discoveries) - 9 stars - score 0
 
 ### C#
 
-- [quozd/awesome-dotnet](https://github.com/quozd/awesome-dotnet) - 21,699 stars - score 0
-- [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) - 21,442 stars - score 0
+- [quozd/awesome-dotnet](https://github.com/quozd/awesome-dotnet) - 21,701 stars - score 0
+- [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) - 21,445 stars - score 0
 - [mjebrahimi/awesome-microservices-dotnet](https://github.com/mjebrahimi/awesome-microservices-dotnet) - 3,089 stars - score 0
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists) - 1,660 stars - score 0
-- [proyecto26/awesome-unity](https://github.com/proyecto26/awesome-unity) - 1,461 stars - score 0
+- [proyecto26/awesome-unity](https://github.com/proyecto26/awesome-unity) - 1,462 stars - score 0
 - [uhub/awesome-c-sharp](https://github.com/uhub/awesome-c-sharp) - 934 stars - score 0
 - [starikcetin/awesome-upm](https://github.com/starikcetin/awesome-upm) - 207 stars - score 0
 - [jgcomptech/sharpultimatetools](https://github.com/jgcomptech/sharpultimatetools) - 50 stars - score 0
@@ -521,22 +521,22 @@ Total repositories: 561
 
 ### C++
 
-- [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) - 74,124 stars - score 0
-- [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp) - 4,184 stars - score 0
-- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,799 stars - score 0
-- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,732 stars - score 0
+- [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) - 74,162 stars - score 0
+- [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp) - 4,185 stars - score 0
+- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,800 stars - score 0
+- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,730 stars - score 0
 - [uhub/awesome-cpp](https://github.com/uhub/awesome-cpp) - 1,201 stars - score 0
 - [xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection](https://github.com/xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection) - 385 stars - score 0
 
 ### Go
 
-- [avelino/awesome-go](https://github.com/avelino/awesome-go) - 191,428 stars - score 0
-- [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - 28,314 stars - score 0
-- [dariubs/gobooks](https://github.com/dariubs/gobooks) - 19,765 stars - score 0
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) - 191,627 stars - score 0
+- [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - 28,316 stars - score 0
+- [dariubs/gobooks](https://github.com/dariubs/gobooks) - 19,768 stars - score 0
 - [ghosttroops/scan4all](https://github.com/ghosttroops/scan4all) - 6,187 stars - score 0
-- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,799 stars - score 0
+- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,800 stars - score 0
 - [fairwindsops/goldilocks](https://github.com/fairwindsops/goldilocks) - 3,360 stars - score 0
-- [uhub/awesome-go](https://github.com/uhub/awesome-go) - 1,846 stars - score 0
+- [uhub/awesome-go](https://github.com/uhub/awesome-go) - 1,847 stars - score 0
 - [kube-green/kube-green](https://github.com/kube-green/kube-green) - 1,384 stars - score 0
 - [kvnxiao/sort-awesome-lists](https://github.com/kvnxiao/sort-awesome-lists) - 74 stars - score 0
 - [rverst/stargazer](https://github.com/rverst/stargazer) - 70 stars - score 0
@@ -547,13 +547,13 @@ Total repositories: 561
 
 ### Java
 
-- [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - 94,831 stars - score 0
-- [akullpp/awesome-java](https://github.com/akullpp/awesome-java) - 49,403 stars - score 0
-- [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) - 43,005 stars - score 0
-- [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) - 27,686 stars - score 0
-- [vedenin/useful-java-links](https://github.com/vedenin/useful-java-links) - 6,209 stars - score 0
-- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,799 stars - score 0
-- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,732 stars - score 0
+- [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - 94,840 stars - score 0
+- [akullpp/awesome-java](https://github.com/akullpp/awesome-java) - 49,414 stars - score 0
+- [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) - 43,027 stars - score 0
+- [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) - 27,706 stars - score 0
+- [vedenin/useful-java-links](https://github.com/vedenin/useful-java-links) - 6,210 stars - score 0
+- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,800 stars - score 0
+- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,730 stars - score 0
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) - 1,727 stars - score 0
 - [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources) - 1,295 stars - score 0
 - [uhub/awesome-java](https://github.com/uhub/awesome-java) - 533 stars - score 0
@@ -562,51 +562,52 @@ Total repositories: 561
 
 ### JavaScript
 
-- [chalarangelo/30-seconds-of-code](https://github.com/chalarangelo/30-seconds-of-code) - 129,385 stars - score 0
-- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,307 stars - score 0
-- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,122 stars - score 0
-- [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) - 74,619 stars - score 0
-- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - 67,325 stars - score 0
-- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,157 stars - score 0
-- [goabstract/awesome-design-tools](https://github.com/goabstract/awesome-design-tools) - 41,721 stars - score 0
-- [patrickjs/awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules) - 41,072 stars - score 0
-- [github/awesome-copilot](https://github.com/github/awesome-copilot) - 40,646 stars - score 0
-- [ascoders/weekly](https://github.com/ascoders/weekly) - 31,640 stars - score 0
-- [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) - 29,184 stars - score 0
-- [lissy93/dashy](https://github.com/lissy93/dashy) - 26,884 stars - score 0
-- [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) - 21,848 stars - score 0
-- [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon) - 18,744 stars - score 0
+- [chalarangelo/30-seconds-of-code](https://github.com/chalarangelo/30-seconds-of-code) - 129,391 stars - score 0
+- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,329 stars - score 0
+- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,134 stars - score 0
+- [thedaviddias/front-end-checklist](https://github.com/thedaviddias/front-end-checklist) - 74,630 stars - score 0
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - 67,338 stars - score 0
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,179 stars - score 0
+- [goabstract/awesome-design-tools](https://github.com/goabstract/awesome-design-tools) - 41,734 stars - score 0
+- [patrickjs/awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules) - 41,086 stars - score 0
+- [github/awesome-copilot](https://github.com/github/awesome-copilot) - 40,692 stars - score 0
+- [ascoders/weekly](https://github.com/ascoders/weekly) - 31,651 stars - score 0
+- [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) - 29,186 stars - score 0
+- [lissy93/dashy](https://github.com/lissy93/dashy) - 26,894 stars - score 0
+- [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) - 21,973 stars - score 0
+- [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon) - 18,742 stars - score 0
 - [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) - 17,946 stars - score 0
-- [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist) - 17,385 stars - score 0
-- [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - 17,287 stars - score 0
-- [hackerkid/mind-expanding-books](https://github.com/hackerkid/mind-expanding-books) - 14,485 stars - score 0
-- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,883 stars - score 0
-- [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) - 9,662 stars - score 0
-- [markodenic/web-development-resources](https://github.com/markodenic/web-development-resources) - 8,104 stars - score 0
+- [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist) - 17,384 stars - score 0
+- [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - 17,288 stars - score 0
+- [hackerkid/mind-expanding-books](https://github.com/hackerkid/mind-expanding-books) - 14,492 stars - score 0
+- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,885 stars - score 0
+- [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) - 9,668 stars - score 0
+- [markodenic/web-development-resources](https://github.com/markodenic/web-development-resources) - 8,103 stars - score 0
 - [micromata/awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning) - 5,878 stars - score 0
-- [sindresorhus/promise-fun](https://github.com/sindresorhus/promise-fun) - 5,183 stars - score 0
-- [ritikpatni/front-end-web-development-resources](https://github.com/ritikpatni/front-end-web-development-resources) - 5,168 stars - score 0
+- [sindresorhus/promise-fun](https://github.com/sindresorhus/promise-fun) - 5,184 stars - score 0
+- [ritikpatni/front-end-web-development-resources](https://github.com/ritikpatni/front-end-web-development-resources) - 5,170 stars - score 0
 - [gbdev/awesome-gbdev](https://github.com/gbdev/awesome-gbdev) - 4,541 stars - score 0
-- [ayushparikh-code/web-dev-mini-projects](https://github.com/ayushparikh-code/web-dev-mini-projects) - 4,522 stars - score 0
-- [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) - 4,443 stars - score 0
+- [ayushparikh-code/web-dev-mini-projects](https://github.com/ayushparikh-code/web-dev-mini-projects) - 4,524 stars - score 0
+- [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) - 4,445 stars - score 0
 - [dylan-israel/ultimate-coding-resources](https://github.com/dylan-israel/ultimate-coding-resources) - 3,832 stars - score 0
-- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,799 stars - score 0
+- [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 3,800 stars - score 0
+- [pawelborkar/awesome-repos](https://github.com/pawelborkar/awesome-repos) - 3,312 stars - score 0
 - [huyingjie/checklist-checklist](https://github.com/huyingjie/checklist-checklist) - 2,985 stars - score 0
-- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,732 stars - score 0
-- [awesomehomelab/awesome-homelab](https://github.com/awesomehomelab/awesome-homelab) - 2,636 stars - score 0
+- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,730 stars - score 0
+- [awesomehomelab/awesome-homelab](https://github.com/awesomehomelab/awesome-homelab) - 2,640 stars - score 0
 - [robertsdionne/neural-network-papers](https://github.com/robertsdionne/neural-network-papers) - 1,997 stars - score 0
 - [vishal-raj-1/awesome-javascript-projects](https://github.com/vishal-raj-1/awesome-javascript-projects) - 1,846 stars - score 0
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) - 1,727 stars - score 0
-- [bnb/awesome-awesome-nodejs](https://github.com/bnb/awesome-awesome-nodejs) - 1,636 stars - score 0
+- [bnb/awesome-awesome-nodejs](https://github.com/bnb/awesome-awesome-nodejs) - 1,637 stars - score 0
 - [bvaughn/redux-search](https://github.com/bvaughn/redux-search) - 1,389 stars - score 0
 - [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources) - 1,295 stars - score 0
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars) - 1,131 stars - score 0
 - [uhub/awesome-javascript](https://github.com/uhub/awesome-javascript) - 1,061 stars - score 0
 - [proyecto26/awesome-jsgames](https://github.com/proyecto26/awesome-jsgames) - 990 stars - score 0
-- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 745 stars - score 0
+- [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - 761 stars - score 0
 - [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts) - 307 stars - score 0
 - [ecommwar/ecommwar](https://github.com/ecommwar/ecommwar) - 224 stars - score 0
-- [ridsuteri/awesome-chrome-extensions](https://github.com/ridsuteri/awesome-chrome-extensions) - 221 stars - score 0
+- [ridsuteri/awesome-chrome-extensions](https://github.com/ridsuteri/awesome-chrome-extensions) - 222 stars - score 0
 - [khushi-purwar/webdev-projectkart](https://github.com/khushi-purwar/webdev-projectkart) - 152 stars - score 0
 - [correia-jpv/fucking-awesome-nextjs](https://github.com/correia-jpv/fucking-awesome-nextjs) - 131 stars - score 0
 - [ainativelab/awesome-flux-ai](https://github.com/ainativelab/awesome-flux-ai) - 109 stars - score 0
@@ -621,74 +622,74 @@ Total repositories: 561
 
 ### Kotlin
 
-- [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources) - 1,955 stars - score 0
+- [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources) - 1,956 stars - score 0
 - [adisonhuang/awesome-kotlin-android](https://github.com/adisonhuang/awesome-kotlin-android) - 1,016 stars - score 0
 - [correia-jpv/fucking-awesome-android-ui](https://github.com/correia-jpv/fucking-awesome-android-ui) - 31 stars - score 0
 - [correia-jpv/fucking-awesome-android](https://github.com/correia-jpv/fucking-awesome-android) - 22 stars - score 0
 
 ### Python
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) - 493,913 stars - score 0
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) - 331,682 stars - score 0
-- [521xueweihan/hellogithub](https://github.com/521xueweihan/hellogithub) - 186,080 stars - score 0
-- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,307 stars - score 0
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - 57,011 stars - score 0
-- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,157 stars - score 0
-- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - 50,224 stars - score 0
-- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,575 stars - score 0
-- [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - 30,740 stars - score 0
-- [guovin/iptv-api](https://github.com/guovin/iptv-api) - 25,901 stars - score 0
-- [lilittlecat/awesome-free-chatgpt](https://github.com/lilittlecat/awesome-free-chatgpt) - 21,342 stars - score 0
-- [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy) - 20,149 stars - score 0
-- [runacapital/awesome-oss-alternatives](https://github.com/runacapital/awesome-oss-alternatives) - 19,823 stars - score 0
-- [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts) - 17,371 stars - score 0
-- [bobeff/open-source-games](https://github.com/bobeff/open-source-games) - 17,292 stars - score 0
-- [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) - 17,152 stars - score 0
-- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,730 stars - score 0
-- [rossant/awesome-math](https://github.com/rossant/awesome-math) - 16,725 stars - score 0
-- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) - 15,116 stars - score 0
-- [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models) - 7,068 stars - score 0
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools) - 6,266 stars - score 0
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - 495,228 stars - score 0
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) - 331,898 stars - score 0
+- [521xueweihan/hellogithub](https://github.com/521xueweihan/hellogithub) - 186,289 stars - score 0
+- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,329 stars - score 0
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - 57,082 stars - score 0
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,179 stars - score 0
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - 50,286 stars - score 0
+- [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code) - 37,596 stars - score 0
+- [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - 30,760 stars - score 0
+- [guovin/iptv-api](https://github.com/guovin/iptv-api) - 25,924 stars - score 0
+- [lilittlecat/awesome-free-chatgpt](https://github.com/lilittlecat/awesome-free-chatgpt) - 21,343 stars - score 0
+- [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy) - 20,159 stars - score 0
+- [runacapital/awesome-oss-alternatives](https://github.com/runacapital/awesome-oss-alternatives) - 19,825 stars - score 0
+- [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts) - 17,377 stars - score 0
+- [bobeff/open-source-games](https://github.com/bobeff/open-source-games) - 17,359 stars - score 0
+- [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) - 17,171 stars - score 0
+- [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list) - 16,733 stars - score 0
+- [rossant/awesome-math](https://github.com/rossant/awesome-math) - 16,731 stars - score 0
+- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) - 15,134 stars - score 0
+- [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models) - 7,070 stars - score 0
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools) - 6,272 stars - score 0
 - [instillai/deep-learning-roadmap](https://github.com/instillai/deep-learning-roadmap) - 4,636 stars - score 0
 - [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) - 4,057 stars - score 0
-- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,732 stars - score 0
-- [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv) - 2,658 stars - score 0
-- [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis) - 2,157 stars - score 0
-- [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) - 1,867 stars - score 0
-- [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills) - 1,840 stars - score 0
+- [liyupi/code-nav](https://github.com/liyupi/code-nav) - 2,730 stars - score 0
+- [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv) - 2,660 stars - score 0
+- [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis) - 2,159 stars - score 0
+- [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) - 1,869 stars - score 0
+- [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills) - 1,842 stars - score 0
+- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,729 stars - score 0
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) - 1,727 stars - score 0
-- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs) - 1,726 stars - score 0
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,709 stars - score 0
-- [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering) - 1,644 stars - score 0
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,711 stars - score 0
+- [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering) - 1,645 stars - score 0
 - [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical) - 1,598 stars - score 0
 - [garimasingh128/awesome-python-projects](https://github.com/garimasingh128/awesome-python-projects) - 1,527 stars - score 0
 - [djangoex/awesome-python-resources](https://github.com/djangoex/awesome-python-resources) - 1,466 stars - score 0
 - [xyou365/autorclone](https://github.com/xyou365/autorclone) - 1,382 stars - score 0
+- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,295 stars - score 0
 - [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources) - 1,295 stars - score 0
-- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - 1,287 stars - score 0
 - [uhub/awesome-python](https://github.com/uhub/awesome-python) - 1,200 stars - score 0
 - [freecodecamp/awesome-quincy-larson-emails](https://github.com/freecodecamp/awesome-quincy-larson-emails) - 1,185 stars - score 0
 - [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers) - 1,182 stars - score 0
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl) - 1,162 stars - score 0
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars) - 1,131 stars - score 0
-- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course) - 1,091 stars - score 0
-- [tuan3w/awesome-tech-rss](https://github.com/tuan3w/awesome-tech-rss) - 818 stars - score 0
+- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course) - 1,095 stars - score 0
+- [tuan3w/awesome-tech-rss](https://github.com/tuan3w/awesome-tech-rss) - 819 stars - score 0
 - [wx-chevalier/awesome-lists-and-cheatsheets](https://github.com/wx-chevalier/awesome-lists-and-cheatsheets) - 676 stars - score 0
-- [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation) - 669 stars - score 0
+- [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation) - 671 stars - score 0
 - [cristianoliveira/awesome4girls](https://github.com/cristianoliveira/awesome4girls) - 662 stars - score 0
 - [flyhigher139/awesome-github-repo](https://github.com/flyhigher139/awesome-github-repo) - 644 stars - score 0
-- [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) - 523 stars - score 0
-- [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects) - 423 stars - score 0
+- [coderonion/awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) - 524 stars - score 0
+- [king04aman/all-in-one-python-projects](https://github.com/king04aman/all-in-one-python-projects) - 424 stars - score 0
 - [prathimacode-hub/awesome_python_scripts](https://github.com/prathimacode-hub/awesome_python_scripts) - 414 stars - score 0
 - [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live) - 378 stars - score 0
 - [geiserx/awesome-spain](https://github.com/geiserx/awesome-spain) - 364 stars - score 0
 - [javedali99/python-resources-for-earth-sciences](https://github.com/javedali99/python-resources-for-earth-sciences) - 351 stars - score 0
-- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning) - 345 stars - score 0
+- [zhilizju/awesome-instruction-tuning](https://github.com/zhilizju/awesome-instruction-tuning) - 346 stars - score 0
 - [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent) - 340 stars - score 0
 - [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts) - 307 stars - score 0
-- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 287 stars - score 0
-- [jiganesh/loads-of-logic](https://github.com/jiganesh/loads-of-logic) - 254 stars - score 0
+- [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production) - 288 stars - score 0
 - [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses) - 254 stars - score 0
+- [jiganesh/loads-of-logic](https://github.com/jiganesh/loads-of-logic) - 253 stars - score 0
 - [velocityra/awesome-game-file-format-reversing](https://github.com/velocityra/awesome-game-file-format-reversing) - 235 stars - score 0
 - [cuuupid/awesome-lists](https://github.com/cuuupid/awesome-lists) - 232 stars - score 0
 - [milkthink-lab/awesome-routing-llms](https://github.com/milkthink-lab/awesome-routing-llms) - 190 stars - score 0
@@ -717,12 +718,12 @@ Total repositories: 561
 
 ### Ruby
 
-- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,307 stars - score 0
-- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,157 stars - score 0
-- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,353 stars - score 0
-- [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources) - 14,658 stars - score 0
-- [markets/awesome-ruby](https://github.com/markets/awesome-ruby) - 14,187 stars - score 0
-- [shahednasser/awesome-resources](https://github.com/shahednasser/awesome-resources) - 1,971 stars - score 0
+- [dopplerhq/awesome-interview-questions](https://github.com/dopplerhq/awesome-interview-questions) - 85,329 stars - score 0
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 51,179 stars - score 0
+- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,359 stars - score 0
+- [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources) - 14,663 stars - score 0
+- [markets/awesome-ruby](https://github.com/markets/awesome-ruby) - 14,186 stars - score 0
+- [shahednasser/awesome-resources](https://github.com/shahednasser/awesome-resources) - 1,973 stars - score 0
 - [cristianoliveira/awesome4girls](https://github.com/cristianoliveira/awesome4girls) - 662 stars - score 0
 - [yegorov/awesome-ruby-blogs](https://github.com/yegorov/awesome-ruby-blogs) - 417 stars - score 0
 - [correia-jpv/fucking-open-source-mac-os-apps](https://github.com/correia-jpv/fucking-open-source-mac-os-apps) - 83 stars - score 0
@@ -732,10 +733,10 @@ Total repositories: 561
 
 ### Rust
 
-- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 101,913 stars - score 0
-- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - 60,256 stars - score 0
-- [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) - 14,861 stars - score 0
-- [mbasso/awesome-wasm](https://github.com/mbasso/awesome-wasm) - 9,664 stars - score 0
+- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 102,051 stars - score 0
+- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - 60,274 stars - score 0
+- [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) - 14,862 stars - score 0
+- [mbasso/awesome-wasm](https://github.com/mbasso/awesome-wasm) - 9,666 stars - score 0
 - [not-yet-awesome-rust/not-yet-awesome-rust](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust) - 1,420 stars - score 0
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide) - 1,380 stars - score 0
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars) - 1,131 stars - score 0
@@ -744,10 +745,10 @@ Total repositories: 561
 
 ### Swift
 
-- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) - 117,504 stars - score 0
-- [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) - 53,833 stars - score 0
-- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,944 stars - score 0
-- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,353 stars - score 0
+- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) - 117,585 stars - score 0
+- [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) - 53,841 stars - score 0
+- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - 52,962 stars - score 0
+- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) - 26,359 stars - score 0
 - [mac-cain13/r.swift](https://github.com/mac-cain13/r.swift) - 9,549 stars - score 0
 - [onevcat/fengniao](https://github.com/onevcat/fengniao) - 3,578 stars - score 0
 - [eleev/ios-learning-materials](https://github.com/eleev/ios-learning-materials) - 3,066 stars - score 0
@@ -758,16 +759,17 @@ Total repositories: 561
 
 ### TypeScript
 
-- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,465 stars - score 0
-- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 101,913 stars - score 0
-- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,122 stars - score 0
-- [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) - 22,675 stars - score 0
-- [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) - 20,739 stars - score 0
-- [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude) - 1,697 stars - score 0
+- [f/prompts.chat](https://github.com/f/prompts.chat) - 175,574 stars - score 0
+- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 102,051 stars - score 0
+- [enaqx/awesome-react](https://github.com/enaqx/awesome-react) - 75,134 stars - score 0
+- [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) - 22,685 stars - score 0
+- [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) - 20,746 stars - score 0
+- [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude) - 1,699 stars - score 0
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists) - 1,660 stars - score 0
 - [marcelscruz/dev-resources](https://github.com/marcelscruz/dev-resources) - 1,359 stars - score 0
 - [mohebifar/made-in-iran](https://github.com/mohebifar/made-in-iran) - 969 stars - score 0
-- [avinash201199/awesome-github-repositories](https://github.com/avinash201199/awesome-github-repositories) - 595 stars - score 0
+- [avinash201199/awesome-github-repositories](https://github.com/avinash201199/awesome-github-repositories) - 594 stars - score 0
+- [replicraft/remade](https://github.com/replicraft/remade) - 222 stars - score 0
 - [gitroomhq/devfest](https://github.com/gitroomhq/devfest) - 33 stars - score 0
 - [emanuelef/awesome-go-repo-stats](https://github.com/emanuelef/awesome-go-repo-stats) - 16 stars - score 0
 - [emanuelef/awesome-rust-repo-stats](https://github.com/emanuelef/awesome-rust-repo-stats) - 15 stars - score 0
@@ -777,28 +779,28 @@ Total repositories: 561
 
 ### AppSec
 
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 254,955 stars - score 0
-- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,277 stars - score 0
-- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 101,913 stars - score 0
-- [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) - 37,149 stars - score 0
-- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,978 stars - score 0
-- [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) - 22,675 stars - score 0
-- [sbilly/awesome-security](https://github.com/sbilly/awesome-security) - 15,056 stars - score 0
-- [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) - 14,861 stars - score 0
-- [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) - 11,898 stars - score 0
-- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,449 stars - score 0
-- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,899 stars - score 0
-- [bkrem/awesome-solidity](https://github.com/bkrem/awesome-solidity) - 7,068 stars - score 0
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 255,227 stars - score 0
+- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,381 stars - score 0
+- [ruvnet/ruview](https://github.com/ruvnet/ruview) - 102,051 stars - score 0
+- [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) - 37,155 stars - score 0
+- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,987 stars - score 0
+- [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) - 22,685 stars - score 0
+- [sbilly/awesome-security](https://github.com/sbilly/awesome-security) - 15,059 stars - score 0
+- [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) - 14,862 stars - score 0
+- [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) - 11,899 stars - score 0
+- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,455 stars - score 0
+- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,904 stars - score 0
+- [bkrem/awesome-solidity](https://github.com/bkrem/awesome-solidity) - 7,069 stars - score 0
 - [ghosttroops/scan4all](https://github.com/ghosttroops/scan4all) - 6,187 stars - score 0
-- [a-poc/blueteam-tools](https://github.com/a-poc/blueteam-tools) - 4,550 stars - score 0
+- [a-poc/blueteam-tools](https://github.com/a-poc/blueteam-tools) - 4,553 stars - score 0
 - [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) - 4,057 stars - score 0
-- [husnainfareed/awesome-ethical-hacking-resources](https://github.com/husnainfareed/awesome-ethical-hacking-resources) - 3,815 stars - score 0
-- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,572 stars - score 0
+- [husnainfareed/awesome-ethical-hacking-resources](https://github.com/husnainfareed/awesome-ethical-hacking-resources) - 3,819 stars - score 0
+- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,573 stars - score 0
 - [nikivdev/privacy-respecting](https://github.com/nikivdev/privacy-respecting) - 2,059 stars - score 0
-- [xalgord/massive-web-application-penetration-testing-bug-bounty-notes](https://github.com/xalgord/massive-web-application-penetration-testing-bug-bounty-notes) - 1,983 stars - score 0
-- [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap) - 1,891 stars - score 0
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,709 stars - score 0
-- [packing-box/awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing) - 1,637 stars - score 0
+- [xalgord/massive-web-application-penetration-testing-bug-bounty-notes](https://github.com/xalgord/massive-web-application-penetration-testing-bug-bounty-notes) - 1,984 stars - score 0
+- [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap) - 1,892 stars - score 0
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) - 1,711 stars - score 0
+- [packing-box/awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing) - 1,638 stars - score 0
 - [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security) - 1,616 stars - score 0
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide) - 1,380 stars - score 0
 - [wallarm/awesome-nginx-security](https://github.com/wallarm/awesome-nginx-security) - 781 stars - score 0
@@ -818,44 +820,45 @@ Total repositories: 561
 
 ### Cryptography
 
-- [pfarb/awesome-crypto-papers](https://github.com/pfarb/awesome-crypto-papers) - 2,107 stars - score 0
-- [okhosting/awesome-storage](https://github.com/okhosting/awesome-storage) - 1,032 stars - score 0
+- [pfarb/awesome-crypto-papers](https://github.com/pfarb/awesome-crypto-papers) - 2,108 stars - score 0
+- [okhosting/awesome-storage](https://github.com/okhosting/awesome-storage) - 1,033 stars - score 0
 - [jgcomptech/sharpultimatetools](https://github.com/jgcomptech/sharpultimatetools) - 50 stars - score 0
 - [jgcomptech/javaultimatetools](https://github.com/jgcomptech/javaultimatetools) - 27 stars - score 0
 
 ### DFIR
 
-- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,978 stars - score 0
-- [a-poc/blueteam-tools](https://github.com/a-poc/blueteam-tools) - 4,550 stars - score 0
+- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,987 stars - score 0
+- [a-poc/blueteam-tools](https://github.com/a-poc/blueteam-tools) - 4,553 stars - score 0
 - [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) - 4,057 stars - score 0
 - [cyb3rmik3/mde-dfir-resources](https://github.com/cyb3rmik3/mde-dfir-resources) - 475 stars - score 0
 
 ### Malware
 
-- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,277 stars - score 0
-- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,978 stars - score 0
-- [a-poc/blueteam-tools](https://github.com/a-poc/blueteam-tools) - 4,550 stars - score 0
+- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,381 stars - score 0
+- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,987 stars - score 0
+- [a-poc/blueteam-tools](https://github.com/a-poc/blueteam-tools) - 4,553 stars - score 0
 - [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) - 4,057 stars - score 0
-- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,572 stars - score 0
-- [arpsyndicate/awesome-intelligence](https://github.com/arpsyndicate/awesome-intelligence) - 2,427 stars - score 0
-- [packing-box/awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing) - 1,637 stars - score 0
+- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,573 stars - score 0
+- [arpsyndicate/awesome-intelligence](https://github.com/arpsyndicate/awesome-intelligence) - 2,428 stars - score 0
+- [packing-box/awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing) - 1,638 stars - score 0
 - [xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection](https://github.com/xiaoxiaoma-mq/awesome-deep-graph-anomaly-detection) - 385 stars - score 0
 - [velocityra/awesome-game-file-format-reversing](https://github.com/velocityra/awesome-game-file-format-reversing) - 235 stars - score 0
+- [replicraft/remade](https://github.com/replicraft/remade) - 222 stars - score 0
 - [correia-jpv/fucking-awesome-hacking](https://github.com/correia-jpv/fucking-awesome-hacking) - 196 stars - score 0
 
 ### Pentesting
 
-- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,277 stars - score 0
-- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,978 stars - score 0
-- [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) - 27,598 stars - score 0
-- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,449 stars - score 0
-- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,899 stars - score 0
+- [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) - 124,381 stars - score 0
+- [the-art-of-hacking/h4cker](https://github.com/the-art-of-hacking/h4cker) - 29,987 stars - score 0
+- [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) - 27,611 stars - score 0
+- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,455 stars - score 0
+- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,904 stars - score 0
 - [ghosttroops/scan4all](https://github.com/ghosttroops/scan4all) - 6,187 stars - score 0
 - [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) - 4,057 stars - score 0
-- [husnainfareed/awesome-ethical-hacking-resources](https://github.com/husnainfareed/awesome-ethical-hacking-resources) - 3,815 stars - score 0
-- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,572 stars - score 0
-- [threekiii/vulnerability-wiki](https://github.com/threekiii/vulnerability-wiki) - 2,198 stars - score 0
-- [xalgord/massive-web-application-penetration-testing-bug-bounty-notes](https://github.com/xalgord/massive-web-application-penetration-testing-bug-bounty-notes) - 1,983 stars - score 0
+- [husnainfareed/awesome-ethical-hacking-resources](https://github.com/husnainfareed/awesome-ethical-hacking-resources) - 3,819 stars - score 0
+- [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - 3,573 stars - score 0
+- [threekiii/vulnerability-wiki](https://github.com/threekiii/vulnerability-wiki) - 2,200 stars - score 0
+- [xalgord/massive-web-application-penetration-testing-bug-bounty-notes](https://github.com/xalgord/massive-web-application-penetration-testing-bug-bounty-notes) - 1,984 stars - score 0
 - [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security) - 1,616 stars - score 0
 - [correia-jpv/fucking-awesome-hacking](https://github.com/correia-jpv/fucking-awesome-hacking) - 196 stars - score 0
 - [alphacorpin/hacking-repos](https://github.com/alphacorpin/hacking-repos) - 79 stars - score 0
@@ -863,124 +866,123 @@ Total repositories: 561
 
 ### Threat Intelligence
 
-- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,449 stars - score 0
-- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,899 stars - score 0
+- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) - 11,455 stars - score 0
+- [a-poc/redteam-tools](https://github.com/a-poc/redteam-tools) - 9,904 stars - score 0
 - [ghosttroops/scan4all](https://github.com/ghosttroops/scan4all) - 6,187 stars - score 0
 
 ## Uncategorized
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - 557,986 stars - score 0
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 528,193 stars - score 0
-- [voltagent/awesome-design-md](https://github.com/voltagent/awesome-design-md) - 124,946 stars - score 0
-- [mungell/awesome-for-beginners](https://github.com/mungell/awesome-for-beginners) - 90,951 stars - score 0
-- [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) - 72,459 stars - score 0
-- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - 60,076 stars - score 0
-- [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) - 39,659 stars - score 0
-- [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) - 35,673 stars - score 0
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - 558,544 stars - score 0
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 529,154 stars - score 0
+- [voltagent/awesome-design-md](https://github.com/voltagent/awesome-design-md) - 125,163 stars - score 0
+- [mungell/awesome-for-beginners](https://github.com/mungell/awesome-for-beginners) - 90,980 stars - score 0
+- [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) - 72,484 stars - score 0
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - 60,102 stars - score 0
+- [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) - 39,679 stars - score 0
+- [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) - 35,680 stars - score 0
 - [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) - 32,779 stars - score 0
-- [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) - 31,638 stars - score 0
-- [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) - 31,490 stars - score 0
-- [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) - 30,620 stars - score 0
-- [imdazui/tvlist-awesome-m3u-m3u8](https://github.com/imdazui/tvlist-awesome-m3u-m3u8) - 30,307 stars - score 0
-- [posquit0/awesome-cv](https://github.com/posquit0/awesome-cv) - 28,847 stars - score 0
-- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 27,815 stars - score 0
-- [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - 27,351 stars - score 0
-- [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - 26,266 stars - score 0
-- [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) - 24,591 stars - score 0
-- [picotrex/awesome-nano-banana-images](https://github.com/picotrex/awesome-nano-banana-images) - 23,976 stars - score 0
-- [jbee37142/interview_question_for_beginner](https://github.com/jbee37142/interview_question_for_beginner) - 21,780 stars - score 0
-- [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) - 21,649 stars - score 0
-- [universidade-livre/ciencia-da-computacao](https://github.com/universidade-livre/ciencia-da-computacao) - 20,998 stars - score 0
-- [ichait/awesome-macos](https://github.com/ichait/awesome-macos) - 19,421 stars - score 0
-- [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook) - 18,415 stars - score 0
-- [mhinz/vim-galore](https://github.com/mhinz/vim-galore) - 18,036 stars - score 0
-- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) - 17,721 stars - score 0
-- [carpedm20/awesome-hacking](https://github.com/carpedm20/awesome-hacking) - 17,388 stars - score 0
-- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - 16,274 stars - score 0
-- [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss) - 15,216 stars - score 0
-- [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql) - 15,156 stars - score 0
-- [rshetty/awesome-podcasts](https://github.com/rshetty/awesome-podcasts) - 13,151 stars - score 0
-- [jnv/lists](https://github.com/jnv/lists) - 11,620 stars - score 0
-- [aalhour/awesome-compilers](https://github.com/aalhour/awesome-compilers) - 9,953 stars - score 0
-- [linsa-io/books](https://github.com/linsa-io/books) - 7,753 stars - score 0
-- [liuchong/awesome-roadmaps](https://github.com/liuchong/awesome-roadmaps) - 7,450 stars - score 0
-- [edostra/marketing-for-founders](https://github.com/edostra/marketing-for-founders) - 7,153 stars - score 0
-- [piotrkulpinski/open-source-alternatives](https://github.com/piotrkulpinski/open-source-alternatives) - 6,866 stars - score 0
+- [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) - 31,642 stars - score 0
+- [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) - 31,503 stars - score 0
+- [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) - 30,650 stars - score 0
+- [imdazui/tvlist-awesome-m3u-m3u8](https://github.com/imdazui/tvlist-awesome-m3u-m3u8) - 30,315 stars - score 0
+- [posquit0/awesome-cv](https://github.com/posquit0/awesome-cv) - 28,856 stars - score 0
+- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 27,819 stars - score 0
+- [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - 27,352 stars - score 0
+- [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - 26,272 stars - score 0
+- [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) - 24,600 stars - score 0
+- [picotrex/awesome-nano-banana-images](https://github.com/picotrex/awesome-nano-banana-images) - 23,994 stars - score 0
+- [jbee37142/interview_question_for_beginner](https://github.com/jbee37142/interview_question_for_beginner) - 21,783 stars - score 0
+- [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) - 21,660 stars - score 0
+- [universidade-livre/ciencia-da-computacao](https://github.com/universidade-livre/ciencia-da-computacao) - 21,000 stars - score 0
+- [ichait/awesome-macos](https://github.com/ichait/awesome-macos) - 19,427 stars - score 0
+- [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook) - 18,416 stars - score 0
+- [mhinz/vim-galore](https://github.com/mhinz/vim-galore) - 18,038 stars - score 0
+- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) - 17,725 stars - score 0
+- [carpedm20/awesome-hacking](https://github.com/carpedm20/awesome-hacking) - 17,398 stars - score 0
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - 16,282 stars - score 0
+- [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss) - 15,220 stars - score 0
+- [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql) - 15,157 stars - score 0
+- [rshetty/awesome-podcasts](https://github.com/rshetty/awesome-podcasts) - 13,149 stars - score 0
+- [jnv/lists](https://github.com/jnv/lists) - 11,623 stars - score 0
+- [aalhour/awesome-compilers](https://github.com/aalhour/awesome-compilers) - 9,954 stars - score 0
+- [linsa-io/books](https://github.com/linsa-io/books) - 7,758 stars - score 0
+- [liuchong/awesome-roadmaps](https://github.com/liuchong/awesome-roadmaps) - 7,454 stars - score 0
+- [edostra/marketing-for-founders](https://github.com/edostra/marketing-for-founders) - 7,159 stars - score 0
+- [piotrkulpinski/open-source-alternatives](https://github.com/piotrkulpinski/open-source-alternatives) - 6,870 stars - score 0
 - [vicoyeh/pointers-for-software-engineers](https://github.com/vicoyeh/pointers-for-software-engineers) - 5,743 stars - score 0
-- [hyprland-community/awesome-hyprland](https://github.com/hyprland-community/awesome-hyprland) - 5,384 stars - score 0
+- [hyprland-community/awesome-hyprland](https://github.com/hyprland-community/awesome-hyprland) - 5,389 stars - score 0
 - [lostdesign/webgems](https://github.com/lostdesign/webgems) - 5,183 stars - score 0
-- [nashory/gans-awesome-applications](https://github.com/nashory/gans-awesome-applications) - 5,101 stars - score 0
-- [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt) - 4,801 stars - score 0
+- [nashory/gans-awesome-applications](https://github.com/nashory/gans-awesome-applications) - 5,102 stars - score 0
+- [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt) - 4,803 stars - score 0
 - [thedaviddias/resources-front-end-beginner](https://github.com/thedaviddias/resources-front-end-beginner) - 4,091 stars - score 0
 - [kunal-kushwaha/competitive-programming-resources](https://github.com/kunal-kushwaha/competitive-programming-resources) - 3,934 stars - score 0
-- [micromata/awesome-css-learning](https://github.com/micromata/awesome-css-learning) - 3,870 stars - score 0
-- [fcambus/nginx-resources](https://github.com/fcambus/nginx-resources) - 3,844 stars - score 0
+- [micromata/awesome-css-learning](https://github.com/micromata/awesome-css-learning) - 3,873 stars - score 0
+- [fcambus/nginx-resources](https://github.com/fcambus/nginx-resources) - 3,846 stars - score 0
 - [neiesc/awesome-minimalist](https://github.com/neiesc/awesome-minimalist) - 3,669 stars - score 0
 - [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - 3,359 stars - score 0
-- [gdcmarinho/awesome-project](https://github.com/gdcmarinho/awesome-project) - 3,323 stars - score 0
-- [pawelborkar/awesome-repos](https://github.com/pawelborkar/awesome-repos) - 3,299 stars - score 0
+- [gdcmarinho/awesome-project](https://github.com/gdcmarinho/awesome-project) - 3,324 stars - score 0
 - [minar09/awesome-virtual-try-on](https://github.com/minar09/awesome-virtual-try-on) - 3,214 stars - score 0
-- [ocaml-community/awesome-ocaml](https://github.com/ocaml-community/awesome-ocaml) - 3,129 stars - score 0
-- [dictcp/awesome-git](https://github.com/dictcp/awesome-git) - 2,965 stars - score 0
+- [ocaml-community/awesome-ocaml](https://github.com/ocaml-community/awesome-ocaml) - 3,130 stars - score 0
+- [dictcp/awesome-git](https://github.com/dictcp/awesome-git) - 2,967 stars - score 0
 - [freedomintelligence/awesome-ai4med](https://github.com/freedomintelligence/awesome-ai4med) - 2,901 stars - score 0
-- [agucova/awesome-esp](https://github.com/agucova/awesome-esp) - 2,784 stars - score 0
-- [linsa-io/alfred-workflows](https://github.com/linsa-io/alfred-workflows) - 2,781 stars - score 0
-- [chartjs/awesome](https://github.com/chartjs/awesome) - 2,734 stars - score 0
-- [kgryte/awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer) - 2,558 stars - score 0
+- [agucova/awesome-esp](https://github.com/agucova/awesome-esp) - 2,788 stars - score 0
+- [linsa-io/alfred-workflows](https://github.com/linsa-io/alfred-workflows) - 2,783 stars - score 0
+- [chartjs/awesome](https://github.com/chartjs/awesome) - 2,735 stars - score 0
+- [kgryte/awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer) - 2,560 stars - score 0
 - [bst04/cybersources](https://github.com/bst04/cybersources) - 2,475 stars - score 0
 - [bolajiayodeji/awesome-technical-writing](https://github.com/bolajiayodeji/awesome-technical-writing) - 2,326 stars - score 0
 - [hng/tech-coops](https://github.com/hng/tech-coops) - 2,321 stars - score 0
 - [auctors/free-lunch](https://github.com/auctors/free-lunch) - 2,276 stars - score 0
-- [inttter/md-badges](https://github.com/inttter/md-badges) - 2,204 stars - score 0
-- [hameds/apis-made-in-iran](https://github.com/hameds/apis-made-in-iran) - 2,167 stars - score 0
-- [oshliaer/google-apps-script-awesome-list](https://github.com/oshliaer/google-apps-script-awesome-list) - 2,090 stars - score 0
-- [janhq/awesome-local-ai](https://github.com/janhq/awesome-local-ai) - 2,045 stars - score 0
-- [szabgab/awesome-for-non-programmers](https://github.com/szabgab/awesome-for-non-programmers) - 2,011 stars - score 0
-- [hilmanski/freestuffdev](https://github.com/hilmanski/freestuffdev) - 1,966 stars - score 0
+- [inttter/md-badges](https://github.com/inttter/md-badges) - 2,205 stars - score 0
+- [hameds/apis-made-in-iran](https://github.com/hameds/apis-made-in-iran) - 2,166 stars - score 0
+- [oshliaer/google-apps-script-awesome-list](https://github.com/oshliaer/google-apps-script-awesome-list) - 2,091 stars - score 0
+- [janhq/awesome-local-ai](https://github.com/janhq/awesome-local-ai) - 2,044 stars - score 0
+- [szabgab/awesome-for-non-programmers](https://github.com/szabgab/awesome-for-non-programmers) - 2,015 stars - score 0
+- [hilmanski/freestuffdev](https://github.com/hilmanski/freestuffdev) - 1,967 stars - score 0
 - [toutiaoio/weekly.manong.io](https://github.com/toutiaoio/weekly.manong.io) - 1,966 stars - score 0
 - [kalmaegi/computer-book-list](https://github.com/kalmaegi/computer-book-list) - 1,960 stars - score 0
 - [sereneblue/awesome-oss](https://github.com/sereneblue/awesome-oss) - 1,956 stars - score 0
-- [uhub/awesome-matlab](https://github.com/uhub/awesome-matlab) - 1,758 stars - score 0
+- [uhub/awesome-matlab](https://github.com/uhub/awesome-matlab) - 1,760 stars - score 0
 - [jesselpalmer/the-engineering-managers-booklist](https://github.com/jesselpalmer/the-engineering-managers-booklist) - 1,697 stars - score 0
-- [offciercia/non-typical-osint-guide](https://github.com/offciercia/non-typical-osint-guide) - 1,610 stars - score 0
+- [offciercia/non-typical-osint-guide](https://github.com/offciercia/non-typical-osint-guide) - 1,611 stars - score 0
 - [tkmru/awesome-edr-bypass](https://github.com/tkmru/awesome-edr-bypass) - 1,598 stars - score 0
-- [kr1sp1n/awesome-gemini](https://github.com/kr1sp1n/awesome-gemini) - 1,568 stars - score 0
+- [kr1sp1n/awesome-gemini](https://github.com/kr1sp1n/awesome-gemini) - 1,569 stars - score 0
 - [niri-wm/awesome-niri](https://github.com/niri-wm/awesome-niri) - 1,549 stars - score 0
 - [envoy1084/awesome-badges](https://github.com/envoy1084/awesome-badges) - 1,537 stars - score 0
 - [svaksha/julia.jl](https://github.com/svaksha/julia.jl) - 1,521 stars - score 0
-- [cedrickchee/awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard) - 1,508 stars - score 0
-- [salgnt/cscs](https://github.com/salgnt/cscs) - 1,505 stars - score 0
+- [cedrickchee/awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard) - 1,509 stars - score 0
+- [salgnt/cscs](https://github.com/salgnt/cscs) - 1,506 stars - score 0
 - [jihoo-kim/awesome-recsys](https://github.com/jihoo-kim/awesome-recsys) - 1,480 stars - score 0
-- [hendurhance/ui-ux](https://github.com/hendurhance/ui-ux) - 1,457 stars - score 0
-- [taranjeet/awesome-gpts](https://github.com/taranjeet/awesome-gpts) - 1,377 stars - score 0
+- [hendurhance/ui-ux](https://github.com/hendurhance/ui-ux) - 1,458 stars - score 0
+- [taranjeet/awesome-gpts](https://github.com/taranjeet/awesome-gpts) - 1,378 stars - score 0
 - [gbadev-org/awesome-gbadev](https://github.com/gbadev-org/awesome-gbadev) - 1,362 stars - score 0
-- [atakanaltok/awesome-useful-websites](https://github.com/atakanaltok/awesome-useful-websites) - 1,304 stars - score 0
-- [linsa-io/courses](https://github.com/linsa-io/courses) - 1,295 stars - score 0
+- [atakanaltok/awesome-useful-websites](https://github.com/atakanaltok/awesome-useful-websites) - 1,306 stars - score 0
+- [linsa-io/courses](https://github.com/linsa-io/courses) - 1,296 stars - score 0
 - [rajasegar/awesome-micro-frontends](https://github.com/rajasegar/awesome-micro-frontends) - 1,286 stars - score 0
-- [terryds/awesome-strudel](https://github.com/terryds/awesome-strudel) - 1,241 stars - score 0
+- [terryds/awesome-strudel](https://github.com/terryds/awesome-strudel) - 1,242 stars - score 0
 - [ghoullier/awesome-template-literal-types](https://github.com/ghoullier/awesome-template-literal-types) - 1,224 stars - score 0
-- [hiddify/awesome-freedom](https://github.com/hiddify/awesome-freedom) - 1,213 stars - score 0
-- [corsinvest/awesome-proxmox-ve](https://github.com/corsinvest/awesome-proxmox-ve) - 1,150 stars - score 0
+- [hiddify/awesome-freedom](https://github.com/hiddify/awesome-freedom) - 1,212 stars - score 0
+- [corsinvest/awesome-proxmox-ve](https://github.com/corsinvest/awesome-proxmox-ve) - 1,151 stars - score 0
 - [daviddias/awesome-hacking-locations](https://github.com/daviddias/awesome-hacking-locations) - 1,137 stars - score 0
 - [738/awesome-url-shortener](https://github.com/738/awesome-url-shortener) - 1,095 stars - score 0
 - [appwrite/awesome-appwrite](https://github.com/appwrite/awesome-appwrite) - 1,091 stars - score 0
 - [tehtbl/awesome-note-taking](https://github.com/tehtbl/awesome-note-taking) - 1,018 stars - score 0
-- [sebastrion/awesome-unofficial-pc-ports](https://github.com/sebastrion/awesome-unofficial-pc-ports) - 977 stars - score 0
+- [sebastrion/awesome-unofficial-pc-ports](https://github.com/sebastrion/awesome-unofficial-pc-ports) - 976 stars - score 0
 - [chobeat/awesome-critical-tech-reading-list](https://github.com/chobeat/awesome-critical-tech-reading-list) - 964 stars - score 0
-- [linsa-io/curated-lists](https://github.com/linsa-io/curated-lists) - 950 stars - score 0
+- [linsa-io/curated-lists](https://github.com/linsa-io/curated-lists) - 951 stars - score 0
 - [otacilion/awesome-hacktoberfest](https://github.com/otacilion/awesome-hacktoberfest) - 864 stars - score 0
 - [linsa-io/macos-apps](https://github.com/linsa-io/macos-apps) - 847 stars - score 0
-- [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations) - 815 stars - score 0
-- [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm) - 815 stars - score 0
-- [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest) - 796 stars - score 0
+- [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations) - 816 stars - score 0
+- [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm) - 816 stars - score 0
+- [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest) - 797 stars - score 0
 - [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer) - 783 stars - score 0
 - [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo) - 769 stars - score 0
 - [devrelcollective/awesome-devrel](https://github.com/devrelcollective/awesome-devrel) - 762 stars - score 0
-- [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators) - 759 stars - score 0
+- [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators) - 761 stars - score 0
 - [uhub/awesome-lua](https://github.com/uhub/awesome-lua) - 727 stars - score 0
 - [changanvr/awesome-embodied-vision](https://github.com/changanvr/awesome-embodied-vision) - 710 stars - score 0
-- [janesmae/awesome-drones](https://github.com/janesmae/awesome-drones) - 674 stars - score 0
 - [uhub/awesome-css](https://github.com/uhub/awesome-css) - 674 stars - score 0
+- [janesmae/awesome-drones](https://github.com/janesmae/awesome-drones) - 673 stars - score 0
 - [uhub/awesome-php](https://github.com/uhub/awesome-php) - 566 stars - score 0
 - [terremoth/awesome-hilarious-repos](https://github.com/terremoth/awesome-hilarious-repos) - 539 stars - score 0
 - [linsa-io/blogs](https://github.com/linsa-io/blogs) - 533 stars - score 0
@@ -992,11 +994,11 @@ Total repositories: 561
 - [correia-jpv/fucking-awesome-flipperzero](https://github.com/correia-jpv/fucking-awesome-flipperzero) - 416 stars - score 0
 - [ezshine/awesomelive2d](https://github.com/ezshine/awesomelive2d) - 413 stars - score 0
 - [jeekzhang/awesome-fudan](https://github.com/jeekzhang/awesome-fudan) - 381 stars - score 0
-- [andreia/awesome-symfony](https://github.com/andreia/awesome-symfony) - 380 stars - score 0
+- [andreia/awesome-symfony](https://github.com/andreia/awesome-symfony) - 379 stars - score 0
 - [uhub/awesome-erlang](https://github.com/uhub/awesome-erlang) - 378 stars - score 0
 - [omarsalah26/awesome-arabic-ai](https://github.com/omarsalah26/awesome-arabic-ai) - 343 stars - score 0
-- [ardianta/anime-for-dev](https://github.com/ardianta/anime-for-dev) - 340 stars - score 0
-- [linsa-io/programming-languages](https://github.com/linsa-io/programming-languages) - 333 stars - score 0
+- [ardianta/anime-for-dev](https://github.com/ardianta/anime-for-dev) - 339 stars - score 0
+- [linsa-io/programming-languages](https://github.com/linsa-io/programming-languages) - 334 stars - score 0
 - [logancyang/awesome-personal-websites](https://github.com/logancyang/awesome-personal-websites) - 319 stars - score 0
 - [ruijun/awesome-gank.io](https://github.com/ruijun/awesome-gank.io) - 313 stars - score 0
 - [thedaviddias/indie-dev-toolkit](https://github.com/thedaviddias/indie-dev-toolkit) - 297 stars - score 0
@@ -1005,11 +1007,10 @@ Total repositories: 561
 - [iampavangandhi/iampavangandhi](https://github.com/iampavangandhi/iampavangandhi) - 274 stars - score 0
 - [beam-community/awesome-phoenix-liveview](https://github.com/beam-community/awesome-phoenix-liveview) - 272 stars - score 0
 - [linsa-io/websites](https://github.com/linsa-io/websites) - 258 stars - score 0
-- [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list) - 255 stars - score 0
+- [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list) - 258 stars - score 0
 - [uhub/awesome-coq](https://github.com/uhub/awesome-coq) - 236 stars - score 0
 - [unkn0w/unknownews](https://github.com/unkn0w/unknownews) - 231 stars - score 0
 - [robodonut/awesome-spatial](https://github.com/robodonut/awesome-spatial) - 223 stars - score 0
-- [uhub/awesome-scala](https://github.com/uhub/awesome-scala) - 217 stars - score 0
 - [components/font-awesome](https://github.com/components/font-awesome) - 196 stars - score 0
 - [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins) - 196 stars - score 0
 - [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio) - 193 stars - score 0
@@ -1018,9 +1019,9 @@ Total repositories: 561
 - [mintisan/awesome-kalman-filter](https://github.com/mintisan/awesome-kalman-filter) - 164 stars - score 0
 - [victordedomenico/awesome-altstore](https://github.com/victordedomenico/awesome-altstore) - 159 stars - score 0
 - [wheel-smith/awesome-omarchy](https://github.com/wheel-smith/awesome-omarchy) - 132 stars - score 0
-- [correia-jpv/fucking-awesome-sysadmin](https://github.com/correia-jpv/fucking-awesome-sysadmin) - 95 stars - score 0
+- [correia-jpv/fucking-awesome-sysadmin](https://github.com/correia-jpv/fucking-awesome-sysadmin) - 96 stars - score 0
 - [correia-jpv/fucking-awesome-macos](https://github.com/correia-jpv/fucking-awesome-macos) - 91 stars - score 0
-- [erbanku/awesome](https://github.com/erbanku/awesome) - 90 stars - score 0
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 89 stars - score 0
 - [anderson-joyle/awesome-msdyn365fo](https://github.com/anderson-joyle/awesome-msdyn365fo) - 88 stars - score 0
 - [pauljgasper/awesome-battery-data](https://github.com/pauljgasper/awesome-battery-data) - 87 stars - score 0
 - [martinmiles/awesome-sitecore](https://github.com/martinmiles/awesome-sitecore) - 85 stars - score 0
@@ -1064,24 +1065,24 @@ Total repositories: 561
 
 ### Blockchain
 
-- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,883 stars - score 0
-- [bkrem/awesome-solidity](https://github.com/bkrem/awesome-solidity) - 7,068 stars - score 0
-- [offciercia/ultimate-defi-research-base](https://github.com/offciercia/ultimate-defi-research-base) - 2,243 stars - score 0
-- [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap) - 1,891 stars - score 0
+- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,885 stars - score 0
+- [bkrem/awesome-solidity](https://github.com/bkrem/awesome-solidity) - 7,069 stars - score 0
+- [offciercia/ultimate-defi-research-base](https://github.com/offciercia/ultimate-defi-research-base) - 2,244 stars - score 0
+- [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap) - 1,892 stars - score 0
 - [arddluma/awesome-list-rpc-nodes-providers](https://github.com/arddluma/awesome-list-rpc-nodes-providers) - 916 stars - score 0
 - [fewwwww/awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-hooks) - 635 stars - score 0
 
 ### DeFi
 
-- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,883 stars - score 0
-- [offciercia/ultimate-defi-research-base](https://github.com/offciercia/ultimate-defi-research-base) - 2,243 stars - score 0
-- [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap) - 1,891 stars - score 0
+- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,885 stars - score 0
+- [offciercia/ultimate-defi-research-base](https://github.com/offciercia/ultimate-defi-research-base) - 2,244 stars - score 0
+- [offciercia/crypto-opsec-selfguard-roadmap](https://github.com/offciercia/crypto-opsec-selfguard-roadmap) - 1,892 stars - score 0
 - [fewwwww/awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-hooks) - 635 stars - score 0
 
 ### Smart Contracts
 
-- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,883 stars - score 0
-- [bkrem/awesome-solidity](https://github.com/bkrem/awesome-solidity) - 7,068 stars - score 0
-- [offciercia/ultimate-defi-research-base](https://github.com/offciercia/ultimate-defi-research-base) - 2,243 stars - score 0
+- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map) - 10,885 stars - score 0
+- [bkrem/awesome-solidity](https://github.com/bkrem/awesome-solidity) - 7,069 stars - score 0
+- [offciercia/ultimate-defi-research-base](https://github.com/offciercia/ultimate-defi-research-base) - 2,244 stars - score 0
 - [arddluma/awesome-list-rpc-nodes-providers](https://github.com/arddluma/awesome-list-rpc-nodes-providers) - 916 stars - score 0
 - [fewwwww/awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-hooks) - 635 stars - score 0
