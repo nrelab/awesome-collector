@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-03T10:03:45Z
+Generated: 2026-11-04T09:50:44Z
 
 Total repositories: 561
 
@@ -297,8 +297,8 @@ Total repositories: 561
 - [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant): A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
 - [allthingssmitty/css-protips](https://github.com/allthingssmitty/css-protips): A collection of tips to help take your CSS skills pro. 🕹
 - [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide): A one stop repository for generative AI research updates, interview resources, notebooks and much more!
-- [igglybuff/awesome-piracy](https://github.com/igglybuff/awesome-piracy): A curated list of awesome warez and piracy links
 - [lissy93/dashy](https://github.com/lissy93/dashy): 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
+- [igglybuff/awesome-piracy](https://github.com/igglybuff/awesome-piracy): A curated list of awesome warez and piracy links
 - [luong-komorebi/awesome-linux-software](https://github.com/luong-komorebi/awesome-linux-software): 🐧 A list of awesome Linux softwares
 - [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev): A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
 - [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist): 🎮 The only Front-End Performance Checklist that runs faster than the others
@@ -359,8 +359,8 @@ Total repositories: 561
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists): :shield: The independent, comprehensive directory of filter and host lists for advertisements, trackers, malware, and annoyances.
 - [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security): Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
 - [kube-green/kube-green](https://github.com/kube-green/kube-green): A K8s operator to reduce CO2 footprint of your clusters
-- [xyou365/autorclone](https://github.com/xyou365/autorclone): AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide): Linux Guide. Learn about Linux Hardware vendors, Linux in the Cloud, Desktop Environments, Window Mangers, Linux Distributions, Linux Security, Graphics (AMD/NVIDIA/Intel ARC), and Software Apps.
+- [xyou365/autorclone](https://github.com/xyou365/autorclone): AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
 - [hetznercloud/awesome-hcloud](https://github.com/hetznercloud/awesome-hcloud): A curated list of awesome libraries, tools, and integrations for Hetzner Cloud
 - [devtoolsd/awesome-devtools](https://github.com/devtoolsd/awesome-devtools): A curated list of awesome developer tools and services — from cloud platforms and IDEs to AI-powered coding assistants and productivity utilities.
 - [cyb3rmik3/mde-dfir-resources](https://github.com/cyb3rmik3/mde-dfir-resources): A curated list of resources for DFIR through Microsoft Defender for Endpoint leveraging kusto queries, powershell scripts, tools such as KAPE and THOR Cloud and more.
@@ -419,8 +419,8 @@ Total repositories: 561
 - [you-dont-need/you-dont-need-gui](https://github.com/you-dont-need/you-dont-need-gui): Stop relying on GUI; CLI **ROCKS**
 - [janikvonrotz/awesome-powershell](https://github.com/janikvonrotz/awesome-powershell): This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit the new location for the latest updates.
 - [toolleeo/awesome-cli-apps-in-a-csv](https://github.com/toolleeo/awesome-cli-apps-in-a-csv): The largest Awesome Curated list of command line programs (CLI/TUI) with source data organized into CSV files
-- [xyou365/autorclone](https://github.com/xyou365/autorclone): AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
 - [mikeroyal/linux-guide](https://github.com/mikeroyal/linux-guide): Linux Guide. Learn about Linux Hardware vendors, Linux in the Cloud, Desktop Environments, Window Mangers, Linux Distributions, Linux Security, Graphics (AMD/NVIDIA/Intel ARC), and Software Apps.
+- [xyou365/autorclone](https://github.com/xyou365/autorclone): AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
 - [okhosting/awesome-storage](https://github.com/okhosting/awesome-storage): A curated list of storage open source tools. Backups, redundancy, sharing, distribution, encryption, etc.
 - [huytransformer/awesome-out-of-distribution-detection](https://github.com/huytransformer/awesome-out-of-distribution-detection): Out-of-distribution detection, robustness, and generalization resources. The repository contains a curated list of papers, tutorials, books, videos, articles and open-source libraries etc
 - [correia-jpv/fucking-awesome-linux-software](https://github.com/correia-jpv/fucking-awesome-linux-software): A list of awesome applications, software, tools and other materials for Linux distros. With repository stars⭐ and forks🍴
@@ -585,7 +585,6 @@ Total repositories: 561
 - [thedaviddias/front-end-performance-checklist](https://github.com/thedaviddias/front-end-performance-checklist): 🎮 The only Front-End Performance Checklist that runs faster than the others
 - [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite): ⚡️ A curated list of awesome things related to Vite.js
 - [laoma528/awesome-zhuiju-free](https://github.com/laoma528/awesome-zhuiju-free): 免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。
-- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map): DeFi Developer roadmap is a curated Developer handbook which includes a list of the best tools for DApps development, resources and references!
 - [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis): A collaborative list of public APIs for developers
 - [markodenic/web-development-resources](https://github.com/markodenic/web-development-resources): Awesome Web Development Resources.
 - [micromata/awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning): A tiny list limited to the best JavaScript Learning Resources
@@ -645,7 +644,6 @@ Total repositories: 561
 - [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents): A list of AI autonomous agents
 - [guovin/iptv-api](https://github.com/guovin/iptv-api): ⚡️ IPTV直播源自动更新工具：自动采集、校验、测速并生成可播放结果，支持 M3U/TXT/API 输出、自定义频道、IPv4/IPv6、Docker、GitHub Actions、CLI 与 GUI 多端部署
 - [lilittlecat/awesome-free-chatgpt](https://github.com/lilittlecat/awesome-free-chatgpt): 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.
-- [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
 - [runacapital/awesome-oss-alternatives](https://github.com/runacapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products 🚀
 - [bobeff/open-source-games](https://github.com/bobeff/open-source-games): A list of open source games.
 - [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts): GPT-Image-2 API and Prompts
@@ -653,6 +651,7 @@ Total repositories: 561
 - [rossant/awesome-math](https://github.com/rossant/awesome-math): A curated list of awesome mathematics resources
 - [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list): A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.
+- [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map): DeFi Developer roadmap is a curated Developer handbook which includes a list of the best tools for DApps development, resources and references!
 - [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models): Largest list of models for Core ML (for iOS 11+)
 - [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
 - [instillai/deep-learning-roadmap](https://github.com/instillai/deep-learning-roadmap): :satellite: All You Need to Know About Deep Learning - A kick-starter
@@ -673,8 +672,8 @@ Total repositories: 561
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources): آرشیو منابع رایگان آموزش برنامه نویسی به زبان فارسی ( هر کسی باید بتونه برنامه نویسی رو یاد بگیره، مهم نیست پول داره یا نداره، به امید اینکه کسی به خاطر نداشتن پول از آموزش عقب نمونه )
 - [uhub/awesome-python](https://github.com/uhub/awesome-python): A curated list of awesome Python frameworks, libraries and software.
-- [freecodecamp/awesome-quincy-larson-emails](https://github.com/freecodecamp/awesome-quincy-larson-emails): This repository is an archive of emails that are sent by the awesome Quincy Larson every week.
 - [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers): 🌎💎 개발자들의 첫 번째 북마크
+- [freecodecamp/awesome-quincy-larson-emails](https://github.com/freecodecamp/awesome-quincy-larson-emails): This repository is an archive of emails that are sent by the awesome Quincy Larson every week.
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl): OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars): A curated list of Polars talks, tools, examples & articles. Contributions welcome !
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
@@ -720,7 +719,6 @@ Total repositories: 561
 - [emanuelef/awesome-python-repo-stats](https://github.com/emanuelef/awesome-python-repo-stats): Explore Daily Updated Statistics for Repositories in the 'awesome-python' List
 - [blues1998/streamlit-hello-app](https://github.com/blues1998/streamlit-hello-app): Sample repository for my awesome Youtube viewers.
 - [whitone/awesome-discoveries](https://github.com/whitone/awesome-discoveries): A curated list of awesome discoveries based on repositories found using GitHub Trending
-- [cursed-ninja/awesome-projects](https://github.com/cursed-ninja/awesome-projects): This repository contains awesome python projects & scripts to make work easier.
 
 ### Ruby
 
@@ -770,12 +768,14 @@ Total repositories: 561
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem
 - [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist): 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026
 - [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui): A curated list of awesome things related to shadcn/ui.
+- [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
 - [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude): A curated list of awesome things related to Anthropic Claude
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists): :shield: The independent, comprehensive directory of filter and host lists for advertisements, trackers, malware, and annoyances.
 - [marcelscruz/dev-resources](https://github.com/marcelscruz/dev-resources): A collaborative list of resources for developers
 - [mohebifar/made-in-iran](https://github.com/mohebifar/made-in-iran): A list of cool projects made in Iran
 - [avinash201199/awesome-github-repositories](https://github.com/avinash201199/awesome-github-repositories): Collection of Awesome GitHub Repositories
 - [replicraft/remade](https://github.com/replicraft/remade): A community-curated directory for exploring, requesting, and supporting independently recreated software
+- [gitroomhq/devfest](https://github.com/gitroomhq/devfest): Contribute code to AI repositories, meet new people, Participate in events and win awesome SWAG.
 - [emanuelef/awesome-go-repo-stats](https://github.com/emanuelef/awesome-go-repo-stats): Explore Daily Updated Statistics for Repositories in the 'awesome-go' List
 - [emanuelef/awesome-rust-repo-stats](https://github.com/emanuelef/awesome-rust-repo-stats): Explore Daily Updated Statistics for Repositories in the 'awesome-rust' List
 - [emanuelef/awesome-python-repo-stats](https://github.com/emanuelef/awesome-python-repo-stats): Explore Daily Updated Statistics for Repositories in the 'awesome-python' List
@@ -977,8 +977,8 @@ Total repositories: 561
 - [linsa-io/curated-lists](https://github.com/linsa-io/curated-lists): Curated lists on various topics
 - [otacilion/awesome-hacktoberfest](https://github.com/otacilion/awesome-hacktoberfest): A curated list of awesome Hacktoberfest 2023 repositories, guides and resources
 - [linsa-io/macos-apps](https://github.com/linsa-io/macos-apps): Awesome macOS apps
-- [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
+- [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
 - [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
 - [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
 - [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
@@ -1011,8 +1011,8 @@ Total repositories: 561
 - [csbl-br/awesome-compbio-chatgpt](https://github.com/csbl-br/awesome-compbio-chatgpt): An awesome repository of community-curated applications of ChatGPT and other LLMs in computational biology
 - [iampavangandhi/iampavangandhi](https://github.com/iampavangandhi/iampavangandhi): Hey 👋, Glad to see you here! Check out this repository to learn more about me 🤓. You can also use it to make your awesome GitHub README ✨  (Don't Just Fork, Star Too 😅)
 - [beam-community/awesome-phoenix-liveview](https://github.com/beam-community/awesome-phoenix-liveview): A curated list of awesome Phoenix LiveView repositories, blog posts or other resources
-- [linsa-io/websites](https://github.com/linsa-io/websites): Awesome Websites
 - [xiangyugongzuoliu/awesome-rss-feeds-list](https://github.com/xiangyugongzuoliu/awesome-rss-feeds-list): 🌐 全网最全 RSS 订阅源汇总
+- [linsa-io/websites](https://github.com/linsa-io/websites): Awesome Websites
 - [uhub/awesome-coq](https://github.com/uhub/awesome-coq): A curated list of awesome Coq frameworks, libraries and software.
 - [unkn0w/unknownews](https://github.com/unkn0w/unknownews): Archiwum wszystkich wydań newslettera unknowNews
 - [robodonut/awesome-spatial](https://github.com/robodonut/awesome-spatial): A list of awesome spatial repositories.
