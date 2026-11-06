@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-05T09:52:24Z
+Generated: 2026-11-06T09:49:06Z
 
 Total repositories: 561
 
@@ -198,8 +198,8 @@ Total repositories: 561
 ### Data Engineering
 
 - [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook): This is a repo with links to everything you'd ever want to learn about data engineering
-- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata): A curated list of awesome big data frameworks, ressources and other awesomeness.
 - [laoma528/awesome-zhuiju-free](https://github.com/laoma528/awesome-zhuiju-free): 免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。
+- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata): A curated list of awesome big data frameworks, ressources and other awesomeness.
 - [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [correia-jpv/fucking-awesome-bigdata](https://github.com/correia-jpv/fucking-awesome-bigdata): A curated list of awesome big data frameworks, resources and other awesomeness. With repository stars⭐ and forks🍴
 
@@ -490,8 +490,8 @@ Total repositories: 561
 - [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift): A collaborative list of awesome Swift libraries and resources. Feel free to contribute!
 - [mac-cain13/r.swift](https://github.com/mac-cain13/r.swift): Strong typed, autocompleted resources like images, fonts and segues in Swift projects
 - [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models): Largest list of models for Core ML (for iOS 11+)
-- [onevcat/fengniao](https://github.com/onevcat/fengniao): A command line tool for cleaning unused resources in Xcode.
 - [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security): An effort to build a single place for all useful android and iOS security related stuff. All references and tools belong to their respective owners. I'm just maintaining it.
+- [onevcat/fengniao](https://github.com/onevcat/fengniao): A command line tool for cleaning unused resources in Xcode.
 - [eleev/ios-learning-materials](https://github.com/eleev/ios-learning-materials): 📚 Curated list of articles, tutorials and repos that may help you dig a little bit deeper into iOS [and Apple Platforms].
 - [uhub/awesome-swift](https://github.com/uhub/awesome-swift): A curated list of awesome Swift frameworks, libraries and software.
 - [uhub/awesome-objective-c](https://github.com/uhub/awesome-objective-c): A curated list of awesome Objective-C frameworks, libraries and software.
@@ -982,8 +982,8 @@ Total repositories: 561
 - [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
 - [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
 - [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
-- [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [devrelcollective/awesome-devrel](https://github.com/devrelcollective/awesome-devrel): Awesome Developer Relations resources curated by the DevRel Collective
+- [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [uhub/awesome-lua](https://github.com/uhub/awesome-lua): A curated list of awesome Lua frameworks, libraries and software.
 - [changanvr/awesome-embodied-vision](https://github.com/changanvr/awesome-embodied-vision): Reading list for research topics in embodied vision
 - [janesmae/awesome-drones](https://github.com/janesmae/awesome-drones): A curated list of Awesome Drones resources
