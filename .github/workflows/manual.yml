@@ -96,5 +96,6 @@ jobs:
             echo "No changes"
           else
             git commit -m "chore(data: manual ${MODE} collection${{ env.CATEGORY != 'all' && format(' ({0})', env.CATEGORY) || '' }})"
+            git pull --rebase origin main
             git push
           fi
