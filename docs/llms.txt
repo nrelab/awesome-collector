@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-07T09:10:03Z
+Generated: 2026-11-07T18:59:26Z
 
 Total repositories: 561
 
