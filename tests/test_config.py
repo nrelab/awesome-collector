@@ -69,6 +69,22 @@ class TestShippedConfig:
         for category in _LANGUAGE_CATEGORIES.values():
             assert self.taxonomy.has(category), category
 
+    def test_leaf_parent_map_covers_all_leaves(self):
+        assert set(self.taxonomy.leaf_parent) == set(self.taxonomy.leaves)
+
+    def test_as_parent_map_matches_leaf_parent(self):
+        assert self.taxonomy.as_parent_map() == self.taxonomy.leaf_parent
+
+    def test_keyword_and_topic_maps_are_lists(self):
+        for mapping in (self.taxonomy.keyword_map(), self.taxonomy.topic_map()):
+            for values in mapping.values():
+                assert isinstance(values, list)
+                assert all(isinstance(v, str) for v in values)
+
+    def test_load_config_missing_file(self):
+        with pytest.raises(ConfigError, match="not found"):
+            load_config(CONFIG_DIR, "nonexistent")
+
 
 class TestConfigErrors:
     def test_missing_file(self):
@@ -110,3 +126,33 @@ class TestConfigErrors:
             f.write("- a\n- b\n")
         with pytest.raises(ConfigError, match="mapping"):
             load_categories(str(config_dir))
+
+    def test_parent_that_is_also_a_leaf_rejected(self, tmp_path):
+        config_dir = write_config(tmp_path, {
+            "taxonomy": {"AI": ["LLM"], "LLM": ["Sub"]},
+        })
+        with pytest.raises(ConfigError, match="both a parent and a leaf"):
+            load_categories(config_dir)
+
+    def test_parent_with_no_leaves_rejected(self, tmp_path):
+        config_dir = write_config(tmp_path, {
+            "taxonomy": {"AI": []},
+        })
+        with pytest.raises(ConfigError, match="no categories"):
+            load_categories(config_dir)
+
+    def test_keywords_not_a_mapping_rejected(self, tmp_path):
+        config_dir = write_config(tmp_path, {
+            "taxonomy": {"AI": ["LLM"]},
+            "keywords": ["llm"],
+        })
+        with pytest.raises(ConfigError, match="keywords"):
+            load_categories(config_dir)
+
+    def test_topics_key_not_in_taxonomy_rejected(self, tmp_path):
+        config_dir = write_config(tmp_path, {
+            "taxonomy": {"AI": ["LLM"]},
+            "topics": {"Robotics": ["robotics"]},
+        })
+        with pytest.raises(ConfigError, match="not a category in 'taxonomy'"):
+            load_categories(config_dir)

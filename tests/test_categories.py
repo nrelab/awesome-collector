@@ -54,6 +54,15 @@ class TestSectionToCategory:
     def test_case_insensitive_match(self, taxonomy):
         assert section_to_category("databases", taxonomy) == "Databases"
 
+    def test_punctuation_and_whitespace_normalized(self, taxonomy):
+        assert section_to_category("  -- DevOps: --  ", taxonomy) == "DevOps"
+
+    def test_cjk_keyword_section(self, taxonomy):
+        assert section_to_category("运维", taxonomy) == "DevOps"
+
+    def test_deep_heading_still_resolves(self, taxonomy):
+        assert section_to_category("### Kubernetes", taxonomy) == "Kubernetes"
+
     def test_keyword_match_on_decorated_heading(self, taxonomy):
         assert section_to_category("[awesome] Security 🔐 Tools", taxonomy) == "AppSec"
 
@@ -135,6 +144,55 @@ class TestClassifyRepository:
     def test_repo_with_no_signals_gets_nothing(self, taxonomy):
         repo = make_repo(name="x", description="", language=None, topics=[])
         assert classify_repository(repo, taxonomy) == []
+
+    def test_topic_signal_beats_keyword_signal(self, taxonomy):
+        """Topics are the strongest signal, so a topic-matched leaf ranks first
+        even when keywords would also match."""
+        repo = make_repo(
+            topics=["postgres"],  # Databases via topics map
+            description="kubernetes operators",
+        )
+        categories = classify_repository(repo, taxonomy)
+        assert categories[0] == "Databases"
+        assert "Kubernetes" in categories
+
+    def test_language_signal_beats_keyword_signal(self, taxonomy):
+        repo = make_repo(language="Rust", description="web development framework")
+        categories = classify_repository(repo, taxonomy)
+        assert categories[0] == "Rust"
+        assert "Web Development" in categories
+
+    def test_name_alone_can_classify(self, taxonomy):
+        repo = make_repo(name="awesome-kubernetes", description="", topics=[])
+        assert "Kubernetes" in classify_repository(repo, taxonomy)
+
+    def test_description_only_classification(self, taxonomy):
+        repo = make_repo(
+            name="x", description="", language=None, topics=[],
+        )
+        repo.description = "A prometheus alerting and monitoring toolkit"
+        categories = classify_repository(repo, taxonomy)
+        assert "Monitoring" in categories or "Observability" in categories
+
+    def test_classify_with_explicit_max(self, taxonomy):
+        repo = make_repo(
+            description="llm agents kubernetes terraform postgres prometheus",
+            language="Python",
+            topics=["ai-agents"],
+        )
+        one = classify_repository(repo, taxonomy, max_categories=1)
+        assert len(one) == 1
+        assert one[0] == "Agents"  # topic signal wins the single slot
+
+    def test_empty_taxonomy_returns_nothing(self):
+        from src.config import CategoryTaxonomy
+        empty = CategoryTaxonomy()
+        repo = make_repo(description="llm agents", topics=["llm"], language="Python")
+        assert classify_repository(repo, empty) == []
+
+    def test_case_insensitive_topic_matching(self, taxonomy):
+        repo = make_repo(topics=["KUBERNETES"])
+        assert "Kubernetes" in classify_repository(repo, taxonomy)
 
 
 class TestCategoryParents:
