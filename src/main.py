@@ -1,23 +1,22 @@
 import json
 import os
-import click
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Optional
+
+import click
 
 from src.config import load_categories
-from src.normalize.urls import repository_from_row
-from src.normalize.repository import normalize_repository, create_repository_from_api
 from src.normalize.dedupe import dedupe_repositories
+from src.normalize.repository import create_repository_from_api, normalize_repository
+from src.normalize.urls import repository_from_row
 from src.parser.categories import (
     category_parents,
     classify_repository,
     section_to_category,
 )
 from src.storage.json_store import JsonStore, utc_now_iso
-from src.storage.sqlite import SqliteStore
 from src.storage.markdown import MarkdownRenderer, utc_today
-
+from src.storage.sqlite import SqliteStore
 
 _GENERATED_DOCS = ("sitemap.md", "llms.txt", "agents.md")
 UNCATEGORIZED = "Uncategorized"
@@ -27,7 +26,7 @@ def _sort_key(entry: dict) -> tuple:
     return (entry.get("score", 0) or 0, entry.get("stars", 0) or 0)
 
 
-def _get_github_client(token: Optional[str]):
+def _get_github_client(token: str | None):
     from src.github.client import GitHubClient
     if token:
         return GitHubClient(token=token)
@@ -64,7 +63,7 @@ class CLICommands:
         self,
         owner: str,
         repo: str,
-        github_token: Optional[str] = None,
+        github_token: str | None = None,
         dry_run: bool = False,
     ) -> dict:
         from src.discovery.awesome_lists import AwesomeListDiscoverer
@@ -141,15 +140,15 @@ class CLICommands:
 
     def collect(
         self,
-        category: Optional[str] = None,
-        github_token: Optional[str] = None,
+        category: str | None = None,
+        github_token: str | None = None,
         dry_run: bool = False,
     ) -> dict:
         client = _get_github_client(github_token)
         try:
             from src.discovery import DiscoveryEngine
 
-            collected_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            collected_at = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
             engine = DiscoveryEngine(client)
             results = engine.discover_all()
 
@@ -197,7 +196,7 @@ class CLICommands:
             if client:
                 client.close()
 
-    def _resolve_category_filter(self, category: Optional[str]) -> Optional[set[str]]:
+    def _resolve_category_filter(self, category: str | None) -> set[str] | None:
         """Turn a ``--category`` value into the set of leaves it selects."""
         if not category or category.lower() == "all":
             return None
@@ -210,12 +209,12 @@ class CLICommands:
         return {leaf for leaf in taxonomy.leaves if leaf.lower() == name.lower()}
 
     @staticmethod
-    def _matches(repo, wanted: Optional[set[str]]) -> bool:
+    def _matches(repo, wanted: set[str] | None) -> bool:
         if wanted is None:
             return True
         return bool(wanted & set((repo.awesome or {}).get("categories") or []))
 
-    def discover(self, github_token: Optional[str] = None) -> dict:
+    def discover(self, github_token: str | None = None) -> dict:
         from src.discovery import DiscoveryEngine
         from src.discovery.awesome_lists import AwesomeListDiscoverer
 
@@ -377,11 +376,101 @@ class CLICommands:
             ],
         }
 
-    def sync(self, github_token: Optional[str] = None) -> dict:
+    def sync(self, github_token: str | None = None) -> dict:
         return self.collect(github_token=github_token)
 
-    def update(self, github_token: Optional[str] = None) -> dict:
+    def update(self, github_token: str | None = None) -> dict:
         return self.collect(github_token=github_token)
+
+    def _refresh_policy(self) -> dict[str, int]:
+        """Load health→interval-days mapping from ``config/sources.yml``."""
+        from src.config import load_config
+        from src.refresh import DEFAULT_REFRESH_POLICY
+
+        try:
+            sources = load_config(self.config_dir, "sources")
+            policy = (sources.get("incremental") or {}).get("refresh_policy")
+            if isinstance(policy, dict) and policy:
+                return {str(k): int(v) for k, v in policy.items()}
+        except Exception:
+            pass
+        return dict(DEFAULT_REFRESH_POLICY)
+
+    def refresh(
+        self,
+        github_token: str | None = None,
+        dry_run: bool = False,
+        limit: int | None = None,
+    ) -> dict:
+        """Incrementally refresh repository metadata based on health status.
+
+        Only repositories whose last check (``collected_at``) is older than
+        the interval for their health status are re-fetched, which reduces
+        GitHub API usage compared to a full ``collect`` run.
+        """
+        from src.refresh import select_due_repositories
+        from src.scoring.activity import ActivityTracker
+
+        client = _get_github_client(github_token)
+        if client is None:
+            return {
+                "checked": 0,
+                "updated": 0,
+                "skipped": 0,
+                "failed": 0,
+                "error": "GITHUB_TOKEN is required to refresh repository metadata",
+            }
+
+        try:
+            rows = self.sqlite_store.get_all_repositories()
+            repos = [repository_from_row(r) for r in rows]
+            selection = select_due_repositories(repos, policy=self._refresh_policy())
+            due = selection.due[:limit] if limit else selection.due
+
+            tracker = ActivityTracker(client)
+            checked = updated = failed = 0
+            refreshed_at = utc_now_iso()
+            for repo in due:
+                checked += 1
+                try:
+                    owner, name = repo.id[len("github:"):].split("/", 1)
+                    data = client.get_repository(owner, name)
+                    fresh = create_repository_from_api(data, refreshed_at)
+                    fresh = normalize_repository(fresh)
+                    fresh.id = repo.id
+                    fresh.owner = repo.owner
+                    fresh.name = repo.name
+                    fresh.awesome = repo.awesome
+                    fresh.sources = repo.sources
+                    fresh.score = repo.score
+                    health = tracker.get_push_health(fresh)
+                    fresh.health = {
+                        "status": health.get("status", "UNKNOWN"),
+                        "last_commit_days": health.get("last_push_days"),
+                        "release_days": None,
+                        "contributors_90d": None,
+                    }
+                    if not dry_run:
+                        self.json_store.save_repository(fresh)
+                        self.sqlite_store.save_repository(fresh)
+                        if fresh.sources:
+                            self.sqlite_store.save_sources(fresh.id, fresh.sources)
+                    updated += 1
+                except Exception:
+                    failed += 1
+
+            return {
+                "checked": checked,
+                "updated": updated,
+                "skipped": len(selection.skipped) + max(0, len(selection.due) - len(due)),
+                "failed": failed,
+                "due": len(selection.due),
+                "refreshed_at": refreshed_at,
+                "dry_run": dry_run,
+                "policy": self._refresh_policy(),
+            }
+        finally:
+            client.close()
 
     def validate(self) -> dict:
         repos = self.json_store.get_all_repositories()
@@ -414,7 +503,7 @@ class CLICommands:
             "error_details": errors[:20],
         }
 
-    def score(self, github_token: Optional[str] = None) -> dict:
+    def score(self, github_token: str | None = None) -> dict:
         from src.scoring import ScoringEngine
 
         client = _get_github_client(github_token)
@@ -457,6 +546,77 @@ class CLICommands:
         )
         return f"# Repository Report\n\nTotal: {stats['total']}\n\n{table}"
 
+    # Fields compared between two daily snapshots to detect "updated" repos.
+    # ``health``/``score`` are normalized from both storage shapes
+    # (sqlite columns ``health_status``/``score_overall`` and the nested
+    # ``health.status``/``score.overall`` dicts produced by ``to_dict``).
+    DIFF_FIELDS = (
+        "stars",
+        "forks",
+        "issues",
+        "language",
+        "description",
+        "license",
+        "topics",
+        "archived",
+        "pushed_at",
+        "updated_at",
+        "health_status",
+        "score_overall",
+    )
+
+    @classmethod
+    def _snapshot_comparable(cls, repo: dict) -> dict:
+        """Extract the comparable fields from a snapshot repository record."""
+        health = repo.get("health") or {}
+        score = repo.get("score") or {}
+        comparable = {field: repo.get(field) for field in cls.DIFF_FIELDS}
+        comparable["health_status"] = (
+            repo.get("health_status") or health.get("status")
+        )
+        comparable["score_overall"] = (
+            repo.get("score_overall")
+            if repo.get("score_overall") is not None
+            else score.get("overall")
+        )
+        return comparable
+
+    @classmethod
+    def _repo_changes(cls, old: dict, new: dict) -> dict:
+        """Return ``{field: {"from": old, "to": new}}`` for fields that differ."""
+        old_cmp = cls._snapshot_comparable(old)
+        new_cmp = cls._snapshot_comparable(new)
+        changes = {}
+        for field in cls.DIFF_FIELDS:
+            old_val = old_cmp.get(field)
+            new_val = new_cmp.get(field)
+            if old_val != new_val:
+                changes[field] = {"from": old_val, "to": new_val}
+        return changes
+
+    @staticmethod
+    def _snapshot_health(repo: dict) -> str:
+        health = repo.get("health") or {}
+        return repo.get("health_status") or health.get("status") or "UNKNOWN"
+
+    @staticmethod
+    def _is_stale(repo: dict) -> bool:
+        if CLICommands._snapshot_health(repo) == "STALE":
+            return True
+        pushed_at = repo.get("pushed_at")
+        if not pushed_at:
+            return False
+        try:
+            from datetime import datetime
+            dt = datetime.fromisoformat(str(pushed_at))
+            return (datetime.now(UTC) - dt).days > 180
+        except (ValueError, TypeError):
+            return False
+
+    @staticmethod
+    def _is_archived(repo: dict) -> bool:
+        return bool(repo.get("archived")) or CLICommands._snapshot_health(repo) == "ARCHIVED"
+
     def diff(self, date1: str, date2: str) -> dict:
         snap1 = self._load_daily_snapshot(date1)
         snap2 = self._load_daily_snapshot(date2)
@@ -468,27 +628,39 @@ class CLICommands:
 
         new_repos = []
         trending = []
+        updated = []
         for rid, repo in repos2.items():
             if rid not in repos1:
                 new_repos.append(repo)
-            else:
-                star_gain = (repo.get("stars", 0) or 0) - (repos1[rid].get("stars", 0) or 0)
-                if star_gain >= 500:
-                    trending.append({**repo, "star_gain": star_gain})
+                continue
+            old = repos1[rid]
+            star_gain = (repo.get("stars", 0) or 0) - (old.get("stars", 0) or 0)
+            if star_gain >= 500:
+                trending.append({**repo, "star_gain": star_gain})
+            changes = self._repo_changes(old, repo)
+            if changes:
+                updated.append({**repo, "changes": changes})
 
         removed = [repos1[rid] for rid in repos1 if rid not in repos2]
+
+        current = list(repos2.values())
+        stale = [r for r in current if self._is_stale(r)]
+        archived = [r for r in current if self._is_archived(r)]
 
         return {
             "date1": date1,
             "date2": date2,
+            "compared_fields": list(self.DIFF_FIELDS),
             "new": new_repos,
             "new_count": len(new_repos),
             "trending": trending,
             "trending_count": len(trending),
-            "updated": [r for r in repos2.values() if r["id"] in repos1],
-            "updated_count": len([r for r in repos2.values() if r["id"] in repos1]),
-            "stale": [],
-            "archived": [],
+            "updated": updated,
+            "updated_count": len(updated),
+            "stale": stale,
+            "stale_count": len(stale),
+            "archived": archived,
+            "archived_count": len(archived),
             "removed": removed,
             "removed_count": len(removed),
         }
@@ -502,7 +674,90 @@ class CLICommands:
             return self.sqlite_store.db_path
         return f"Unsupported format: {fmt}"
 
-    def trending(self, github_token: Optional[str] = None) -> dict:
+    def export_to_file(self, path: str, fmt: str = "json") -> dict:
+        """Write a full export to ``path`` without truncating the payload."""
+        payload = self.export(fmt=fmt)
+        out = Path(path)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(payload + "\n", encoding="utf-8")
+        return {"format": fmt, "path": str(out), "bytes": out.stat().st_size}
+
+    def enrich_security(
+        self,
+        sources: list[str] | None = None,
+        min_stars: int = 0,
+        limit: int | None = None,
+        dry_run: bool = False,
+    ) -> dict:
+        """Run security/supply-chain enrichment (OSV, CVE, CISA KEV).
+
+        Provider outages and rate limits are reported under
+        ``provider_errors`` and never abort the run.
+        """
+        from src.enrichment.security import SecurityEnricher
+
+        rows = self.sqlite_store.get_all_repositories()
+        if not rows:
+            rows = [r.to_dict() for r in self.json_store.get_all_repositories()]
+        repos = [repository_from_row(r) for r in rows]
+        if limit:
+            repos = repos[:limit]
+
+        enricher = SecurityEnricher(sources=sources)
+        report = enricher.collect(repos, min_stars=min_stars)
+        report["dry_run"] = dry_run
+        if not dry_run and report["findings"]:
+            report["stored"] = self.sqlite_store.save_security_findings(
+                report["findings"]
+            )
+        return report
+
+    def security_findings(self, repository_id: str | None = None) -> dict:
+        findings = self.sqlite_store.get_security_findings(repository_id)
+        return {"findings": findings, "count": len(findings)}
+
+    def extract_content(
+        self,
+        github_token: str | None = None,
+        min_score: float = 0.0,
+        max_repositories: int = 100,
+        dry_run: bool = False,
+    ) -> dict:
+        """Extract README/docs/API references for repos above a score threshold."""
+        from src.extraction.content import ContentExtractor, ExtractionConfig
+
+        client = _get_github_client(github_token)
+        if client is None:
+            return {
+                "selected": 0, "succeeded": 0, "skipped": 0, "failed": 0,
+                "error": "GITHUB_TOKEN is required to fetch repository content",
+            }
+        try:
+            rows = self.sqlite_store.get_all_repositories()
+            if not rows:
+                rows = []
+                for r in self.json_store.get_all_repositories():
+                    d = r.to_dict()
+                    d["score_overall"] = (r.score or {}).get("overall", 0)
+                    rows.append(d)
+            extractor = ContentExtractor(
+                client,
+                ExtractionConfig(
+                    min_score=min_score, max_repositories=max_repositories
+                ),
+            )
+            report, payloads = extractor.run(rows)
+            if not dry_run:
+                for payload in payloads:
+                    self.json_store.save_content(payload["repository_id"], payload)
+            result = report.to_dict()
+            result["dry_run"] = dry_run
+            result["min_score"] = min_score
+            return result
+        finally:
+            client.close()
+
+    def trending(self, github_token: str | None = None) -> dict:
         repos = self.sqlite_store.get_all_repositories()
         scored = []
         for r in repos:
@@ -512,7 +767,7 @@ class CLICommands:
         scored.sort(key=lambda r: (r.score.get("overall", 0) if r.score else 0), reverse=True)
         return {"trending": [r.to_dict() for r in scored[:20]], "total": len(scored)}
 
-    def _load_daily_snapshot(self, date_str: str) -> Optional[dict]:
+    def _load_daily_snapshot(self, date_str: str) -> dict | None:
         snap_path = Path(self.data_dir) / "daily" / f"{date_str}.json"
         if snap_path.exists():
             with open(snap_path, "r") as f:
@@ -524,7 +779,6 @@ class CLICommands:
 @click.version_option(version="0.1.0")
 def cli():
     """Awesome Collector - Daily GitHub Awesome Repository Collector"""
-    pass
 
 
 @cli.command()
@@ -593,6 +847,19 @@ def update(github_token):
 
 
 @cli.command()
+@click.option("--github-token", envvar="GITHUB_TOKEN", default=None)
+@click.option("--dry-run", is_flag=True, help="Preview without saving")
+@click.option("--limit", type=int, default=None, help="Max repositories to refresh")
+def refresh(github_token, dry_run, limit):
+    """Incrementally refresh metadata for repositories due per health policy"""
+    commands = CLICommands()
+    result = commands.refresh(
+        github_token=github_token, dry_run=dry_run, limit=limit
+    )
+    click.echo(json.dumps(result, indent=2))
+
+
+@cli.command()
 def validate():
     """Validate dataset integrity"""
     commands = CLICommands()
@@ -630,14 +897,84 @@ def diff(date1, date2):
 
 @cli.command()
 @click.option("--format", "fmt", default="json", type=click.Choice(["json", "sqlite"]))
-def export(fmt):
+@click.option(
+    "--output", "-o", default=None,
+    help="Write the export to this file path instead of stdout",
+)
+@click.option(
+    "--include-findings", is_flag=True,
+    help="Include stored security/supply-chain findings in JSON export",
+)
+def export(fmt, output, include_findings):
     """Export data"""
     commands = CLICommands()
+    if include_findings and fmt == "json":
+        payload = {
+            "repositories": json.loads(commands.export(fmt="json")),
+            "security_findings": commands.security_findings()["findings"],
+        }
+        text = json.dumps(payload, default=str)
+        if output:
+            out = Path(output)
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_text(text + "\n", encoding="utf-8")
+            click.echo(json.dumps({"path": str(out), "bytes": out.stat().st_size}))
+        else:
+            click.echo(text)
+        return
+    if output:
+        result = commands.export_to_file(output, fmt=fmt)
+        click.echo(json.dumps(result, indent=2))
+        return
     result = commands.export(fmt=fmt)
-    if isinstance(result, str) and (result.startswith("[") or result.startswith("{")):
-        click.echo(result[:5000])
-    else:
-        click.echo(result)
+    click.echo(result)
+
+
+@cli.command()
+@click.option(
+    "--source", "sources", multiple=True,
+    type=click.Choice(["osv", "cve", "cisa-kev"]),
+    help="Enrichment provider to query (repeatable; default: all)",
+)
+@click.option("--min-stars", type=int, default=0, help="Only enrich repos with >= N stars")
+@click.option("--limit", type=int, default=None, help="Max repositories to enrich")
+@click.option("--dry-run", is_flag=True, help="Query providers without storing findings")
+def enrich(sources, min_stars, limit, dry_run):
+    """Enrich repositories with security/supply-chain findings (OSV, CVE, CISA KEV)"""
+    commands = CLICommands()
+    result = commands.enrich_security(
+        sources=list(sources) or None,
+        min_stars=min_stars,
+        limit=limit,
+        dry_run=dry_run,
+    )
+    click.echo(json.dumps(result, indent=2, default=str))
+
+
+@cli.command()
+@click.option("--github-token", envvar="GITHUB_TOKEN", default=None)
+@click.option("--min-score", type=float, default=0.0, help="Minimum quality score")
+@click.option("--max-repositories", type=int, default=100, help="Max repos per run")
+@click.option("--dry-run", is_flag=True, help="Extract without saving")
+def extract(github_token, min_score, max_repositories, dry_run):
+    """Extract README/docs/API references for high-quality repositories"""
+    commands = CLICommands()
+    result = commands.extract_content(
+        github_token=github_token,
+        min_score=min_score,
+        max_repositories=max_repositories,
+        dry_run=dry_run,
+    )
+    click.echo(json.dumps(result, indent=2, default=str))
+
+
+@cli.command()
+@click.option("--repository", default=None, help="Filter findings to one repository id")
+def findings(repository):
+    """List stored security/supply-chain findings"""
+    commands = CLICommands()
+    result = commands.security_findings(repository_id=repository)
+    click.echo(json.dumps(result, indent=2, default=str))
 
 
 @cli.command()

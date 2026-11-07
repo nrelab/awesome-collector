@@ -1,8 +1,6 @@
 import os
 import sqlite3
 import threading
-from datetime import datetime, timezone
-from typing import Optional
 
 from src.models import Repository
 
@@ -77,6 +75,22 @@ class SqliteStore:
                 )
             """)
             conn.execute("""
+                CREATE TABLE IF NOT EXISTS security_findings (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    repository_id TEXT,
+                    source TEXT NOT NULL,
+                    advisory_id TEXT NOT NULL,
+                    package TEXT,
+                    ecosystem TEXT,
+                    severity TEXT,
+                    summary TEXT,
+                    url TEXT,
+                    cve_ids TEXT,
+                    observed_at TEXT,
+                    UNIQUE(source, advisory_id, package, repository_id)
+                )
+            """)
+            conn.execute("""
                 CREATE INDEX IF NOT EXISTS idx_repos_stars ON repositories(stars)
             """)
             conn.execute("""
@@ -113,7 +127,7 @@ class SqliteStore:
         self,
         repo_id: str,
         categories: list[str],
-        parents: Optional[dict[str, str]] = None,
+        parents: dict[str, str] | None = None,
     ) -> None:
         """Attach leaf categories to a repository.
 
@@ -136,7 +150,7 @@ class SqliteStore:
 
     @staticmethod
     def _upsert_category(
-        conn: sqlite3.Connection, name: str, parent_name: Optional[str] = None
+        conn: sqlite3.Connection, name: str, parent_name: str | None = None
     ) -> int:
         parent_id = None
         if parent_name and parent_name != name:
@@ -174,14 +188,14 @@ class SqliteStore:
             )
             conn.commit()
 
-    def get_repository(self, repo_id: str) -> Optional[dict]:
+    def get_repository(self, repo_id: str) -> dict | None:
         with self._get_connection() as conn:
             row = conn.execute("SELECT * FROM repositories WHERE id = ?", (repo_id,)).fetchone()
             if row:
                 return dict(row)
         return None
 
-    def get_all_repositories(self, limit: Optional[int] = None) -> list[dict]:
+    def get_all_repositories(self, limit: int | None = None) -> list[dict]:
         query = "SELECT * FROM repositories"
         if limit:
             query += f" LIMIT {limit}"
@@ -216,7 +230,7 @@ class SqliteStore:
             names.sort()
         return categories
 
-    def get_category_parents(self) -> dict[str, Optional[str]]:
+    def get_category_parents(self) -> dict[str, str | None]:
         """Map every known category name to its parent name, or ``None`` for parents."""
         with self._get_connection() as conn:
             rows = conn.execute("""
@@ -250,6 +264,63 @@ class SqliteStore:
                 "section": section,
             })
         return sources
+
+    def save_security_findings(self, findings: list[dict]) -> int:
+        """Upsert enrichment findings; returns the number of rows written."""
+        import json as _json
+
+        written = 0
+        with self._lock, self._get_connection() as conn:
+            for f in findings:
+                conn.execute("""
+                    INSERT INTO security_findings
+                    (repository_id, source, advisory_id, package, ecosystem,
+                     severity, summary, url, cve_ids, observed_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ON CONFLICT(source, advisory_id, package, repository_id)
+                    DO UPDATE SET severity = excluded.severity,
+                                  summary = excluded.summary,
+                                  observed_at = excluded.observed_at
+                """, (
+                    f.get("repository_id") or "",
+                    f.get("source", ""),
+                    f.get("advisory_id", ""),
+                    f.get("package", ""),
+                    f.get("ecosystem", ""),
+                    f.get("severity", ""),
+                    f.get("summary", ""),
+                    f.get("url", ""),
+                    _json.dumps(f.get("cve_ids") or []),
+                    f.get("observed_at", ""),
+                ))
+                written += 1
+            conn.commit()
+        return written
+
+    def get_security_findings(
+        self, repository_id: str | None = None
+    ) -> list[dict]:
+        import json as _json
+
+        with self._get_connection() as conn:
+            if repository_id:
+                rows = conn.execute(
+                    "SELECT * FROM security_findings WHERE repository_id = ?",
+                    (repository_id,),
+                ).fetchall()
+            else:
+                rows = conn.execute(
+                    "SELECT * FROM security_findings ORDER BY source, advisory_id"
+                ).fetchall()
+        out = []
+        for row in rows:
+            d = dict(row)
+            try:
+                d["cve_ids"] = _json.loads(d.get("cve_ids") or "[]")
+            except Exception:
+                d["cve_ids"] = []
+            out.append(d)
+        return out
 
     def get_stale_repos(self, max_days: int = 180) -> list[dict]:
         with self._get_connection() as conn:

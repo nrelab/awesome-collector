@@ -81,6 +81,21 @@ CREATE TABLE daily_metrics (
     issues INTEGER,
     PRIMARY KEY(repository_id, date)
 );
+
+CREATE TABLE security_findings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    repository_id TEXT,
+    source TEXT NOT NULL,
+    advisory_id TEXT NOT NULL,
+    package TEXT,
+    ecosystem TEXT,
+    severity TEXT,
+    summary TEXT,
+    url TEXT,
+    cve_ids TEXT,
+    observed_at TEXT,
+    UNIQUE(source, advisory_id, package, repository_id)
+);
 ```
 
 ## Daily Snapshot
@@ -163,6 +178,39 @@ Rules:
 | STALE | Last push ≤ 180 days |
 | ARCHIVED | Repository archived |
 | UNKNOWN | No data available |
+
+## Extracted Content
+
+`awesome extract` writes one JSON document per repository to
+`data/content/<owner>_<name>.json`:
+
+```json
+{
+  "repository_id": "github:owner/repo",
+  "owner": "owner",
+  "name": "repo",
+  "url": "https://github.com/owner/repo",
+  "extracted_at": "2026-11-07T00:00:00Z",
+  "documents": [
+    {
+      "kind": "readme | docs | api",
+      "path": "docs/guide.md",
+      "url": "https://github.com/owner/repo/blob/main/docs/guide.md",
+      "content": "...",
+      "bytes": 1234,
+      "truncated": false
+    }
+  ],
+  "document_count": 1
+}
+```
+
+## Security Findings
+
+Rows in `security_findings` link an advisory to a repository (when the
+package name derived from the repo matches) or to a package alone
+(`repository_id` empty). `source` is one of `osv`, `cve`, `cisa-kev`;
+`observed_at` records when the finding was last seen.
 
 ## Refresh Policy
 

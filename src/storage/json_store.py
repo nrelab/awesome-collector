@@ -1,14 +1,12 @@
 import json
-import os
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Optional
 
 from src.models import Repository
 
 
 def utc_now_iso() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 class JsonStore:
@@ -16,14 +14,14 @@ class JsonStore:
         self.base_dir = Path(base_dir)
         self.base_dir.mkdir(parents=True, exist_ok=True)
 
-    def save_repository(self, repo: Repository, subdir: Optional[str] = None) -> None:
+    def save_repository(self, repo: Repository, subdir: str | None = None) -> None:
         dir_path = self.base_dir / (subdir or "repositories")
         dir_path.mkdir(parents=True, exist_ok=True)
         file_path = dir_path / f"{repo.id.replace('/', '_')}.json"
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(repo.to_dict(), f, indent=2, default=str)
 
-    def load_repository(self, repo_id: str, subdir: Optional[str] = None) -> Optional[dict]:
+    def load_repository(self, repo_id: str, subdir: str | None = None) -> dict | None:
         dir_path = self.base_dir / (subdir or "repositories")
         file_path = dir_path / f"{repo_id.replace('/', '_')}.json"
         if file_path.exists():
@@ -38,7 +36,7 @@ class JsonStore:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, default=str)
 
-    def load_daily_snapshot(self, date_str: str) -> Optional[dict]:
+    def load_daily_snapshot(self, date_str: str) -> dict | None:
         file_path = self.base_dir / "daily" / f"{date_str}.json"
         if file_path.exists():
             with open(file_path, "r", encoding="utf-8") as f:
@@ -52,8 +50,25 @@ class JsonStore:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, default=str)
 
-    def load_awesome_list(self, repo_id: str) -> Optional[dict]:
+    def load_awesome_list(self, repo_id: str) -> dict | None:
         file_path = self.base_dir / "awesome-lists" / f"{repo_id.replace('/', '_')}.json"
+        if file_path.exists():
+            with open(file_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return None
+
+    def save_content(self, repo_id: str, payload: dict) -> None:
+        dir_path = self.base_dir / "content"
+        dir_path.mkdir(parents=True, exist_ok=True)
+        file_path = dir_path / f"{repo_id.replace('/', '_').replace(':', '_')}.json"
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, default=str)
+
+    def load_content(self, repo_id: str) -> dict | None:
+        file_path = (
+            self.base_dir / "content"
+            / f"{repo_id.replace('/', '_').replace(':', '_')}.json"
+        )
         if file_path.exists():
             with open(file_path, "r", encoding="utf-8") as f:
                 return json.load(f)
