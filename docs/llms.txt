@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-07T18:59:26Z
+Generated: 2026-11-08T09:27:32Z
 
 Total repositories: 561
 
@@ -21,7 +21,7 @@ Total repositories: 561
 - [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering): 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills): A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. Bilingual EN/中文, hand-checked, updated weekly. / 220+ 个 AI 工具、38 个分类，中英双语，AI+人工筛选，每周更新。
 - [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents): 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents.
 - [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus): 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀
 - [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills): A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents
@@ -42,6 +42,7 @@ Total repositories: 561
 
 ### Audio
 
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. Bilingual EN/中文, hand-checked, updated weekly. / 220+ 个 AI 工具、38 个分类，中英双语，AI+人工筛选，每周更新。
 - [ybayle/awesome-deep-learning-music](https://github.com/ybayle/awesome-deep-learning-music): List of articles related to deep learning applied to music
 - [re50urces/awesome-ai](https://github.com/re50urces/awesome-ai): A curated list of awesome things related to artificial intelligence tools
 - [zycv/awesome-keyword-spotting](https://github.com/zycv/awesome-keyword-spotting): This repository is a curated list of awesome Speech Keyword Spotting (Wake-Up Word Detection).
@@ -70,7 +71,7 @@ Total repositories: 561
 - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins): A collection of ZSH frameworks, plugins, themes and tutorials.
 - [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts): GPT-Image-2 API and Prompts
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. Bilingual EN/中文, hand-checked, updated weekly. / 220+ 个 AI 工具、38 个分类，中英双语，AI+人工筛选，每周更新。
 - [rafska/awesome-local-llm](https://github.com/rafska/awesome-local-llm): A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally
 - [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization): A curated collection of papers, benchmarks, surveys, and tools for model quantization, covering low-bit networks, LLMs, multimodal and generative models, vector and lattice quantization, and efficient deployment.
 - [openmindclub/awesome-chatgpt](https://github.com/openmindclub/awesome-chatgpt): ⚡ Everything about ChatGPT
@@ -653,7 +654,7 @@ Total repositories: 561
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.
 - [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map): DeFi Developer roadmap is a curated Developer handbook which includes a list of the best tools for DApps development, resources and references!
 - [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models): Largest list of models for Core ML (for iOS 11+)
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. Bilingual EN/中文, hand-checked, updated weekly. / 220+ 个 AI 工具、38 个分类，中英双语，AI+人工筛选，每周更新。
 - [instillai/deep-learning-roadmap](https://github.com/instillai/deep-learning-roadmap): :satellite: All You Need to Know About Deep Learning - A kick-starter
 - [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking): Awesome hacking is an awesome collection of hacking tools.
 - [liyupi/code-nav](https://github.com/liyupi/code-nav): 💎 程序员一站式编程学习交流社区，免费的编程学习路线、入门教程、原创项目教程、程序员bug修复手册、保姆级写简历技巧，帮你学好编程、做出项目、拿到满意的 Offer！☁️ 本项目前后端均开源，励志成为最好的全栈云开发项目！
