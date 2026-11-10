@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-09T10:14:46Z
+Generated: 2026-11-10T10:23:50Z
 
 Total repositories: 560
 
@@ -154,7 +154,6 @@ Total repositories: 560
 - [correia-jpv/fucking-awesome-machine-learning](https://github.com/correia-jpv/fucking-awesome-machine-learning): A curated list of awesome Machine Learning frameworks, libraries and software. With repository stars⭐ and forks🍴
 - [correia-jpv/fucking-awesome-deep-learning](https://github.com/correia-jpv/fucking-awesome-deep-learning): A curated list of awesome Deep Learning tutorials, projects and communities. With repository stars⭐ and forks🍴
 - [asampat3090/production-level-machine-learning](https://github.com/asampat3090/production-level-machine-learning): curated list of awesome open source repositories for data pipelining and machine learning in production.
-- [statmlben/awesome-statml](https://github.com/statmlben/awesome-statml): This repository contains a list of awesome literature in statistics and machine learning.
 
 ### NLP
 
@@ -708,8 +707,8 @@ Total repositories: 560
 - [morrisonwill/awesomeindex](https://github.com/morrisonwill/awesomeindex): Awesome Repositories Search Engine
 - [itgoyo/awesome-gpt-image2](https://github.com/itgoyo/awesome-gpt-image2): A bilingual awesome list of GPT-Image-2 related GitHub repositories
 - [correia-jpv/fucking-awesome-chatgpt](https://github.com/correia-jpv/fucking-awesome-chatgpt): Curated list of awesome tools, demos, docs for ChatGPT and GPT-3. With repository stars⭐ and forks🍴
-- [hexsecs/awesome-automotive-security](https://github.com/hexsecs/awesome-automotive-security): This repository is an awesome list for automotive security
 - [correia-jpv/fucking-awesome-honeypots](https://github.com/correia-jpv/fucking-awesome-honeypots): An awesome list of honeypot resources. With repository stars⭐ and forks🍴
+- [hexsecs/awesome-automotive-security](https://github.com/hexsecs/awesome-automotive-security): This repository is an awesome list for automotive security
 - [correia-jpv/fucking-awesome-python](https://github.com/correia-jpv/fucking-awesome-python): A curated list of awesome Python frameworks, libraries, software and resources.  With repository stars⭐ and forks🍴
 - [mani1soni/python-scripts](https://github.com/mani1soni/python-scripts): A repository for Awesome Python Scripts
 - [correia-jpv/fucking-awesome-machine-learning](https://github.com/correia-jpv/fucking-awesome-machine-learning): A curated list of awesome Machine Learning frameworks, libraries and software. With repository stars⭐ and forks🍴
@@ -766,6 +765,7 @@ Total repositories: 560
 - [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist): 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026
 - [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui): A curated list of awesome things related to shadcn/ui.
 - [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
+- [agili-app/awesome.metrix.bar](https://github.com/agili-app/awesome.metrix.bar): Discover community dashboards for Metrix.Bar.
 - [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude): A curated list of awesome things related to Anthropic Claude
 - [collinbarrett/filterlists](https://github.com/collinbarrett/filterlists): :shield: The independent, comprehensive directory of filter and host lists for advertisements, trackers, malware, and annoyances.
 - [marcelscruz/dev-resources](https://github.com/marcelscruz/dev-resources): A collaborative list of resources for developers
@@ -930,7 +930,6 @@ Total repositories: 560
 - [agucova/awesome-esp](https://github.com/agucova/awesome-esp): 📶 A curated list of awesome ESP8266/32 projects and code
 - [gendotnew/alfred-workflows](https://github.com/gendotnew/alfred-workflows): Amazing Alfred Workflows
 - [chartjs/awesome](https://github.com/chartjs/awesome): A curated list of awesome Chart.js resources and libraries
-- [awesomehomelab/awesome-homelab](https://github.com/awesomehomelab/awesome-homelab): No description
 - [kgryte/awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer): A list of peer-to-peer resources.
 - [bst04/cybersources](https://github.com/bst04/cybersources): A curated list of cybersecurity tools and resources.
 - [bolajiayodeji/awesome-technical-writing](https://github.com/bolajiayodeji/awesome-technical-writing): :books: A curated list of awesome resources: articles, books, videos, tools, podcasts about technical writing.
@@ -943,8 +942,8 @@ Total repositories: 560
 - [szabgab/awesome-for-non-programmers](https://github.com/szabgab/awesome-for-non-programmers): No description
 - [hilmanski/freestuffdev](https://github.com/hilmanski/freestuffdev): Complete list of free stuff for developer
 - [toutiaoio/weekly.manong.io](https://github.com/toutiaoio/weekly.manong.io): 码农周刊 - 每周五发送，欢迎订阅！欢迎加入读者圈子，一起交流！
-- [kalmaegi/computer-book-list](https://github.com/kalmaegi/computer-book-list): 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
 - [sereneblue/awesome-oss](https://github.com/sereneblue/awesome-oss): A list of open source projects with links to contribute or donate.
+- [kalmaegi/computer-book-list](https://github.com/kalmaegi/computer-book-list): 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
 - [uhub/awesome-matlab](https://github.com/uhub/awesome-matlab): A curated list of awesome MATLAB frameworks, libraries and software.
 - [jesselpalmer/the-engineering-managers-booklist](https://github.com/jesselpalmer/the-engineering-managers-booklist): Books for people who are or aspire to manage/lead team(s) of software engineers
 - [offciercia/non-typical-osint-guide](https://github.com/offciercia/non-typical-osint-guide): The most unusual OSINT guide you've ever seen. The repository is intended for bored professionals only. PRs are welcome!
@@ -1018,8 +1017,8 @@ Total repositories: 560
 - [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins): Curated repository of awesome Digital Twin resources
 - [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio): Awesome hamradio repositories.
 - [transformeroptimus/awesome-superagi](https://github.com/transformeroptimus/awesome-superagi): Awesome Repository of SuperAGI
-- [reziamini/awesome-github](https://github.com/reziamini/awesome-github): List of awesome Github repository
 - [victordedomenico/awesome-altstore](https://github.com/victordedomenico/awesome-altstore): A curated awesome list of AltStore sources (JSON repositories)
+- [reziamini/awesome-github](https://github.com/reziamini/awesome-github): List of awesome Github repository
 - [mintisan/awesome-kalman-filter](https://github.com/mintisan/awesome-kalman-filter): A curated list of awesome libraries, projects, tutorials, papers, and other resources related to Kalman Filter(KF). This repository aims to be a comprehensive and organized collection that will help researchers and developers in the world of KF!
 - [wheel-smith/awesome-omarchy](https://github.com/wheel-smith/awesome-omarchy): A curated list of Omarchy themes. Discover, share, and contribute to a growing collection of themes for Omarchy—all in one place. Inspired by other awesome lists, this repository helps users explore and enhance their Omarchy experience with beautiful, community-driven themes.
 - [correia-jpv/fucking-awesome-sysadmin](https://github.com/correia-jpv/fucking-awesome-sysadmin): A curated list of amazingly awesome open source sysadmin resources. With up-to-date repository stars⭐ and forks🍴
@@ -1032,8 +1031,8 @@ Total repositories: 560
 - [gauravssnl/awesome-symbian](https://github.com/gauravssnl/awesome-symbian): Awesome list of Symbian Github repositories, blogs & resources
 - [dawiddyrcz/awesome-tekla-open-api](https://github.com/dawiddyrcz/awesome-tekla-open-api): Links to awesome Tekla Open API materials and repositories
 - [piyushhbhutoria/awesome-hacktoberfest-2026](https://github.com/piyushhbhutoria/awesome-hacktoberfest-2026): We present a curated list of awesome Hacktoberfest 2025 repositories. If you enjoyed this resource, please leave a star :star: to support this project! :sparkles:
-- [angdev/awesome-rubykaigi2016](https://github.com/angdev/awesome-rubykaigi2016): A list of awesome RubyKaigi 2016 slides, repositories, blogs
 - [mateusznakodach/awesome-eventmodeling](https://github.com/mateusznakodach/awesome-eventmodeling): A curated list of awesome resources (articles / videos / courses / repositories) about Event Modeling.
+- [angdev/awesome-rubykaigi2016](https://github.com/angdev/awesome-rubykaigi2016): A list of awesome RubyKaigi 2016 slides, repositories, blogs
 - [amney1992/tech-interview-university](https://github.com/amney1992/tech-interview-university): Awesome Tech Interview Prep Repository
 - [correia-jpv/fucking-awesome-elixir](https://github.com/correia-jpv/fucking-awesome-elixir): A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. With repository stars⭐ and forks🍴
 - [bulentsoykan/awesome-digital-twins](https://github.com/bulentsoykan/awesome-digital-twins): A curated repository of awesome Digital Twin resources.
@@ -1055,6 +1054,7 @@ Total repositories: 560
 - [softwareag/awesome-softwareag](https://github.com/softwareag/awesome-softwareag): A curated list of awesome Software AG open source repositories, tools, libraries and other resources.
 - [fotiemconstant/made-in-africa](https://github.com/fotiemconstant/made-in-africa): A curated list of awesome repositories containing tools and projects built by African developers
 - [finallaptop/awesome-list-windows-debloaters](https://github.com/finallaptop/awesome-list-windows-debloaters): Curated List of awesome Github Repositories about debloating Windows.
+- [awesome-chatgpt-prompts/awesome-chatgpt-prompts](https://github.com/awesome-chatgpt-prompts/awesome-chatgpt-prompts): Awesome ChatGPT Prompts: A list of Awesome ChatGPT prompts to make ChatGPT better. The Awesome ChatGPT Prompts Github repository contains over 157+ Prompts that will increase your productivity. For more ChatGPT Prompts visit: https://www.chatgpt-prompts.net/
 - [si3gh/awesome-biohacking](https://github.com/si3gh/awesome-biohacking): :syringe: :sparkles: This repository is a awesome collection about biohacking
 - [imsi32/yatline-themes](https://github.com/imsi32/yatline-themes): Awesome list of repositories for Yatline themes.
 - [imsi32/yatline-addons](https://github.com/imsi32/yatline-addons): Awesome list of repositories for Yatline add-ons.
