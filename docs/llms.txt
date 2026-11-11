@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-10T10:23:50Z
+Generated: 2026-11-11T09:53:27Z
 
 Total repositories: 560
 
@@ -21,7 +21,7 @@ Total repositories: 560
 - [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering): 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills): A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. / 220+ 个 AI 工具、AI+人工筛选。
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!
 - [walkinglabs/awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering): 🛠️ Awesome tools & guides for harness engineering.
 - [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents): 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents.
 - [xiaomingx/indie-hacker-tools-plus](https://github.com/xiaomingx/indie-hacker-tools-plus): 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀
@@ -43,7 +43,6 @@ Total repositories: 560
 
 ### Audio
 
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. / 220+ 个 AI 工具、AI+人工筛选。
 - [ybayle/awesome-deep-learning-music](https://github.com/ybayle/awesome-deep-learning-music): List of articles related to deep learning applied to music
 - [re50urces/awesome-ai](https://github.com/re50urces/awesome-ai): A curated list of awesome things related to artificial intelligence tools
 - [zycv/awesome-keyword-spotting](https://github.com/zycv/awesome-keyword-spotting): This repository is a curated list of awesome Speech Keyword Spotting (Wake-Up Word Detection).
@@ -72,7 +71,7 @@ Total repositories: 560
 - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins): A collection of ZSH frameworks, plugins, themes and tutorials.
 - [evolink-ai/awesome-gpt-image-2-api-prompts](https://github.com/evolink-ai/awesome-gpt-image-2-api-prompts): GPT-Image-2 API and Prompts
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. / 220+ 个 AI 工具、AI+人工筛选。
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!
 - [walkinglabs/awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering): 🛠️ Awesome tools & guides for harness engineering.
 - [rafska/awesome-local-llm](https://github.com/rafska/awesome-local-llm): A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally
 - [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization): A curated collection of papers, benchmarks, surveys, and tools for model quantization, covering low-bit networks, LLMs, multimodal and generative models, vector and lattice quantization, and efficient deployment.
@@ -129,8 +128,8 @@ Total repositories: 560
 - [akuity/awesome-argo](https://github.com/akuity/awesome-argo): A curated list of awesome projects and resources related to Argo (a CNCF graduated project)
 - [ai-efficiency/awesome-model-quantization](https://github.com/ai-efficiency/awesome-model-quantization): A curated collection of papers, benchmarks, surveys, and tools for model quantization, covering low-bit networks, LLMs, multimodal and generative models, vector and lattice quantization, and efficient deployment.
 - [robertsdionne/neural-network-papers](https://github.com/robertsdionne/neural-network-papers): No description
-- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
+- [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [mohitmishra786/amilearningenough](https://github.com/mohitmishra786/amilearningenough): Low-Level Programming Roadmap and Resources
 - [becauseofai/awesome-face](https://github.com/becauseofai/awesome-face): An awesome face technology repository.
 - [ayushidalmia/awesome-fashion-ai](https://github.com/ayushidalmia/awesome-fashion-ai): A repository to curate and summarise research papers related to fashion and e-commerce
@@ -187,7 +186,6 @@ Total repositories: 560
 - [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code): 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - [academic/awesome-datascience](https://github.com/academic/awesome-datascience): :memo: An awesome Data Science repository to learn and apply for real world problems.
 - [bharathgs/awesome-pytorch-list](https://github.com/bharathgs/awesome-pytorch-list): A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
-- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata): A curated list of awesome big data frameworks, ressources and other awesomeness.
 - [aadi1011/ai-ml-roadmap-from-scratch](https://github.com/aadi1011/ai-ml-roadmap-from-scratch): Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.
 - [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis): 🚀 500+ curated resources for Data Analysis & Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginners and experts.
 - [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
@@ -201,14 +199,12 @@ Total repositories: 560
 
 - [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook): This is a repo with links to everything you'd ever want to learn about data engineering
 - [laoma528/awesome-zhuiju-free](https://github.com/laoma528/awesome-zhuiju-free): 免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。
-- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata): A curated list of awesome big data frameworks, ressources and other awesomeness.
 - [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [correia-jpv/fucking-awesome-bigdata](https://github.com/correia-jpv/fucking-awesome-bigdata): A curated list of awesome big data frameworks, resources and other awesomeness. With repository stars⭐ and forks🍴
 
 ### Databases
 
 - [dataexpert-io/data-engineer-handbook](https://github.com/dataexpert-io/data-engineer-handbook): This is a repo with links to everything you'd ever want to learn about data engineering
-- [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata): A curated list of awesome big data frameworks, ressources and other awesomeness.
 - [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis): 🚀 500+ curated resources for Data Analysis & Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginners and experts.
 - [dgomesbr/awesome-aws-workshops](https://github.com/dgomesbr/awesome-aws-workshops): (Unofficial) curated list of awesome workshops found around in the internet. As we all have been there, finding that workshop that you have just attended shouldn't be hard. The idea is to provide an easy central repository, in a collaborative way.
 - [yigtwxx/awesome-rag-production](https://github.com/yigtwxx/awesome-rag-production): A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.
@@ -490,8 +486,8 @@ Total repositories: 560
 - [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift): A collaborative list of awesome Swift libraries and resources. Feel free to contribute!
 - [mac-cain13/r.swift](https://github.com/mac-cain13/r.swift): Strong typed, autocompleted resources like images, fonts and segues in Swift projects
 - [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models): Largest list of models for Core ML (for iOS 11+)
-- [onevcat/fengniao](https://github.com/onevcat/fengniao): A command line tool for cleaning unused resources in Xcode.
 - [vaib25vicky/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security): An effort to build a single place for all useful android and iOS security related stuff. All references and tools belong to their respective owners. I'm just maintaining it.
+- [onevcat/fengniao](https://github.com/onevcat/fengniao): A command line tool for cleaning unused resources in Xcode.
 - [eleev/ios-learning-materials](https://github.com/eleev/ios-learning-materials): 📚 Curated list of articles, tutorials and repos that may help you dig a little bit deeper into iOS [and Apple Platforms].
 - [uhub/awesome-swift](https://github.com/uhub/awesome-swift): A curated list of awesome Swift frameworks, libraries and software.
 - [uhub/awesome-objective-c](https://github.com/uhub/awesome-objective-c): A curated list of awesome Objective-C frameworks, libraries and software.
@@ -652,7 +648,7 @@ Total repositories: 560
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.
 - [offciercia/defi-developer-road-map](https://github.com/offciercia/defi-developer-road-map): DeFi Developer roadmap is a curated Developer handbook which includes a list of the best tools for DApps development, resources and references!
 - [likedan/awesome-coreml-models](https://github.com/likedan/awesome-coreml-models): Largest list of models for Core ML (for iOS 11+)
-- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): 220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. / 220+ 个 AI 工具、AI+人工筛选。
+- [ikaijua/awesome-aitools](https://github.com/ikaijua/awesome-aitools): This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!
 - [instillai/deep-learning-roadmap](https://github.com/instillai/deep-learning-roadmap): :satellite: All You Need to Know About Deep Learning - A kick-starter
 - [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking): Awesome hacking is an awesome collection of hacking tools.
 - [liyupi/code-nav](https://github.com/liyupi/code-nav): 💎 程序员一站式编程学习交流社区，免费的编程学习路线、入门教程、原创项目教程、程序员bug修复手册、保姆级写简历技巧，帮你学好编程、做出项目、拿到满意的 Offer！☁️ 本项目前后端均开源，励志成为最好的全栈云开发项目！
@@ -660,9 +656,9 @@ Total repositories: 560
 - [pavelgrigoryevds/awesome-data-analysis](https://github.com/pavelgrigoryevds/awesome-data-analysis): 🚀 500+ curated resources for Data Analysis & Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginners and experts.
 - [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience): Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome
 - [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills): A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents
+- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [benthecoder/yt-channels-ds-ai-ml-cs](https://github.com/benthecoder/yt-channels-ds-ai-ml-cs): A comprehensive list of 180+ YouTube Channels for Data Science,  Data Engineering, Machine Learning, Deep learning, Computer Science, programming, software engineering, etc.
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn): 超赞列表合集
-- [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools): A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.
 - [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering): A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.
 - [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical): Resources on programming practices for safety-critical software.
 - [garimasingh128/awesome-python-projects](https://github.com/garimasingh128/awesome-python-projects): 📱 ✅ Some awesome projects in python! 📱 ✅
@@ -673,9 +669,9 @@ Total repositories: 560
 - [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers): 🌎💎 개발자들의 첫 번째 북마크
 - [uhub/awesome-python](https://github.com/uhub/awesome-python): A curated list of awesome Python frameworks, libraries and software.
 - [freecodecamp/awesome-quincy-larson-emails](https://github.com/freecodecamp/awesome-quincy-larson-emails): This repository is an archive of emails that are sent by the awesome Quincy Larson every week.
+- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl): OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars): A curated list of Polars talks, tools, examples & articles. Contributions welcome !
-- [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
 - [tuan3w/awesome-tech-rss](https://github.com/tuan3w/awesome-tech-rss): List of awesome RSS channels related to startup, science and technology.
 - [wx-chevalier/awesome-lists-and-cheatsheets](https://github.com/wx-chevalier/awesome-lists-and-cheatsheets): :books: Guide to Galaxy, curated, worthy and up-to-date links/reading List, CheatSheets, MindMaps for ITCS-Coding/Algorithm/SoftwareArchitecture/AI.  :dizzy: ITCS-编程/算法/软件架构/人工智能等领域的文章/书籍/资料/项目链接精选，岁月沉淀的美好
 - [yingpengma/awesome-story-generation](https://github.com/yingpengma/awesome-story-generation): This repository collects an extensive list of awesome papers about Story Generation / Storytelling, exclusively focusing on the era of Large Language Models (LLMs).
@@ -904,6 +900,7 @@ Total repositories: 560
 - [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists): A curated list of free public APIs — searchable, community-maintained, with a free JSON API.
 - [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss): 😎 Awesome things related to Tailwind CSS
 - [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql): Awesome list of GraphQL
+- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos): A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.
 - [rshetty/awesome-podcasts](https://github.com/rshetty/awesome-podcasts): Collection of awesome podcasts
 - [jnv/lists](https://github.com/jnv/lists): The definitive list of lists (of lists) curated on GitHub and elsewhere
 - [aalhour/awesome-compilers](https://github.com/aalhour/awesome-compilers): :sunglasses: Curated list of awesome resources on Compilers, Interpreters and Runtimes
