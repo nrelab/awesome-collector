@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-11T09:53:27Z
+Generated: 2026-11-12T10:14:11Z
 
 Total repositories: 560
 
@@ -600,6 +600,7 @@ Total repositories: 560
 - [bnb/awesome-awesome-nodejs](https://github.com/bnb/awesome-awesome-nodejs): 🐢🚀 An Awesome list of Awesome lists related to Node.js.
 - [bvaughn/redux-search](https://github.com/bvaughn/redux-search): Redux bindings for client-side search
 - [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources): آرشیو منابع رایگان آموزش برنامه نویسی به زبان فارسی ( هر کسی باید بتونه برنامه نویسی رو یاد بگیره، مهم نیست پول داره یا نداره، به امید اینکه کسی به خاطر نداشتن پول از آموزش عقب نمونه )
+- [tgrpg/awesome-telegram](https://github.com/tgrpg/awesome-telegram): Awesome Telegram channels, groups & bots — a curated, daily-updated list (中文 & English) from tgbox.cc | 电报频道、群组、机器人导航合集
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars): A curated list of Polars talks, tools, examples & articles. Contributions welcome !
 - [uhub/awesome-javascript](https://github.com/uhub/awesome-javascript): A curated list of awesome JavaScript frameworks, libraries and software.
 - [proyecto26/awesome-jsgames](https://github.com/proyecto26/awesome-jsgames): A curated list of awesome JavaScript Games  🎮
@@ -959,7 +960,6 @@ Total repositories: 560
 - [gendotnew/courses](https://github.com/gendotnew/courses): Awesome Courses
 - [rajasegar/awesome-micro-frontends](https://github.com/rajasegar/awesome-micro-frontends): An Awesome list of posts, videos and tutorials on Micro Frontends
 - [terryds/awesome-strudel](https://github.com/terryds/awesome-strudel): A curated collection of awesome Strudel resources including tracks (popular song covers and remixes), tutorials, and repositories
-- [ghoullier/awesome-template-literal-types](https://github.com/ghoullier/awesome-template-literal-types): Curated list of awesome Template Literal Types examples
 - [hiddify/awesome-freedom](https://github.com/hiddify/awesome-freedom): In this repository we have collected all awesome tools for iranian people
 - [corsinvest/awesome-proxmox-ve](https://github.com/corsinvest/awesome-proxmox-ve): A collection of awesome Proxmox VE documentation, tools, api, blogs, site
 - [daviddias/awesome-hacking-locations](https://github.com/daviddias/awesome-hacking-locations): :computer: :coffee: List of Awesome Hacking Locations, organised by Country and City, listing if it features power and wifi
