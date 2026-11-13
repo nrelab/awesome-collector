@@ -2,9 +2,9 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-12T10:14:11Z
+Generated: 2026-11-13T09:59:38Z
 
-Total repositories: 560
+Total repositories: 559
 
 ## AI
 
@@ -669,8 +669,8 @@ Total repositories: 560
 - [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources): آرشیو منابع رایگان آموزش برنامه نویسی به زبان فارسی ( هر کسی باید بتونه برنامه نویسی رو یاد بگیره، مهم نیست پول داره یا نداره، به امید اینکه کسی به خاطر نداشتن پول از آموزش عقب نمونه )
 - [currenjin/site-for-developers](https://github.com/currenjin/site-for-developers): 🌎💎 개발자들의 첫 번째 북마크
 - [uhub/awesome-python](https://github.com/uhub/awesome-python): A curated list of awesome Python frameworks, libraries and software.
-- [freecodecamp/awesome-quincy-larson-emails](https://github.com/freecodecamp/awesome-quincy-larson-emails): This repository is an archive of emails that are sent by the awesome Quincy Larson every week.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
+- [freecodecamp/awesome-quincy-larson-emails](https://github.com/freecodecamp/awesome-quincy-larson-emails): This repository is an archive of emails that are sent by the awesome Quincy Larson every week.
 - [chengtan9907/openstl](https://github.com/chengtan9907/openstl): OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars): A curated list of Polars talks, tools, examples & articles. Contributions welcome !
 - [tuan3w/awesome-tech-rss](https://github.com/tuan3w/awesome-tech-rss): List of awesome RSS channels related to startup, science and technology.
@@ -770,7 +770,6 @@ Total repositories: 560
 - [avinash201199/awesome-github-repositories](https://github.com/avinash201199/awesome-github-repositories): Collection of Awesome GitHub Repositories
 - [replicraft/remade](https://github.com/replicraft/remade): A community-curated directory for exploring, requesting, and supporting independently recreated software
 - [correia-jpv/fucking-awesome-privacy](https://github.com/correia-jpv/fucking-awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS. With repository stars⭐ and forks🍴
-- [gitroomhq/devfest](https://github.com/gitroomhq/devfest): Contribute code to AI repositories, meet new people, Participate in events and win awesome SWAG.
 - [emanuelef/awesome-go-repo-stats](https://github.com/emanuelef/awesome-go-repo-stats): Explore Daily Updated Statistics for Repositories in the 'awesome-go' List
 - [emanuelef/awesome-rust-repo-stats](https://github.com/emanuelef/awesome-rust-repo-stats): Explore Daily Updated Statistics for Repositories in the 'awesome-rust' List
 - [emanuelef/awesome-python-repo-stats](https://github.com/emanuelef/awesome-python-repo-stats): Explore Daily Updated Statistics for Repositories in the 'awesome-python' List
@@ -1014,6 +1013,7 @@ Total repositories: 560
 - [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins): Curated repository of awesome Digital Twin resources
 - [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio): Awesome hamradio repositories.
 - [transformeroptimus/awesome-superagi](https://github.com/transformeroptimus/awesome-superagi): Awesome Repository of SuperAGI
+- [shopify/awesome-hydrogen](https://github.com/shopify/awesome-hydrogen): A curated list of awesome Hydrogen things. (This repository is no longer maintained)
 - [victordedomenico/awesome-altstore](https://github.com/victordedomenico/awesome-altstore): A curated awesome list of AltStore sources (JSON repositories)
 - [reziamini/awesome-github](https://github.com/reziamini/awesome-github): List of awesome Github repository
 - [mintisan/awesome-kalman-filter](https://github.com/mintisan/awesome-kalman-filter): A curated list of awesome libraries, projects, tutorials, papers, and other resources related to Kalman Filter(KF). This repository aims to be a comprehensive and organized collection that will help researchers and developers in the world of KF!
@@ -1051,7 +1051,6 @@ Total repositories: 560
 - [softwareag/awesome-softwareag](https://github.com/softwareag/awesome-softwareag): A curated list of awesome Software AG open source repositories, tools, libraries and other resources.
 - [fotiemconstant/made-in-africa](https://github.com/fotiemconstant/made-in-africa): A curated list of awesome repositories containing tools and projects built by African developers
 - [finallaptop/awesome-list-windows-debloaters](https://github.com/finallaptop/awesome-list-windows-debloaters): Curated List of awesome Github Repositories about debloating Windows.
-- [awesome-chatgpt-prompts/awesome-chatgpt-prompts](https://github.com/awesome-chatgpt-prompts/awesome-chatgpt-prompts): Awesome ChatGPT Prompts: A list of Awesome ChatGPT prompts to make ChatGPT better. The Awesome ChatGPT Prompts Github repository contains over 157+ Prompts that will increase your productivity. For more ChatGPT Prompts visit: https://www.chatgpt-prompts.net/
 - [si3gh/awesome-biohacking](https://github.com/si3gh/awesome-biohacking): :syringe: :sparkles: This repository is a awesome collection about biohacking
 - [imsi32/yatline-themes](https://github.com/imsi32/yatline-themes): Awesome list of repositories for Yatline themes.
 - [imsi32/yatline-addons](https://github.com/imsi32/yatline-addons): Awesome list of repositories for Yatline add-ons.
