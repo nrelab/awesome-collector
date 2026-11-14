@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-13T09:59:38Z
+Generated: 2026-11-14T09:22:40Z
 
 Total repositories: 559
 
@@ -31,8 +31,8 @@ Total repositories: 559
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
 - [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
-- [evolink-ai/awesome-openclaw-usecases-moltbook](https://github.com/evolink-ai/awesome-openclaw-usecases-moltbook): 📚 Real-world OpenClaw automation examples from Moltbook
 - [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi): A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
+- [evolink-ai/awesome-openclaw-usecases-moltbook](https://github.com/evolink-ai/awesome-openclaw-usecases-moltbook): 📚 Real-world OpenClaw automation examples from Moltbook
 - [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev): Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
 - [zhiyuan-fan/awesome-deepseek-harness-plugins](https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins): Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese.
@@ -291,7 +291,6 @@ Total repositories: 559
 - [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources): Learn System Design concepts and prepare for interviews using free resources.
 - [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native): Awesome React Native components, news, tools, and learning material!
 - [ascoders/weekly](https://github.com/ascoders/weekly): 前端精读周刊。帮你理解最前沿、实用的技术。
-- [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant): A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
 - [allthingssmitty/css-protips](https://github.com/allthingssmitty/css-protips): A collection of tips to help take your CSS skills pro. 🕹
 - [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide): A one stop repository for generative AI research updates, interview resources, notebooks and much more!
 - [lissy93/dashy](https://github.com/lissy93/dashy): 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
@@ -599,8 +598,8 @@ Total repositories: 559
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn): 超赞列表合集
 - [bnb/awesome-awesome-nodejs](https://github.com/bnb/awesome-awesome-nodejs): 🐢🚀 An Awesome list of Awesome lists related to Node.js.
 - [bvaughn/redux-search](https://github.com/bvaughn/redux-search): Redux bindings for client-side search
-- [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources): آرشیو منابع رایگان آموزش برنامه نویسی به زبان فارسی ( هر کسی باید بتونه برنامه نویسی رو یاد بگیره، مهم نیست پول داره یا نداره، به امید اینکه کسی به خاطر نداشتن پول از آموزش عقب نمونه )
 - [tgrpg/awesome-telegram](https://github.com/tgrpg/awesome-telegram): Awesome Telegram channels, groups & bots — a curated, daily-updated list (中文 & English) from tgbox.cc | 电报频道、群组、机器人导航合集
+- [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources): آرشیو منابع رایگان آموزش برنامه نویسی به زبان فارسی ( هر کسی باید بتونه برنامه نویسی رو یاد بگیره، مهم نیست پول داره یا نداره، به امید اینکه کسی به خاطر نداشتن پول از آموزش عقب نمونه )
 - [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars): A curated list of Polars talks, tools, examples & articles. Contributions welcome !
 - [uhub/awesome-javascript](https://github.com/uhub/awesome-javascript): A curated list of awesome JavaScript frameworks, libraries and software.
 - [proyecto26/awesome-jsgames](https://github.com/proyecto26/awesome-jsgames): A curated list of awesome JavaScript Games  🎮
@@ -638,6 +637,7 @@ Total repositories: 559
 - [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job): A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
 - [ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code](https://github.com/ashishpatel26/500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code): 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents): A list of AI autonomous agents
+- [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant): A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
 - [guovin/iptv-api](https://github.com/guovin/iptv-api): ⚡️ IPTV直播源自动更新工具：自动采集、校验、测速并生成可播放结果，支持 M3U/TXT/API 输出、自定义频道、IPv4/IPv6、Docker、GitHub Actions、CLI 与 GUI 多端部署
 - [lilittlecat/awesome-free-chatgpt](https://github.com/lilittlecat/awesome-free-chatgpt): 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.
 - [runacapital/awesome-oss-alternatives](https://github.com/runacapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products 🚀
@@ -899,8 +899,8 @@ Total repositories: 559
 - [carpedm20/awesome-hacking](https://github.com/carpedm20/awesome-hacking): A curated list of awesome Hacking tutorials, tools and resources
 - [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists): A curated list of free public APIs — searchable, community-maintained, with a free JSON API.
 - [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss): 😎 Awesome things related to Tailwind CSS
-- [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql): Awesome list of GraphQL
 - [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos): A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.
+- [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql): Awesome list of GraphQL
 - [rshetty/awesome-podcasts](https://github.com/rshetty/awesome-podcasts): Collection of awesome podcasts
 - [jnv/lists](https://github.com/jnv/lists): The definitive list of lists (of lists) curated on GitHub and elsewhere
 - [aalhour/awesome-compilers](https://github.com/aalhour/awesome-compilers): :sunglasses: Curated list of awesome resources on Compilers, Interpreters and Runtimes
@@ -972,8 +972,8 @@ Total repositories: 559
 - [gendotnew/macos-apps](https://github.com/gendotnew/macos-apps): Awesome macOS apps
 - [charlottecross1998/awesome-game-decompilations](https://github.com/charlottecross1998/awesome-game-decompilations): A curated list of awesome game decompilations, recompilations and disassemblies.
 - [wyrihaximus/awesome-phpstorm](https://github.com/wyrihaximus/awesome-phpstorm): A curated list of amazingly awesome PHPStorm plugins, resources and other shiny things.
-- [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
 - [terremoth/awesome-m5stack-cardputer](https://github.com/terremoth/awesome-m5stack-cardputer): Awesome M5Stack Cardputer
+- [gokulkrishh/awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest): ⚡ Awesome collection of meta tags & manifest properties.
 - [gitindonesia/awesome-indonesia-repo](https://github.com/gitindonesia/awesome-indonesia-repo): A curated list of amazingly awesome repository created and contributed by Indonesian people.
 - [derekturtleroe/awesome-emulators](https://github.com/derekturtleroe/awesome-emulators): An awesome list of emulators!
 - [devrelcollective/awesome-devrel](https://github.com/devrelcollective/awesome-devrel): Awesome Developer Relations resources curated by the DevRel Collective
@@ -1009,8 +1009,8 @@ Total repositories: 559
 - [uhub/awesome-coq](https://github.com/uhub/awesome-coq): A curated list of awesome Coq frameworks, libraries and software.
 - [unkn0w/unknownews](https://github.com/unkn0w/unknownews): Archiwum wszystkich wydań newslettera unknowNews
 - [robodonut/awesome-spatial](https://github.com/robodonut/awesome-spatial): A list of awesome spatial repositories.
-- [components/font-awesome](https://github.com/components/font-awesome): Shim repository for Font Awesome.
 - [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins): Curated repository of awesome Digital Twin resources
+- [components/font-awesome](https://github.com/components/font-awesome): Shim repository for Font Awesome.
 - [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio): Awesome hamradio repositories.
 - [transformeroptimus/awesome-superagi](https://github.com/transformeroptimus/awesome-superagi): Awesome Repository of SuperAGI
 - [shopify/awesome-hydrogen](https://github.com/shopify/awesome-hydrogen): A curated list of awesome Hydrogen things. (This repository is no longer maintained)
