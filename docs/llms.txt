@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-18T10:38:43Z
+Generated: 2026-11-19T10:47:37Z
 
 Total repositories: 559
 
@@ -879,8 +879,8 @@ Total repositories: 559
 - [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration): Integrate the DeepSeek API into popular software
 - [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto): A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups
 - [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php): A curated list of amazingly awesome PHP libraries, resources and shiny things.
-- [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases): A community collection of OpenClaw use cases for making life easier.
 - [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme): 😎 A curated list of awesome GitHub Profile which updates in real time
+- [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases): A community collection of OpenClaw use cases for making life easier.
 - [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint): :scream: A curated list of amazingly awesome OSINT
 - [imdazui/tvlist-awesome-m3u-m3u8](https://github.com/imdazui/tvlist-awesome-m3u-m3u8): 直播源相关资源汇总 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵
 - [posquit0/awesome-cv](https://github.com/posquit0/awesome-cv): :page_facing_up: Awesome CV is LaTeX template for your outstanding job application
