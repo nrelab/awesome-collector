@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-19T10:47:37Z
+Generated: 2026-11-20T10:27:30Z
 
 Total repositories: 559
 
@@ -992,8 +992,8 @@ Total repositories: 559
 - [correia-jpv/fucking-awesome-flipperzero](https://github.com/correia-jpv/fucking-awesome-flipperzero): 🐬 A collection of awesome resources for the Flipper Zero device. With repository stars⭐ and forks🍴
 - [ezshine/awesomelive2d](https://github.com/ezshine/awesomelive2d): Awesome live2d models repository
 - [jeekzhang/awesome-fudan](https://github.com/jeekzhang/awesome-fudan): Awesome-Fudan: a code repository list of computer courses at Fudan University
-- [andreia/awesome-symfony](https://github.com/andreia/awesome-symfony): A collection of useful Symfony snippets.
 - [uhub/awesome-erlang](https://github.com/uhub/awesome-erlang): A curated list of awesome Erlang frameworks, libraries and software.
+- [andreia/awesome-symfony](https://github.com/andreia/awesome-symfony): A collection of useful Symfony snippets.
 - [omarsalah26/awesome-arabic-ai](https://github.com/omarsalah26/awesome-arabic-ai): Awesome-Arabic-AI is a curated, professional-grade repository designed to be the central hub for the best open-source Arabic AI resources.
 - [ardianta/anime-for-dev](https://github.com/ardianta/anime-for-dev): A curated list of animes every developer should watch.
 - [gendotnew/programming-languages](https://github.com/gendotnew/programming-languages): Awesome Programming Languages
@@ -1012,8 +1012,8 @@ Total repositories: 559
 - [edt-community/awesome-digital-twins](https://github.com/edt-community/awesome-digital-twins): Curated repository of awesome Digital Twin resources
 - [components/font-awesome](https://github.com/components/font-awesome): Shim repository for Font Awesome.
 - [dd5ht/awesome-hamradio](https://github.com/dd5ht/awesome-hamradio): Awesome hamradio repositories.
-- [transformeroptimus/awesome-superagi](https://github.com/transformeroptimus/awesome-superagi): Awesome Repository of SuperAGI
 - [victordedomenico/awesome-altstore](https://github.com/victordedomenico/awesome-altstore): A curated awesome list of AltStore sources (JSON repositories)
+- [transformeroptimus/awesome-superagi](https://github.com/transformeroptimus/awesome-superagi): Awesome Repository of SuperAGI
 - [shopify/awesome-hydrogen](https://github.com/shopify/awesome-hydrogen): A curated list of awesome Hydrogen things. (This repository is no longer maintained)
 - [reziamini/awesome-github](https://github.com/reziamini/awesome-github): List of awesome Github repository
 - [mintisan/awesome-kalman-filter](https://github.com/mintisan/awesome-kalman-filter): A curated list of awesome libraries, projects, tutorials, papers, and other resources related to Kalman Filter(KF). This repository aims to be a comprehensive and organized collection that will help researchers and developers in the world of KF!
@@ -1034,9 +1034,9 @@ Total repositories: 559
 - [amney1992/tech-interview-university](https://github.com/amney1992/tech-interview-university): Awesome Tech Interview Prep Repository
 - [correia-jpv/fucking-awesome-elixir](https://github.com/correia-jpv/fucking-awesome-elixir): A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. With repository stars⭐ and forks🍴
 - [bulentsoykan/awesome-digital-twins](https://github.com/bulentsoykan/awesome-digital-twins): A curated repository of awesome Digital Twin resources.
+- [iakat/stars](https://github.com/iakat/stars): iakat/stars - An awesome list of my starred repositories
 - [mintisan/awesome-mcu-embedded](https://github.com/mintisan/awesome-mcu-embedded): A curated list of awesome libraries, tutorials, projects and other related to MCU Embedded domain(almost C language). This repository aims to be a comprehensive and organized collection that will help MCU embedded developers in the world!
 - [riennevaplus/awesome-arangodb](https://github.com/riennevaplus/awesome-arangodb): 🥑 List of awesome ArangoDB repositories and links.
-- [iakat/stars](https://github.com/iakat/stars): iakat/stars - An awesome list of my starred repositories
 - [jacknoordhuis/pocketmine-mp-plugins](https://github.com/jacknoordhuis/pocketmine-mp-plugins): Repository full of goodies (all my awesome PocketMine-MP Plugins)
 - [raniazy/awesome-bots](https://github.com/raniazy/awesome-bots): An Awesome repository around Bots
 - [questflowai/awesome-a2a-hub](https://github.com/questflowai/awesome-a2a-hub): A curated list of awesome Agent2Agent (A2A) protocol agents, tools, and resources, with a focus on the https://a2a.build. This repository is supported by https://questflow.ai.
