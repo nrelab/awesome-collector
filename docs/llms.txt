@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-21T10:10:15Z
+Generated: 2026-11-22T10:13:18Z
 
 Total repositories: 559
 
@@ -30,8 +30,8 @@ Total repositories: 559
 - [webfuse-com/awesome-claude](https://github.com/webfuse-com/awesome-claude): A curated list of awesome things related to Anthropic Claude
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness): DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.
 - [itsdecodingai/building-a-coding-agent-from-scratch-course](https://github.com/itsdecodingai/building-a-coding-agent-from-scratch-course): Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase.
-- [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
 - [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi): A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
+- [wecoai/awesome-autoresearch](https://github.com/wecoai/awesome-autoresearch): Curated list of AutoResearch use cases with optimization traces and open source implementations
 - [evolink-ai/awesome-openclaw-usecases-moltbook](https://github.com/evolink-ai/awesome-openclaw-usecases-moltbook): 📚 Real-world OpenClaw automation examples from Moltbook
 - [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis): The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
 - [abdelstark/awesome-typesafe-jev](https://github.com/abdelstark/awesome-typesafe-jev): Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
@@ -595,8 +595,8 @@ Total repositories: 559
 - [huyingjie/checklist-checklist](https://github.com/huyingjie/checklist-checklist): 🌈  A Curated List of Checklists ✔︎✔︎
 - [liyupi/code-nav](https://github.com/liyupi/code-nav): 💎 程序员一站式编程学习交流社区，免费的编程学习路线、入门教程、原创项目教程、程序员bug修复手册、保姆级写简历技巧，帮你学好编程、做出项目、拿到满意的 Offer！☁️ 本项目前后端均开源，励志成为最好的全栈云开发项目！
 - [robertsdionne/neural-network-papers](https://github.com/robertsdionne/neural-network-papers): No description
-- [vishal-raj-1/awesome-javascript-projects](https://github.com/vishal-raj-1/awesome-javascript-projects): This Repository contain awesome vanilla JavaScript projects.
 - [tgrpg/awesome-telegram](https://github.com/tgrpg/awesome-telegram): Awesome Telegram channels, groups & bots — a curated, daily-updated list (中文 & English) from tgbox.cc | 电报频道、群组、机器人导航合集
+- [vishal-raj-1/awesome-javascript-projects](https://github.com/vishal-raj-1/awesome-javascript-projects): This Repository contain awesome vanilla JavaScript projects.
 - [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn): 超赞列表合集
 - [bnb/awesome-awesome-nodejs](https://github.com/bnb/awesome-awesome-nodejs): 🐢🚀 An Awesome list of Awesome lists related to Node.js.
 - [bvaughn/redux-search](https://github.com/bvaughn/redux-search): Redux bindings for client-side search
@@ -1029,9 +1029,9 @@ Total repositories: 559
 - [gauravssnl/awesome-symbian](https://github.com/gauravssnl/awesome-symbian): Awesome list of Symbian Github repositories, blogs & resources
 - [dawiddyrcz/awesome-tekla-open-api](https://github.com/dawiddyrcz/awesome-tekla-open-api): Links to awesome Tekla Open API materials and repositories
 - [piyushhbhutoria/awesome-hacktoberfest-2026](https://github.com/piyushhbhutoria/awesome-hacktoberfest-2026): We present a curated list of awesome Hacktoberfest 2025 repositories. If you enjoyed this resource, please leave a star :star: to support this project! :sparkles:
+- [correia-jpv/fucking-awesome-no-login-web-apps](https://github.com/correia-jpv/fucking-awesome-no-login-web-apps): 🚀 Awesome (free) web apps that work without login. With repository stars⭐ and forks🍴
 - [mateusznakodach/awesome-eventmodeling](https://github.com/mateusznakodach/awesome-eventmodeling): A curated list of awesome resources (articles / videos / courses / repositories) about Event Modeling.
 - [angdev/awesome-rubykaigi2016](https://github.com/angdev/awesome-rubykaigi2016): A list of awesome RubyKaigi 2016 slides, repositories, blogs
-- [correia-jpv/fucking-awesome-no-login-web-apps](https://github.com/correia-jpv/fucking-awesome-no-login-web-apps): 🚀 Awesome (free) web apps that work without login. With repository stars⭐ and forks🍴
 - [amney1992/tech-interview-university](https://github.com/amney1992/tech-interview-university): Awesome Tech Interview Prep Repository
 - [correia-jpv/fucking-awesome-elixir](https://github.com/correia-jpv/fucking-awesome-elixir): A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. With repository stars⭐ and forks🍴
 - [bulentsoykan/awesome-digital-twins](https://github.com/bulentsoykan/awesome-digital-twins): A curated repository of awesome Digital Twin resources.
