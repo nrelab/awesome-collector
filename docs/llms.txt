@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-23T11:10:54Z
+Generated: 2026-11-24T12:57:26Z
 
 Total repositories: 559
 
@@ -329,7 +329,6 @@ Total repositories: 559
 - [dgomesbr/awesome-aws-workshops](https://github.com/dgomesbr/awesome-aws-workshops): (Unofficial) curated list of awesome workshops found around in the internet. As we all have been there, finding that workshop that you have just attended shouldn't be hard. The idea is to provide an easy central repository, in a collaborative way.
 - [learn-awesome/learn](https://github.com/learn-awesome/learn): A social network of lifelong learners built around humanity's universal learning map.
 - [samaneyaghoubi/awesome-persian-youtubers](https://github.com/samaneyaghoubi/awesome-persian-youtubers): لیست بهترین یوتیوبرهای فارسی زبان
-- [slowernews/slowernews](https://github.com/slowernews/slowernews): Don't  spend a shit-ton of time filtering trivia.
 - [khushi-purwar/webdev-projectkart](https://github.com/khushi-purwar/webdev-projectkart): The repository contains the list of awesome & cool web development beginner-friendly projects!
 - [correia-jpv/fucking-awesome-nextjs](https://github.com/correia-jpv/fucking-awesome-nextjs): 📔 📚 A curated list of awesome resources : books, videos, articles about using Next.js  With repository stars⭐ and forks🍴
 - [victorshinya/awesome-ibmcloud](https://github.com/victorshinya/awesome-ibmcloud): A curated list of awesome IBM Cloud SDKs, open source repositories, tools, blogs and other resources.
@@ -456,6 +455,7 @@ Total repositories: 559
 - [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources): 👓 A curated list of awesome android learning resources for android app developers.
 - [adisonhuang/awesome-kotlin-android](https://github.com/adisonhuang/awesome-kotlin-android): 🔥📱收集利用 Kotlin 进行 Android 开发的开源库，扩展，工具，开源项目，资料等高质量资源
 - [tejas1510/hacking-scripts](https://github.com/tejas1510/hacking-scripts): Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.
+- [prateekcode/androidessentiallibraries](https://github.com/prateekcode/androidessentiallibraries): A curated directory of open-source Android libraries, organised by category: UI components, animation, media and architecture.
 - [hakerdefo/robota-liberated](https://github.com/hakerdefo/robota-liberated): The Android you own, not the one that owns you.
 - [correia-jpv/fucking-awesome-hacking](https://github.com/correia-jpv/fucking-awesome-hacking): A collection of various awesome lists for hackers, pentesters and security researchers. With repository stars⭐ and forks🍴
 - [hadiyarajesh/awesome-compose](https://github.com/hadiyarajesh/awesome-compose): Curated collection of repositories containing awesome UI using Jetpack Compose
@@ -623,6 +623,7 @@ Total repositories: 559
 
 - [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources): 👓 A curated list of awesome android learning resources for android app developers.
 - [adisonhuang/awesome-kotlin-android](https://github.com/adisonhuang/awesome-kotlin-android): 🔥📱收集利用 Kotlin 进行 Android 开发的开源库，扩展，工具，开源项目，资料等高质量资源
+- [prateekcode/androidessentiallibraries](https://github.com/prateekcode/androidessentiallibraries): A curated directory of open-source Android libraries, organised by category: UI components, animation, media and architecture.
 - [correia-jpv/fucking-awesome-android-ui](https://github.com/correia-jpv/fucking-awesome-android-ui): A curated list of awesome Android UI/UX libraries. With repository stars⭐ and forks🍴
 - [correia-jpv/fucking-awesome-android](https://github.com/correia-jpv/fucking-awesome-android): A curated list of awesome Android packages and resources. With repository stars⭐ and forks🍴
 
@@ -691,8 +692,8 @@ Total repositories: 559
 - [kabartay/openunivcourses](https://github.com/kabartay/openunivcourses): Free machine-learning courses from MIT, Stanford, Berkeley, CMU, NYU and UChicago, with every yearly edition and lecture video linked in one searchable page.
 - [jiganesh/loads-of-logic](https://github.com/jiganesh/loads-of-logic): Repository with leetcode solutions and dedicated index to prepare for your Meta, Google, Amazon, Microsoft interviews. Feel free to share and contribute to this awesome repository.
 - [velocityra/awesome-game-file-format-reversing](https://github.com/velocityra/awesome-game-file-format-reversing): Collection of docs/tools/resources for reverse engineering and working with video game file formats.
-- [cuuupid/awesome-lists](https://github.com/cuuupid/awesome-lists): [DEPRECATED] A curated list of curated lists.
 - [kael-odin/awesome-academic-research-skills](https://github.com/kael-odin/awesome-academic-research-skills): 面向中文用户的学术论文与科研 Agent Skill 每日排行榜 · 自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill 仓库
+- [cuuupid/awesome-lists](https://github.com/cuuupid/awesome-lists): [DEPRECATED] A curated list of curated lists.
 - [milkthink-lab/awesome-routing-llms](https://github.com/milkthink-lab/awesome-routing-llms): A curated list of awesome works in Routing LLMs paradigm (👉 Welcome to submit your contributions to this code repository)
 - [natnew/awesome-prompt-engineering](https://github.com/natnew/awesome-prompt-engineering): Awesome-Prompt-Engineering - This repository includes resources for prompt engineering. 🌟 Star if you like it!
 - [lhx94as/awesome-spoken-language-identification](https://github.com/lhx94as/awesome-spoken-language-identification): An awesome spoken LID repository. (Working in progress
