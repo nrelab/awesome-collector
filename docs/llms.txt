@@ -2,7 +2,7 @@
 
 > Curated index of awesome GitHub repositories for the NRE Lab knowledge base.
 
-Generated: 2026-11-26T11:28:45Z
+Generated: 2026-11-27T11:22:19Z
 
 Total repositories: 559
 
@@ -1031,8 +1031,8 @@ Total repositories: 559
 - [gauravssnl/awesome-symbian](https://github.com/gauravssnl/awesome-symbian): Awesome list of Symbian Github repositories, blogs & resources
 - [dawiddyrcz/awesome-tekla-open-api](https://github.com/dawiddyrcz/awesome-tekla-open-api): Links to awesome Tekla Open API materials and repositories
 - [piyushhbhutoria/awesome-hacktoberfest-2026](https://github.com/piyushhbhutoria/awesome-hacktoberfest-2026): We present a curated list of awesome Hacktoberfest 2025 repositories. If you enjoyed this resource, please leave a star :star: to support this project! :sparkles:
-- [correia-jpv/fucking-awesome-no-login-web-apps](https://github.com/correia-jpv/fucking-awesome-no-login-web-apps): 🚀 Awesome (free) web apps that work without login. With repository stars⭐ and forks🍴
 - [mateusznakodach/awesome-eventmodeling](https://github.com/mateusznakodach/awesome-eventmodeling): A curated list of awesome resources (articles / videos / courses / repositories) about Event Modeling.
+- [correia-jpv/fucking-awesome-no-login-web-apps](https://github.com/correia-jpv/fucking-awesome-no-login-web-apps): 🚀 Awesome (free) web apps that work without login. With repository stars⭐ and forks🍴
 - [angdev/awesome-rubykaigi2016](https://github.com/angdev/awesome-rubykaigi2016): A list of awesome RubyKaigi 2016 slides, repositories, blogs
 - [amney1992/tech-interview-university](https://github.com/amney1992/tech-interview-university): Awesome Tech Interview Prep Repository
 - [correia-jpv/fucking-awesome-elixir](https://github.com/correia-jpv/fucking-awesome-elixir): A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. With repository stars⭐ and forks🍴
